@@ -1,0 +1,802 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SteelcaseStore</title>
+    <script src="https://code.jquery.com/jquery-3.7.1.js"></script>
+    <script src="https://code.jquery.com/ui/1.13.2/jquery-ui.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bxslider/4.2.15/jquery.bxslider.min.js"></script>
+    <script src="js/steel.js"></script>
+    <link rel="shortcut icon" href="images/favicon.png" type="image/x-icon">
+    <link rel="stylesheet" href="css/import.css">
+  </head>
+  <body>
+    <div id="menuOpen" class="panel menuOpen">
+      <input type="button" value="close" class="material-symbols-outlined" data-panelName="menuOpen">
+      <h2><a href="index.html"></a>
+        <img src="images/panelLogo.png" alt="steelcase">
+      </h2>
+      <div>
+        <nav>
+          <ul class="mainCatecories">
+            <li class="btn_seating"><input type="button" value="Seating" data-panelName="detail_seating"></li>
+            <li class="btn_deskTables"><input type="button" value="Desks + Tables"  data-panelName="detail_deskTables"></li>
+            <li class="btn_storage"><input type="button" value="Storage"  data-panelName="detail_storage"></li>
+            <li class="btn_accessories"><input type="button" value="Accessories"  data-panelName="detail_accessories"></li>
+            <li><a href="page_Gaming.html">Gaming</a></li>
+            <li class="btn_resources"><input type="button" value="Resources" data-panelName="detail_resources"></li>
+            <li class="btn_brands"><input type="button" value="Brands" data-panelName="detail_brands"></li>
+          </ul>
+        </nav>
+        <div>
+          <ul>
+            <li class="detail_seating">
+              <ol>
+                <li class="backMenu" data-panelName="detail_seating"><img src="images/panelLeftarrow.png" alt="leftArrow"><span>categories</span></li>
+                <li><a href="listPage01_seating.html">All Seating</a></li>
+                <li><a href="listPage05_seating.html">High Performance Seating</a></li>
+                <li><a href="listPage06_seating.html">Office Chairs</a></li>
+                <li><a href="listPage07_seating.html">Side + Guest Chairs</a></li>
+                <li><a href="listPage08_seating.html">Lounge Chairs</a></li>
+                <li><a href="listPage09_seating.html">Conference Chairs</a></li>
+                <li><a href="listPage10_seating.html">Benches + Ottomans</a></li>
+                <li><a href="listPage11_seating.html">Stools</a></li>
+                <li><a href="listPage12_seating.html">Outdoor Chairs</a></li>
+                <li><a href="listPage13_seating.html">Seating Service Parts</a></li>
+              </ol>
+            </li>
+            <li class="detail_deskTables">
+              <ol>
+                <li class="backMenu" data-panelName="detail_deskTables"><img src="images/panelLeftarrow.png" alt="leftArrow"><span>categories</span></li>
+                <li><a href="listPage01_deskTables.html">All Desks + Tables</a></li>
+                <li><a href="listPage04_deskTables.html">Desks + Tables</a></li>
+                <li><a href="listPage05_deskTables.html">Sit-to-Stand Desks</a></li>
+                <li><a href="listPage06_deskTables.html">Occasional Tables</a></li>
+                <li><a href="listPage07_deskTables.html">Conference + Classroom Tables</a></li>
+                <li><a href="listPage08_deskTables.html">Outdoor Tables</a></li>
+                <li><a href="listPage09_deskTables.html">Desks + Tables Service Parts</a></li>
+              </ol>
+            </li>
+            <li class="detail_storage">
+              <ol>
+                <li class="backMenu" data-panelName="detail_storage"><img src="images/panelLeftarrow.png" alt="leftArrow"><span>categories</span></li>
+                <li><a href="listPage01_storage.html">All Storage</a></li>
+                <li><a href="listPage02_storage.html">pedestals</a></li>
+                <li><a href="listPage03_storage.html">Bookcases + Cabinets + Credenzas</a></li>
+                <li><a href="listPage04_storage.html">Storage Service Parts</a></li>
+              </ol>
+            </li>
+            <li class="detail_accessories">
+              <ol>
+                <li class="backMenu" data-panelName="detail_accessories"><img src="images/panelLeftarrow.png" alt="leftArrow"><span>categories</span></li>
+                <li><a href="listPage01_accessories.html">All Accessories</a></li>
+                <li><a href="listPage03_accessories.html">Lighting</a></li>
+                <li><a href="listPage04_accessories.html">Organization Tools</a></li>
+                <li><a href="listPage05_accessories.html">Computer Support</a></li>
+                <li><a href="listPage06_accessories.html">Power + Cable Management</a></li>
+                <li><a href="listPage07_accessories.html">Whiteboards</a></li>
+                <li><a href="listPage08_accessories.html">Space Division</a></li>
+                <li><a href="listPage09_accessories.html">Bivi Accessories</a></li>
+              </ol>
+            </li>
+            <li class="detail_resources">
+              <ol>
+                <li class="backMenu" data-panelName="detail_resources"><img src="images/panelLeftarrow.png" alt="leftArrow"><span>Resources</span></li>
+                <li><a href="page_adjust.html">How to Adjust Your Chair</a></li>
+                <li><a href="page_quiz01.html">Take Our Chair Quiz</a></li>
+                <li><a href="page_sustainability.html">Sustainability</a></li>
+                <li><a href="page_FAQs.html">FAQs</a></li>
+                <li><a href="page_FAQs05warranty.html">Steelcase Warranty</a></li>
+                <li><a href="page_freeDesignService.html">Free Design Services</a></li>
+                <li><a href="page_madeFor.html">Made-for-Life Materials</a></li>
+                <li><a href="page_orderFreeFabricSwatches.html">Order Free Fabric Swatches</a></li>
+              </ol>
+            </li>
+            <li class="detail_brands">
+              <ol>
+                <li class="backMenu" data-panelName="detail_brands"><img src="images/panelLeftarrow.png" alt="leftArrow"><span>Brands</span></li>
+                <li><a href="listPage_brands01.html">AMQ</a></li>
+                <li><a href="listPage_brands02.html">Bolia</a></li>
+                <li><a href="listPage_brands03.html">Coalesse</a></li>
+                <li><a href="listPage_brands04.html">m.a.d.</a></li>
+                <li><a href="listPage_brands05.html">Mattiazzi</a></li>
+                <li><a href="listPage_brands06.html">West Elm Work</a></li>
+              </ol>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div id="searchOpen" class="panel searchOpen">
+      <input type="button" value="close" class="material-symbols-outlined" data-panelName="searchOpen">
+      <div class="rightwidth">
+        <h2>Search product</h2>
+        <div>
+          <input type="search" id="productsearch" placeholder="Search by name">
+        </div>
+        <input type="submit" value="SEARCH" data-panelName="searchOpen">
+      </div>
+    </div>
+    <div id="cartHave" class="panel cartHave">
+      <input type="button" value="close" class="material-symbols-outlined" data-panelName="cartHave">
+      <div>
+        <h2>Added To Cart</h2>
+        <ul>
+            <li>
+              <img src="images/listSeating002.png" alt="item01">
+              <div>
+                <span>Steelcase</span>
+                <input type="button" value="delete" class="material-symbols-outlined" data-panelName="cartEmpty">
+                <a href="detailSeating002.html">Steelcase Series 1</a>
+              </div>
+              <div>
+                <div>
+                  <input type="button" class="decrease" value="-">
+                  <span class="quantity">1</span>
+                  <input type="button" class="increase" value="+">
+                </div>                
+                <output data-price="493">$493</output>
+              </div>
+            </li>
+            <!-- <li>
+                <div>
+                  <span>Steelcase</span>
+                  <a href="#">alo</a>
+                  <input type="button" value="delete" class="material-symbols-outlined" data-panelName="cartEmpty">
+                </div>
+                <div>
+                  <div>
+                    <input type="button" class="decrease" value="-">
+                    <span class="quantity">1</span>
+                    <input type="button" class="increase" value="+">
+                </div>                
+                <output data-price="3553">3,553</output>
+              </div>
+            </li> -->
+        </ul>
+        <div>
+          <div>
+            <span>TOTAL</span>
+            <output class="totalOutput">1,371</output>
+          </div>
+          <a href="shippingPage.html">Review Cart</a>
+        </div>
+      </div>
+    </div>
+    <div id="cartEmpty" class="panel cartEmpty">
+        <input type="button" value="close" class="material-symbols-outlined" data-panelName="cartEmpty">
+        <div>
+          <h2>Your shopping cart is empty.</h2>
+          <input type="button" id="continue" value="Continue Shopping" data-panelName="cartEmpty">
+        </div>
+    </div>
+    <header>
+      <h1><a href="index.html">
+        <img src="images/headerLogo.png" alt="welcome steelcase"></a></h1>
+      <ul>
+        <li><input type="button" value="search" class="material-symbols-outlined btn_search" data-panelName="searchOpen"></li>
+        <li><input type="button" value="menu" class="material-symbols-outlined btn_menu" data-panelName="menuOpen"></li>
+        <li>
+          <a href="loginPage.html" id="loginLink"><input type="button" value="login" class="material-symbols-outlined login"></a>
+          <div id="myPageOption">
+            <ol>
+              <li><a href="myAccountPage.html" id="myAccount"><input type="button" value="account_circle" class="material-symbols-outlined account">My Account</a></li>
+              <li><a href="loginPage.html" id="logoutLink"><input type="button" value="logout" class="material-symbols-outlined logout">Logout</a></li>
+            </ol>
+          </div>
+        </li>
+        <li><input type="button" value="shopping_cart" class="material-symbols-outlined btn_cart" data-panelName="cartHave"></li>
+        <li id="selectBox">
+          <select id="language">
+            <option value="english">EN</option>
+            <option value="french">FR</option>
+            <option value="german">DE</option>
+            <option value="japan">JP</option>
+            <option value="zh-cn">ZH-CN</option>
+            <option value="zh-tw">ZH-TW</option>
+            <option value="Spanish">ES</option>
+            <option value="Romania">RO</option>
+          </select>
+        </li>
+      </ul>
+    </header>
+    
+    <section class="pageDetailSeating023Container"> 
+      <div>
+        <div id="mainDetailOption">
+          <div class="detailMainImg">
+            <div>
+              <img src="images/detailSeating023elmosoft03.png" alt="main32">
+            </div>
+          </div>
+          <div>
+            <div>
+              <small>HOME / STOOLS / Leap Stool</small>
+              <div id="reviews">
+                <span>4.3</span>
+                <img src="images/detailStar04.png" alt="star04">
+                <small>Based on 376 reviews</small>
+              </div>
+              <div>
+                <span>Steelcase</span>
+              </div>
+              <h2>Leap Stool</h2>
+            </div>
+            <ul class="optionListCheck">
+              <li class="colorCheck">
+                <h3>Upholstery Color</h3>
+                <div class="selectBox detail">
+                  <div>
+                    <img src="images/footerArrowDown.png" alt="selectBoxArrowDown">
+                    <button class="label">Elmosoft Leather</button>
+                    <ul class="optionList">
+                      <li class="optionItem active" data-panelName="colorelmosoft"><span>Elmosoft Leather<output data-price="0"></output></span></li>
+                      <li class="optionItem" data-panelName="colorera"><span>Era<output data-price="0"></output></span></li>
+                      <li class="optionItem" data-panelName="colorcogent"><span>Cogent: Connect<output data-price="0"></output></span></li>
+                      <li class="optionItem" data-panelName="colorbilliard"><span>Billiard Multi by Designtex<output data-price="0"></output></span></li>
+                    </ul>
+                  </div>
+                </div>
+                <div class="colorOption">
+                  <ul>
+                    <li class="colorelmosoft active">
+                      <h3>Elmosoft Leather</h3>
+                      <ol>
+                        <li>
+                          <button type="button" class="btn_colorOption" data-src="Seating023elmosoft01"><img src="images/Elmosoft01Ebony.png" alt="elmosoft01"></button>
+                          <span>Ebony</span>
+                        </li>
+                        <li>
+                          <button type="button" class="btn_colorOption" data-src="Seating023elmosoft02"><img src="images/Elmosoft02DoveGrey.png" alt="elmosoft02"></button>
+                          <span>Dove Grey</span>
+                        </li>
+                        <li>
+                          <button type="button" class="btn_colorOption active" data-src="Seating023elmosoft03"><img src="images/Elmosoft03Saddle.png" alt="elmosoft03"></button>
+                          <span>Saddle</span>
+                        </li>
+                        <li>
+                          <button type="button" class="btn_colorOption" data-src="Seating023elmosoft04"><img src="images/Elmosoft04Cameo.png" alt="elmosoft04"></button>
+                          <span>Cameo</span>
+                        </li>
+                        <li>
+                          <button type="button" class="btn_colorOption" data-src="Seating023elmosoft05"><img src="images/Elmosoft05White.png" alt="elmosoft05"></button>
+                          <span>White</span>
+                        </li>
+                      </ol>
+                    </li>
+                    <li class="colorera">
+                      <h3>Era</h3>
+                      <ol>
+                        <li>
+                          <button type="button" class="btn_colorOption" data-src="Seating023era01"><img src="images/era01Onyx.png" alt="era01"></button>
+                          <span>Onyx</span></li>
+                        <li>
+                          <button type="button" class="btn_colorOption" data-src="Seating023era02"><img src="images/era02NightOwl.png" alt="era02"></button>
+                          <span>Night Owl</span></li>
+                        <li>
+                          <button type="button" class="btn_colorOption" data-src="Seating023era03"><img src="images/era03Truffle.png" alt="era03"></button>
+                          <span>Truffle</span>
+                        </li>
+                        <li>
+                          <button type="button" class="btn_colorOption" data-src="Seating023era04"><img src="images/era04Oatmeal.png" alt="era04"></button>
+                          <span>Oatmeal</span>
+                        </li>
+                        <li>
+                          <button type="button" class="btn_colorOption" data-src="Seating023era05"><img src="images/era05Scarlet.png" alt="era05"></button>
+                          <span>Scarlet</span>
+                        </li>
+                        <li>
+                          <button type="button" class="btn_colorOption" data-src="Seating023era06"><img src="images/era06Cobalt.png" alt="era06"></button>
+                          <span>Cobalt</span>
+                        </li>
+                        <li>
+                          <button type="button" class="btn_colorOption" data-src="Seating023era07"><img src="images/era07BlueNickel.png" alt="era07"></button>
+                          <span>Blue Nickel</span>
+                        </li>
+                        <li>
+                          <button type="button" class="btn_colorOption" data-src="Seating023era08"><img src="images/era08BlueMint.png" alt="era08"></button>
+                          <span>Blue Mint</span>
+                        </li>
+                        <li>
+                          <button type="button" class="btn_colorOption" data-src="Seating023era09"><img src="images/era09Sprout.png" alt="era09"></button>
+                          <span>Sprout</span>
+                        </li>
+                        <li>
+                          <button type="button" class="btn_colorOption" data-src="Seating023era10"><img src="images/era10Persimmon.png" alt="era10"></button>
+                          <span>Persimmon</span>
+                        </li>
+                        <li>
+                          <button type="button" class="btn_colorOption" data-src="Seating023era11"><img src="images/era11PinkLemonade.png" alt="era11"></button>
+                          <span>Pink Lemonade</span>
+                        </li>
+                      </ol>
+                    </li>
+                    <li class="colorcogent">
+                      <h3>Cogent: Connect</h3>
+                      <ol> 
+                        <li>
+                          <button type="button" class="btn_colorOption" data-src="Seating023cogent01"><img src="images/cogent01Licorice.png" alt="cogent01"></button>
+                          <span>Licorice</span>
+                        </li>
+                        <li>
+                          <button type="button" class="btn_colorOption" data-src="Seating023cogent02"><img src="images/cogent02Grapite.png" alt="cogent02"></button>
+                          <span>Graphite</span>
+                        </li>
+                        <li>
+                          <button type="button" class="btn_colorOption" data-src="Seating023cogent03"><img src="images/cogent03Nickel.png" alt="cogent03"></button>
+                          <span>Nickel</span>
+                        </li>
+                        <li>
+                          <button type="button" class="btn_colorOption" data-src="Seating023cogent04"><img src="images/cogent04LipstickMerlot.png" alt="cogent04"></button>
+                          <span>Lipstick / Merlot</span>
+                        </li>
+                        <li>
+                          <button type="button" class="btn_colorOption" data-src="Seating023cogent05"><img src="images/cogent05Peacock.png" alt="cogent05"></button>
+                          <span>Peacock</span>
+                        </li>
+                        <li>
+                          <button type="button" class="btn_colorOption" data-src="Seating023cogent06"><img src="images/cogent06Sailor.png" alt="cogent06"></button>
+                          <span>Sailor</span>
+                        </li>
+                        <li>
+                          <button type="button" class="btn_colorOption" data-src="Seating023cogent07"><img src="images/cogent07Blueprint.png" alt="cogent07"></button>
+                          <span>Blueprint</span>
+                        </li>
+                        <li>
+                          <button type="button" class="btn_colorOption" data-src="Seating023cogent08"><img src="images/cogent08Lagoon.png" alt="cogent08"></button>
+                          <span>Lagoon</span>
+                        </li>
+                      </ol>
+                    </li>
+                    <li class="colorbilliard">
+                      <h3>Billiard Multi by Designtex</h3>
+                      <ol>
+                        <li>
+                          <button type="button" class="btn_colorOption" data-src="Seating023billiard01"><img src="images/billiard01Ink.png" alt="Billiard01"></button>
+                          <span>Ink</span>
+                        </li>
+                        <li>
+                          <button type="button" class="btn_colorOption" data-src="Seating023billiard02"><img src="images/billiard02Pewter.png" alt="billiard02"></button>
+                          <span>Pewter</span>
+                        </li>
+                        <li>
+                          <button type="button" class="btn_colorOption" data-src="Seating023billiard03"><img src="images/billiard03Teak.png" alt="Billiard03"></button>
+                          <span>Teak</span>
+                        </li>
+                        <li>
+                          <button type="button" class="btn_colorOption" data-src="Seating023billiard04"><img src="images/billiard04Cumulus.png" alt="Billiard04"></button>
+                          <span>Cumulus</span>
+                        </li>
+                        <li>
+                          <button type="button" class="btn_colorOption" data-src="Seating023billiard05"><img src="images/billiard05Poppy.png" alt="Billiard05"></button>
+                          <span>Poppy</span>
+                        </li>
+                        <li>
+                          <button type="button" class="btn_colorOption" data-src="Seating023billiard06"><img src="images/billiard06Indigo.png" alt="Billiard06"></button>
+                          <span>Indigo</span>
+                        </li>
+                        <li>
+                          <button type="button" class="btn_colorOption" data-src="Seating023billiard07"><img src="images/billiard07StormCloud.png" alt="Billiard07"></button>
+                          <span>Storm Cloud</span>
+                        </li>
+                        <li>
+                          <button type="button" class="btn_colorOption" data-src="Seating023billiard08"><img src="images/billiard08SeaSalt.png" alt="Billiard08"></button>
+                          <span>Sea Salt</span>
+                        </li>
+                        <li>
+                          <button type="button" class="btn_colorOption" data-src="Seating023billiard09"><img src="images/billiard09Olivine.png" alt="Billiard09"></button>
+                          <span>Olivine</span>
+                        </li>
+                        <li>
+                          <button type="button" class="btn_colorOption" data-src="Seating023billiard10"><img src="images/billiard10RoseQuartz.png" alt="Billiard10"></button>
+                          <span>Rose Quartz</span>
+                        </li>
+                      </ol>
+                    </li>
+                  </ul>
+                </div>
+              </li>
+              <li class="colorCheck">
+                <h3>Frame & Base</h3>
+                <div class="selectBox detail">
+                  <div>
+                    <img src="images/footerArrowDown.png" alt="selectBoxArrowDown">
+                    <button class="label">Frame and Base Color</button>
+                    <ul class="optionList">
+                      <li class="optionItem" data-panelName="colorframe"><span>Frame and Base Color<output data-price="0"></output></span></li>
+                    </ul>
+                  </div>
+                </div>
+                <div class="colorOption">
+                  <ul>
+                    <li class="colorframe">
+                      <h3>Frame and Base Color</h3>
+                      <ol>
+                        <li>
+                          <button type="button" class="btn_colorOption" data-src="Seating023frame01"><img src="images/blackFrameAllBlack.png" alt="frame01"></button>
+                          <span>Black</span>
+                        </li>
+                        <li>
+                          <button type="button" class="btn_colorOption" data-src="Seating023frame02"><img src="images/framePlatinumSolid.png" alt="frame02"></button>
+                          <span>Platinum</span>
+                        </li>
+                      </ol>
+                    </li>
+                  </ul>
+                </div>
+              </li>
+              <li>
+                <h3>Arms</h3>
+                <div class="selectBox detail">
+                  <div>
+                    <img src="images/footerArrowDown.png" alt="selectBoxArrowDown">
+                    <button class="label">4-Way Adjustable Arms</button>
+                    <ul class="optionList">
+                      <li class="optionItem active" data-src="Seating023arm014way"><span>4-Way Adjustable Arms<output data-price="0"></output></span></li>
+                      <li class="optionItem" data-src="Seating023arm02height"><span>Height Adjustable Only<output data-price="-77">-$77</output></span></li>
+                      <li class="optionItem" data-src="Seating023armless"><span>Armless<output data-price="-243">-$243</output></span></li>
+                    </ul>
+                  </div>
+                </div>
+              </li>
+              <li>
+                <h3>Lumbar</h3>
+                <div class="selectBox detail">
+                  <div>
+                    <img src="images/footerArrowDown.png" alt="selectBoxArrowDown">
+                    <button class="label">Adjustable Lumbar</button>
+                    <ul class="optionList">
+                      <li class="optionItem active" data-src="Seating023Lumbar"><span>Adjustable Lumbar<output data-price="0"></output></span></li>
+                      <li class="optionItem" data-src="Seating023elmosoft03"><span>No Lumbar<output data-price="-49">+$49</output></span></li>
+                    </ul>
+                  </div>
+                </div>
+              </li>
+              <li>
+                <h3>
+                  <span>Wheels</span>
+                  <a><img src="images/detailInfoIcon.png" alt="info"></a>
+                  <div>
+                    <h4>Wheels</h4>
+                    <p>Wheels for Carpet Hard, roll-control casters for use on carpets.</p>
+                    <p>Wheels for Hard Floors Soft, roll-control casters for use on hard floors.</p>
+                  </div>
+                </h3>
+                <div class="selectBox detail">
+                  <div>
+                    <img src="images/footerArrowDown.png" alt="selectBoxArrowDown">
+                    <button class="label">Wheels for Carpet</button>
+                    <ul class="optionList">
+                      <li class="optionItem active" data-src="Seating023elmosoft03"><span>Wheels for Hard Floors<output data-price="21">+$21</output></span></li>
+                      <li class="optionItem" data-src="Seating023elmosoft03"><span>Wheels for Hard Floors<output data-price="21">+$21</output></span></li>
+                    </ul>
+                  </div>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="colorOption">
+          <div class="detailPrice">
+            <output data-price="2146">$2,146</output>
+            <div>
+              <input type="button" class="decrease" value="-">
+              <span class="quantity">1</span>
+              <input type="button" class="increase" value="+">
+            </div>
+            <input type="button" class="btn_addCart" value="Add to Cart">
+          </div>
+          <div class="addMessageBox">
+            <span>Success!<br>Added To Cart</span>
+            <input type="button" value="Review Cart" class="btn_cart" data-panelName="cartHave">
+          </div>
+        </div>
+      </div>
+
+      <div class="two">
+        <div class="boxSilder01">
+          <div>
+            <ul class="detailSlider">
+              <li>
+                <img src="images/detailSeating003detail01.png" alt="detail01">
+                <div>
+                  <h3>Back Support</h3>
+                  <p>LiveBack® Technology conforms to your spine to provide flexibility and support.</p>
+                </div>  
+              </li>
+              <li>
+                <img src="images/detailSeating003detail02.png" alt="detail02">
+                <div>
+                  <h3>Adjustment Labels</h3>
+                  <p>Adjustments are labelled in English and Braille.</p>
+                </div>  
+              </li>
+              <li>
+                <img src="images/detailSeating003detail03.png" alt="detail03">
+                <div>
+                  <h3>Adjustment Mechanism</h3>
+                  <p>Manual adjustment mechanism for a dialed in fit.</p>
+                </div>  
+              </li>
+              <li>
+                <img src="images/detailSeating003detail04.png" alt="detail04">
+                <div>
+                  <h3>Lumbar Support</h3>
+                  <p>Standard height-adjustable lumbar support. Lower back firmness provides additional lumbar support.</p>
+                </div>  
+              </li>
+              <li>
+                <img src="images/detailSeating003detail05.png" alt="detail05">
+                <div>
+                  <h3>Seat Ergonomics</h3>
+                  <p>Seat includes flexible edges and adaptive bolstering in the foam providing a pressure-free sit.</p>
+                </div>  
+              </li>
+              <li>
+                <img src="images/detailSeating003detail06.png" alt="detail06">
+                <div>
+                  <h3>Recline Adjustments</h3>
+                  <p>Full recline range with 4 recline angle stop settings and an upright back lock.</p>
+                </div>  
+              </li>
+              <li>
+                <img src="images/detailSeating003detail07.png" alt="detail07">
+                <div>
+                  <h3>Arm Ergonomics</h3>
+                  <p>Optional 4-dimensional arm support adjusts to your preferred height, width, depth and pivot.</p>
+                </div>  
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="boxSilder02">
+          <div>
+            <ol class="detailSlider2">
+              <li><img src="images/detailSeating023image01.png" alt="decoimage01"></li>
+              <li><img src="images/detailSeating023image02.png" alt="decoimage02"></li>
+            </ol>
+          </div>
+        </div>
+      </div>
+      <div class="three">
+        <div>
+          <div>
+            <h3>Sustainability</h3>
+            <p>We create products that are good for people, and good for the world. Our products and operations are designed around a commitment to reduce climate change, reinforced by sustainable practices across our value chain.</p>
+          </div>
+          <div>
+            <span>29% Recycled</span>
+            <span>93% Recyclable</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="productTitle">
+        <div>
+          <h3>Product Details</h3>
+          <input type="button" value="Overview" class="btn_overview active" data-panelName="productoverview">
+          <input type="button" value="Details and Dimensions" class="btn_dimensions" data-panelName="productdimensions">
+          <input type="button" value="Assembly and User Guides" class="btn_assembly" data-panelName="productassembly">
+        </div>
+      </div>
+
+      <div class="productDetail">
+        <div>
+          <div class="productoverview active">
+            <div>
+              <p>Like our Leap chair, the Leap stool was designed for flexible support and freedom of movement for your unique body.</p>
+              <p>A stool version of Leap, our chair with a reputation for complete adjustability. The Leap stool offers customizable support for a wide range of body shapes and for work where movement at the higher counter and bar-heights is essential.</p>
+              <p>If you’re looking for a stool that gives you control to dial-in a precise fit, make the jump to Leap.</p>
+              <p>  - Designed with our LiveBack® technology which allows the back to contour and adapt to mimic and support the natural movement of your spine</p>
+              <p>  - Designed with a Natural Glide System™, the seat glides back and forth as you recline —keeping your posture in check and moving you closer to your worksurface to help reduce strain on your body</p>
+              <p>  - Intuitive controls are labeled in English and braille for ease of use to allow you to tune in to your unique body and sitting style</p>
+              <p>  - Leap even includes a lower back firmness dial that allows you to customize your sitting experience with just the right amount of lumbar support that fits your preference</p>
+              <p>  - Perfect as you work at counter and bar-height tables and move frequently from sitting to standing</p>
+              <p>  - Ideal for group spaces and conference rooms where you can be engaged, yet comfortable for shorter periods of time</p>
+            </div>
+            <div>
+              <p>If your goal is ultimate adjustability, with a stool tailored for you, take the Leap.</p>
+              <p>All Steelcase High Performance task seating is contract grade quality:</p>
+              <p>  - Quality & urability – Leap is tested above industry standards to ensure reliability now and in the future.</p>
+              <p>  - Warrantied to last – 12-year, multi-shift, on both parts and labor.</p>
+              <p>  - Free shipping + returns – Free FedEx delivery and free returns.</p>
+            </div>
+          </div>
+          <table class="productdimensions">
+            <tbody>
+              <tr>
+                <th></th>
+                <td>Leap Chair</td>
+              </tr>
+              <tr>
+                <th>Overall Height</th>
+                <td>46″ – 54″</td>
+              </tr>
+              <tr>
+                <th>Overall Width</th>
+                <td>27″</td>
+              </tr>
+              <tr>
+                <th>Overall Depth</th>
+                <td>21.75″ - 24.75″</td>
+              </tr>
+              <tr>
+                <th>Seat Depth</th>
+                <td>15.75″ - 18.75″</td>
+              </tr>
+              <tr>
+                <th>Functional Seat Depth</th>
+                <td>15.75″ - 18.75″</td>
+              </tr>
+              <tr>
+                <th>Seat Width</th>
+                <td>19.25″</td>
+              </tr>
+              <tr>
+                <th>Seat Height from Floor</th>
+                <td>22″ – 30″</td>
+              </tr>
+              <tr>
+                <th>Back Width</th>
+                <td>18″</td>
+              </tr>
+              <tr>
+                <th>Back Height from Seat</th>
+                <td>25″</td>
+              </tr>
+              <tr>
+                <th>Back Height from Seat with Headrest</th>
+                <td>32″</td>
+              </tr>
+              <tr>
+                <th>Back Lumbar Height</th>
+                <td>5.25″ - 10.25″</td>
+              </tr>
+              <tr>
+                <th>Lumbar Flex Zone</th>
+                <td>4″</td>
+              </tr>
+              <tr>
+                <th>Width Between Arms</th>
+                <td>12.75″ - 20″</td>
+              </tr>
+              <tr>
+                <th>Arm to Floor</th>
+                <td>29″ – 41″</td>
+              </tr>
+              <tr>
+                <th>Arm Height from Seat</th>
+                <td>7″ to 11″</td>
+              </tr>
+              <tr>
+                <th>Arm Cap Pivot Range</th>
+                <td>+/- 30 degrees</td>
+              </tr>
+              <tr>
+                <th>Seat Pan Angle</th>
+                <td>-1 degree to 3 degrees</td>
+              </tr>
+              <tr>
+                <th>Angle Between Seat and Back</th>
+                <td>96 degrees to 120 degrees</td>
+              </tr>
+              <tr>
+                <th>Weight Limit</th>
+                <td>300 lbs.</td>
+              </tr>
+              <tr>
+                <th>Shipping Box Dimensions</th>
+                <td>51″ H x 29″ W x 29″ D</td>
+              </tr>
+              <tr>
+                <th>Shipping Box Weight</th>
+                <td>80 lbs.</td>
+              </tr>
+            </tbody>
+          </table>
+          <div class="productassembly">
+            <span>Assembly Required.</span>
+            <p>Leap Stool ships fully assembled.</p>
+          </div>
+        </div>
+          <div>
+            <div>
+              <h3>Related Products</h3>
+              <a href="listPage05_seating.html">View all High Performance Seating</a>
+            </div>
+            <ol>
+              <li>
+                <img src="images/detailRelated01Gesture.png" alt="related01">
+                <div>
+                  <a href="detailSeating009.html">Gesture - Ready to Ship</a>
+                  <span>$1399 - $1460</span>
+                </div>
+              </li>
+              <li>
+                <img src="images/detailRelated02Leap.png" alt="related02">
+                <div>
+                  <a href="detailSeating003.html">Leap</a>
+                  <span>$1006 - $2621</span>
+                </div>
+              </li>
+              <li>
+                <img src="images/detailRelated03Migration.png" alt="related03">
+                <div>
+                  <a href="detaildeskTables002.html">Migration SE Sit-to-Stand Desk</a>
+                  <span>$999 - $1215</span>
+                </div>
+              </li>
+              <li>
+                <img src="images/detailRelated04LateralFile.png" alt="related04">
+                <div>
+                  <a href="detailStorage018.html">West Elm Work Greenpoint Lateral File</a>
+                  <span>$2620</span>
+                </div>
+              </li>
+            </ol>
+          </div>
+      </div>
+      
+
+    </section>
+
+    <footer>
+      <ul>
+        <li>
+          <h2>Subscribe</h2>
+          <p>Sign up for exclusive offers, product releases and the latest news from Steelcase.</p>
+          <div>
+            <label for="userEmail">Email*</label>
+            <input type="email" id="userEmail" placeholder="Write Your E- mail">
+            <input type="submit" value="Sign Up">
+          </div>
+        </li>
+        <li class="footerContent">
+          <h2>Need Help?<img src="images/footerArrowDown.png" alt="footerContent"></h2>
+          <ol>
+            <li><a href="page_FAQs.html">FAQs</a></li>
+            <li><a href="page_FAQs01Shipping.html">Shipping + Delivery</a></li>
+            <li><a href="page_FAQs02Orders.html">Orders</a></li>
+            <li><a href="page_FAQs03Return.html">Returns</a></li>
+            <li><a href="page_FAQs05warranty.html">Warranty</a></li>
+            <li><a href="page_FAQs06payment.html">Payment + Financing</a></li>
+          </ol>
+        </li>
+        <li class="footerContent">
+          <h2>Contact<img src="images/footerArrowDown.png" alt="footerContent"></h2>
+          <ol>
+            <li><a href="page_contactUs.html">Online Support</a></li>
+            <li><a href="tel:+18005163454">1.800.516.3454</a></li>
+            <li><span>Monday - Friday</span></li>
+            <li><span>9AM - 6PM EST</span></li>
+          </ol>
+        </li>
+        <li class="footerContent">
+          <h2>Steelcase<img src="images/footerArrowDown.png" alt="footerContent"></h2>
+          <ol>
+            <li><a href="page_About.html">About</a></li>
+            <li><a href="page_sustainability.html">Sustainability</a></li>
+            <li><a href="page_privacyPolicy.html">Privacy Policy</a></li>
+            <li><a href="page_TermsOfUse.html">Terms of Use</a></li>
+            <li><a href="page_trademarks.html">Trademarks</a></li>
+            <li><a href="page_accessibilityStatement.html">Accessibility Statement</a></li>
+          </ol>
+        </li>
+        <li>
+          <h2>Follow Us</h2>
+          <ol>
+            <li><a href="https://www.instagram.com/steelcase/">instagram</a></li>
+            <li><a href="https://www.linkedin.com/company/steelcase">linkedin</a></li>
+            <li><a href="https://www.facebook.com/Steelcase">facebook</a></li>
+            <li><a href="https://twitter.com/Steelcase">twitter</a></li>
+            <li><a href="https://www.youtube.com/user/STEELCASETV">youtube</a></li>
+            <li><a href="https://www.pinterest.co.kr/steelcase/">pinterst</a></li>
+          </ol>
+        </li>
+      </ul>
+      <p>© 2024 Steelcase Inc.</p>
+    </footer>
+    
+  </body>
+</html>

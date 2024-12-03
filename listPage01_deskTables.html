@@ -1,0 +1,986 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SteelcaseStore</title>
+    <script src="https://code.jquery.com/jquery-3.7.1.js"></script>
+    <script src="https://code.jquery.com/ui/1.13.2/jquery-ui.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bxslider/4.2.15/jquery.bxslider.min.js"></script>
+    <script src="js/steel.js"></script>
+    <link rel="shortcut icon" href="images/favicon.png" type="image/x-icon">
+    <link rel="stylesheet" href="css/import.css">
+  </head>
+  <body>
+    <div id="menuOpen" class="panel menuOpen">
+      <input type="button" value="close" class="material-symbols-outlined" data-panelName="menuOpen">
+      <h2><a href="index.html"></a>
+        <img src="images/panelLogo.png" alt="steelcase">
+      </h2>
+      <div>
+        <nav>
+          <ul class="mainCatecories">
+            <li class="btn_seating"><input type="button" value="Seating" data-panelName="detail_seating"></li>
+            <li class="btn_deskTables"><input type="button" value="Desks + Tables"  data-panelName="detail_deskTables"></li>
+            <li class="btn_storage"><input type="button" value="Storage"  data-panelName="detail_storage"></li>
+            <li class="btn_accessories"><input type="button" value="Accessories"  data-panelName="detail_accessories"></li>
+            <li><a href="page_Gaming.html">Gaming</a></li>
+            <li class="btn_resources"><input type="button" value="Resources" data-panelName="detail_resources"></li>
+            <li class="btn_brands"><input type="button" value="Brands" data-panelName="detail_brands"></li>
+          </ul>
+        </nav>
+        <div>
+          <ul>
+            <li class="detail_seating">
+              <ol>
+                <li class="backMenu" data-panelName="detail_seating"><img src="images/panelLeftarrow.png" alt="leftArrow"><span>categories</span></li>
+                <li><a href="listPage01_seating.html">All Seating</a></li>
+                <li><a href="listPage05_seating.html">High Performance Seating</a></li>
+                <li><a href="listPage06_seating.html">Office Chairs</a></li>
+                <li><a href="listPage07_seating.html">Side + Guest Chairs</a></li>
+                <li><a href="listPage08_seating.html">Lounge Chairs</a></li>
+                <li><a href="listPage09_seating.html">Conference Chairs</a></li>
+                <li><a href="listPage10_seating.html">Benches + Ottomans</a></li>
+                <li><a href="listPage11_seating.html">Stools</a></li>
+                <li><a href="listPage12_seating.html">Outdoor Chairs</a></li>
+                <li><a href="listPage13_seating.html">Seating Service Parts</a></li>
+              </ol>
+            </li>
+            <li class="detail_deskTables">
+              <ol>
+                <li class="backMenu" data-panelName="detail_deskTables"><img src="images/panelLeftarrow.png" alt="leftArrow"><span>categories</span></li>
+                <li><a href="listPage01_deskTables.html">All Desks + Tables</a></li>
+                <li><a href="listPage04_deskTables.html">Desks + Tables</a></li>
+                <li><a href="listPage05_deskTables.html">Sit-to-Stand Desks</a></li>
+                <li><a href="listPage06_deskTables.html">Occasional Tables</a></li>
+                <li><a href="listPage07_deskTables.html">Conference + Classroom Tables</a></li>
+                <li><a href="listPage08_deskTables.html">Outdoor Tables</a></li>
+                <li><a href="listPage09_deskTables.html">Desks + Tables Service Parts</a></li>
+              </ol>
+            </li>
+            <li class="detail_storage">
+              <ol>
+                <li class="backMenu" data-panelName="detail_storage"><img src="images/panelLeftarrow.png" alt="leftArrow"><span>categories</span></li>
+                <li><a href="listPage01_storage.html">All Storage</a></li>
+                <li><a href="listPage02_storage.html">pedestals</a></li>
+                <li><a href="listPage03_storage.html">Bookcases + Cabinets + Credenzas</a></li>
+                <li><a href="listPage04_storage.html">Storage Service Parts</a></li>
+              </ol>
+            </li>
+            <li class="detail_accessories">
+              <ol>
+                <li class="backMenu" data-panelName="detail_accessories"><img src="images/panelLeftarrow.png" alt="leftArrow"><span>categories</span></li>
+                <li><a href="listPage01_accessories.html">All Accessories</a></li>
+                <li><a href="listPage03_accessories.html">Lighting</a></li>
+                <li><a href="listPage04_accessories.html">Organization Tools</a></li>
+                <li><a href="listPage05_accessories.html">Computer Support</a></li>
+                <li><a href="listPage06_accessories.html">Power + Cable Management</a></li>
+                <li><a href="listPage07_accessories.html">Whiteboards</a></li>
+                <li><a href="listPage08_accessories.html">Space Division</a></li>
+                <li><a href="listPage09_accessories.html">Bivi Accessories</a></li>
+              </ol>
+            </li>
+            <li class="detail_resources">
+              <ol>
+                <li class="backMenu" data-panelName="detail_resources"><img src="images/panelLeftarrow.png" alt="leftArrow"><span>Resources</span></li>
+                <li><a href="page_adjust.html">How to Adjust Your Chair</a></li>
+                <li><a href="page_quiz01.html">Take Our Chair Quiz</a></li>
+                <li><a href="page_sustainability.html">Sustainability</a></li>
+                <li><a href="page_FAQs.html">FAQs</a></li>
+                <li><a href="page_FAQs05warranty.html">Steelcase Warranty</a></li>
+                <li><a href="page_freeDesignService.html">Free Design Services</a></li>
+                <li><a href="page_madeFor.html">Made-for-Life Materials</a></li>
+                <li><a href="page_orderFreeFabricSwatches.html">Order Free Fabric Swatches</a></li>
+              </ol>
+            </li>
+            <li class="detail_brands">
+              <ol>
+                <li class="backMenu" data-panelName="detail_brands"><img src="images/panelLeftarrow.png" alt="leftArrow"><span>Brands</span></li>
+                <li><a href="listPage_brands01.html">AMQ</a></li>
+                <li><a href="listPage_brands02.html">Bolia</a></li>
+                <li><a href="listPage_brands03.html">Coalesse</a></li>
+                <li><a href="listPage_brands04.html">m.a.d.</a></li>
+                <li><a href="listPage_brands05.html">Mattiazzi</a></li>
+                <li><a href="listPage_brands06.html">West Elm Work</a></li>
+              </ol>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div id="searchOpen" class="panel searchOpen">
+      <input type="button" value="close" class="material-symbols-outlined" data-panelName="searchOpen">
+      <div class="rightwidth">
+        <h2>Search product</h2>
+        <div>
+          <input type="search" id="productsearch" placeholder="Search by name">
+        </div>
+        <input type="submit" value="SEARCH" data-panelName="searchOpen">
+      </div>
+    </div>
+    <div id="cartHave" class="panel cartHave">
+      <input type="button" value="close" class="material-symbols-outlined" data-panelName="cartHave">
+      <div>
+        <h2>Added To Cart</h2>
+        <ul>
+            <li>
+              <img src="images/listSeating002.png" alt="item01">
+              <div>
+                <span>Steelcase</span>
+                <input type="button" value="delete" class="material-symbols-outlined" data-panelName="cartEmpty">
+                <a href="detailSeating002.html">Steelcase Series 1</a>
+              </div>
+              <div>
+                <div>
+                  <input type="button" class="decrease" value="-">
+                  <span class="quantity">1</span>
+                  <input type="button" class="increase" value="+">
+                </div>                
+                <output data-price="493">$493</output>
+              </div>
+            </li>
+            <!-- <li>
+                <div>
+                  <span>Steelcase</span>
+                  <a href="#">alo</a>
+                  <input type="button" value="delete" class="material-symbols-outlined" data-panelName="cartEmpty">
+                </div>
+                <div>
+                  <div>
+                    <input type="button" class="decrease" value="-">
+                    <span class="quantity">1</span>
+                    <input type="button" class="increase" value="+">
+                </div>                
+                <output data-price="3553">3,553</output>
+              </div>
+            </li> -->
+        </ul>
+        <div>
+          <div>
+            <span>TOTAL</span>
+            <output class="totalOutput">1,371</output>
+          </div>
+          <a href="shippingPage.html">Review Cart</a>
+        </div>
+      </div>
+    </div>
+    <div id="cartEmpty" class="panel cartEmpty">
+        <input type="button" value="close" class="material-symbols-outlined" data-panelName="cartEmpty">
+        <div>
+          <h2>Your shopping cart is empty.</h2>
+          <input type="button" id="continue" value="Continue Shopping" data-panelName="cartEmpty">
+        </div>
+    </div>
+    <div id="checkOption" class="panel deskCheck">
+      <input type="button" value="close" class="material-symbols-outlined" data-panelName="deskCheck">
+      <div>
+        <h2>Desk + Table filter</h2>
+        <div>
+          <input type="search" id="deskTableSearch" placeholder="Search by name">
+          <input type="submit" value="SEARCH">
+        </div>
+        <div>
+          <h3>Price</h3>
+          <button type="reset" id="clearSetting">Clear</button>
+          <div id="sliderRange"></div>
+          <input type="text" id="minRange" readonly>
+          <input type="text" id="maxRange" readonly>
+        </div>
+        <div>
+          <h3>Brand</h3>
+          <button type="reset">Clear</button>
+          <ul class="brandCheck">
+            <li>
+              <div>
+                <input type="checkbox" name="brand" value="Steelcase" id="Steelcase">
+                <label for="Steelcase" class="CheckPoint"></label>
+                <label for="Steelcase">Steelcase (<span>32</span>)</label>
+              </div>
+              <div>
+                <input type="checkbox" name="brand" value="MATTIAZZI" id="MATTIAZZI">
+                <label for="MATTIAZZI" class="CheckPoint"></label>
+                <label for="MATTIAZZI">MATTIAZZI (<span>3</span>)</label>
+              </div>
+              <div>
+                <input type="checkbox" name="brand" value="AMQ" id="AMQ">
+                <label for="AMQ" class="CheckPoint"></label>
+                <label for="AMQ">AMQ, A Steelcase Company (<span>1</span>)</label>
+              </div>
+            </li>
+            <li>
+              <div>
+                <input type="checkbox" name="brand" value="Coalesse" id="Coalesse">
+                <label for="Coalesse" class="CheckPoint"></label>
+                <label for="Coalesse">Coalesse (<span>11</span>)</label>
+              </div>
+              <div>
+                <input type="checkbox" name="brand" value="WESTELMWORK" id="WESTELMWORK">
+                <label for="WESTELMWORK" class="CheckPoint"></label>
+                <label for="WESTELMWORK">WEST ELM WORK (<span>4</span>)</label>
+              </div>
+              <div>
+                <input type="checkbox" name="brand" value="M.A.d" id="M.A.d">
+                <label for="M.A.d" class="CheckPoint"></label>
+                <label for="M.A.d">M.A.d (<span>2</span>)</label>
+              </div>
+            </li>
+          </ul>
+        </div>
+        <button type="reset" class="filterAll">Clear All</button>
+        <button type="button" class="btn_login check" data-panelName="deskCheck">Check</button>
+      </div>
+    </div>
+    <header>
+      <h1><a href="index.html">
+        <img src="images/headerLogo.png" alt="welcome steelcase"></a></h1>
+      <ul>
+        <li><input type="button" value="search" class="material-symbols-outlined btn_search" data-panelName="searchOpen"></li>
+        <li><input type="button" value="menu" class="material-symbols-outlined btn_menu" data-panelName="menuOpen"></li>
+        <li>
+          <a href="loginPage.html" id="loginLink"><input type="button" value="login" class="material-symbols-outlined login"></a>
+          <div id="myPageOption">
+            <ol>
+              <li><a href="myAccountPage.html" id="myAccount"><input type="button" value="account_circle" class="material-symbols-outlined account">My Account</a></li>
+              <li><a href="loginPage.html" id="logoutLink"><input type="button" value="logout" class="material-symbols-outlined logout">Logout</a></li>
+            </ol>
+          </div>
+        </li>
+        <li><input type="button" value="shopping_cart" class="material-symbols-outlined btn_cart" data-panelName="cartHave"></li>
+        <li id="selectBox">
+          <select id="language">
+            <option value="english">EN</option>
+            <option value="french">FR</option>
+            <option value="german">DE</option>
+            <option value="japan">JP</option>
+            <option value="zh-cn">ZH-CN</option>
+            <option value="zh-tw">ZH-TW</option>
+            <option value="Spanish">ES</option>
+            <option value="Romania">RO</option>
+          </select>
+        </li>
+      </ul>
+    </header>
+    <section class="listDeskTablesContainer">
+      <div>
+        <div>
+          <h2>All Desks + Tables</h2>
+          <div><span>60</span>Items</div>
+        </div>
+        <div class="deskTableCategories">
+          <h3>Shop Desks + Tables Categories</h3>
+          <div>
+            <ul>
+              <li class="active"><a href="listPage01_deskTables.html">All Desks + Tables</a></li>
+              <li><a href="listPage04_deskTables.html">Desks + Tables</a></li>
+              <li><a href="listPage05_deskTables.html">Sit-to-Stand Desks</a></li>
+              <li><a href="listPage06_deskTables.html">Occasional Tables</a></li>
+              <li><a href="listPage07_deskTables.html">Conference + Classroom Tables</a></li>
+              <li><a href="listPage08_deskTables.html">Desks + Tables Service Parts</a></li>
+              <li><a href="listPage09_deskTables.html">Outdoor Tables</a></li>
+            </ul>
+            <div>
+              <input type="button" class="btn_CheckList" value="filter" data-panelName="deskCheck">
+            </div>
+          </div>
+        </div>
+      </div>
+      <div>
+        <div class="selectBox">
+          <div>
+            <img src="images/selectBoxArrowDown.png" alt="selectBoxArrowDown">
+            <button class="label">Most Relevant</button>
+            <ul class="optionList">
+              <li class="optionItem active">Most Relevant</li>
+              <li class="optionItem">Most Popular</li>
+              <li class="optionItem">Price (High to Low)</li>
+              <li class="optionItem">Price (Low to High)</li>
+            </ul>
+          </div>
+        </div>
+        <ul>
+          <li class="listPageDeskTable01 active">
+            <ol>
+              <li class="all deskTable sitToStandDesk">
+                <div>
+                  <a href="detaildeskTables001.html"><span>more<span></a>
+                  <span class="best">BEST</span>
+                  <img src="images/listDeskTable001.png" alt="listDeskTable001">
+                </div>
+                <dl>
+                  <dt><small>Steelcase</small>Solo Sit-to-Stand Desk</dt>
+                  <dd>$849 - $1020</dd>
+                </dl>
+              </li>
+              <li class="all deskTable sitToStandDesk">
+                <div>
+                  <a href="detaildeskTables002.html"><span>more<span></a>
+                  <img src="images/listDeskTable002.png" alt="listDeskTable002">
+                </div>
+                <dl>
+                  <dt><small>Steelcase</small>Migration SE Sit-to-Stand Desk</dt>
+                  <dd>$999 - $1215</dd>
+                </dl>
+              </li>
+              <li class="all deskTable sitToStandDesk">
+                <div>
+                  <a href="detaildeskTables003.html"><span>more<span></a>
+                  <img src="images/listDeskTable003.png" alt="listDeskTable003">
+                </div>
+                <dl>
+                  <dt><small>AMQ, A Steelcase Company</small>AMQ Sit-to-Stand Desk</dt>
+                  <dd>$599</dd>
+                </dl>
+              </li>
+              <li class="all deskTable">
+                <div>
+                  <a href="detaildeskTables004.html"><span>more<span></a>
+                  <img src="images/listDeskTable004.png" alt="listDeskTable004">
+                </div>
+                <dl>
+                  <dt><small>Steelcase</small>Turnstone Campfire Footrest</dt>
+                  <dd>$185</dd>
+                </dl>
+              </li>
+              <li class="all deskTable sitToStandDesk">
+                <div>
+                  <a href="detaildeskTables005.html"><span>more<span></a>
+                  <img src="images/listDeskTable005.png" alt="listDeskTable005">
+                </div>
+                <dl>
+                  <dt><small>Steelcase</small>Ology Sit-to-Stand Desk</dt>
+                  <dd>$1419</dd>
+                </dl>
+              </li>
+              <li class="all deskTable">
+                <div>
+                  <a href="detaildeskTables006.html"><span>more<span></a>
+                  <img src="images/listDeskTable006.png" alt="listDeskTable006">
+                </div>
+                <dl>
+                  <dt><small>Steelcase</small>Currency Home Habitat</dt>
+                  <dd>$1527</dd>
+                </dl>
+              </li>
+              <li class="all deskTable occasionalTables conferenceClassroomTable">
+                <div>
+                  <a href="detaildeskTables007.html"><span>more<span></a>
+                  <img src="images/listDeskTable007.png" alt="listDeskTable007">
+                </div>
+                <dl>
+                  <dt><small>Steelcase</small>Turnstone Simple Working Height Rectangle Table</dt>
+                  <dd>$431</dd>
+                </dl>
+              </li>
+              <li class="all deskTable sitToStandDesk">
+                <div>
+                  <a href="detaildeskTables008.html"><span>more<span></a>
+                  <img src="images/listDeskTable008.png" alt="listDeskTable008">
+                </div>
+                <dl>
+                  <dt><small>Steelcase</small>Flex Sit-to-Stand Desk</dt>
+                  <dd>$1379</dd>
+                </dl>
+              </li>
+              <li class="all deskTable sitToStandDesk">
+                <div>
+                  <a href="detaildeskTables009.html"><span>more<span></a>
+                  <img src="images/listDeskTable009.png" alt="listDeskTable009">
+                </div>
+                <dl>
+                  <dt><small>WEST ELM WORK</small>Sutton Sit-to-Stand Desk</dt>
+                  <dd>$1348 - $2297</dd>
+                </dl>
+              </li>
+              <li class="all deskTable">
+                <div>
+                  <a href="detaildeskTables010.html"><span>more<span></a>
+                  <img src="images/listDeskTable010.png" alt="listDeskTable010">
+                </div>
+                <dl>
+                  <dt><small>Steelcase</small>Currency Martin Desk</dt>
+                  <dd>$772</dd>
+                </dl>
+              </li>
+              <li class="all deskTable occasionalTables">
+                <div>
+                  <a href="detaildeskTables011.html"><span>more<span></a>
+                  <img src="images/listDeskTable011.png" alt="listDeskTable011">
+                </div>
+                <dl>
+                  <dt><small>Steelcase</small>Turnstone Simple Personal Table</dt>
+                  <dd>$403</dd>
+                </dl>
+              </li>
+              <li class="all deskTable deskTableService">
+                <div>
+                  <a href="detaildeskTables012.html"><span>more<span></a>
+                  <span class="best">BEST</span>
+                  <img src="images/listDeskTable012.png" alt="listDeskTable012">
+                </div>
+                <dl>
+                  <dt><small>Steelcase</small>Turnstone Campfire Paper Table Replacement Tops</dt>
+                  <dd>$114</dd>
+                </dl>
+              </li>
+              <li class="all deskTable occasionalTables">
+                <div>
+                  <a href="detaildeskTables013.html"><span>more<span></a>
+                  <img src="images/listDeskTable013.png" alt="listDeskTable013">
+                </div>
+                <dl>
+                  <dt><small>Steelcase</small>Turnstone Campfire Personal Table</dt>
+                  <dd>$412</dd>
+                </dl>
+              </li>
+              <li class="all deskTable">
+                <div>
+                  <a href="detaildeskTables014.html"><span>more<span></a>
+                  <img src="images/listDeskTable014.png" alt="listDeskTable014">
+                </div>
+                <dl>
+                  <dt><small>M.A.D.</small>Gallery Desk</dt>
+                  <dd>$599</dd>
+                </dl>
+              </li>
+              <li class="all deskTable occasionalTables conferenceClassroomTable">
+                <div>
+                  <a href="detaildeskTables015.html"><span>more<span></a>
+                  <img src="images/listDeskTable015.png" alt="listDeskTable015">
+                </div>
+                <dl>
+                  <dt><small>Steelcase</small>Turnstone Simple Working Height Round Table</dt>
+                  <dd>$443</dd>
+                </dl>
+              </li>
+              <li class="all deskTable">
+                <div>
+                  <a href="detaildeskTables016.html"><span>more<span></a>
+                  <img src="images/listDeskTable016.png" alt="listDeskTable016">
+                </div>
+                <dl>
+                  <dt><small>West Elm Work</small>Greenpoint Fixed Desk</dt>
+                  <dd>$914</dd>
+                </dl>
+              </li>
+              <li class="all">
+                <div>
+                  <a href="detaildeskTables017.html"><span>more<span></a>
+                  <img src="images/listDeskTable017.png" alt="listDeskTable017">
+                </div>
+                <dl>
+                  <dt><small>Steelcase</small>Turnstone Bivi Table For Two</dt>
+                  <dd>$1781</dd>
+                </dl>
+              </li>
+              <li class="all deskTable">
+                <div>
+                  <a href="detaildeskTables018.html"><span>more<span></a>
+                  <img src="images/listDeskTable018.png" alt="listDeskTable018">
+                </div>
+                <dl>
+                  <dt><small>Steelcase</small>Currency Editor Desk</dt>
+                  <dd>$1064</dd>
+                </dl>
+              </li>
+              <li class="all deskTable occasionalTables">
+                <div>
+                  <a href="detaildeskTables019.html"><span>more<span></a>
+                  <img src="images/listDeskTable019.png" alt="listDeskTable019">
+                </div>
+                <dl>
+                  <dt><small>Steelcase</small>Turnstone Campfire Skate Table</dt>
+                  <dd>$475</dd>
+                </dl>
+              </li>
+              <li class="all deskTable occasionalTables conferenceClassroomTable">
+                <div>
+                  <a href="detaildeskTables020.html"><span>more<span></a>
+                  <img src="images/listDeskTable020.png" alt="listDeskTable020">
+                </div>
+                <dl>
+                  <dt><small>Steelcase</small>Turnstone Simple Working Height Square Table</dt>
+                  <dd>$443</dd>
+                </dl>
+              </li>
+              <li class="all deskTable conferenceClassroomTable">
+                <div>
+                  <a href="detaildeskTables021.html"><span>more<span></a>
+                  <img src="images/listDeskTable021.png" alt="listDeskTable021">
+                </div>
+                <dl>
+                  <dt><small>Steelcase</small>Verb Rectangle Table</dt>
+                  <dd>$701</dd>
+                </dl>
+              </li>
+              <li class="all deskTable occasionalTables">
+                <div>
+                  <a href="detaildeskTables022.html"><span>more<span></a>
+                  <img src="images/listDeskTable022.png" alt="listDeskTable022">
+                </div>
+                <dl>
+                  <dt><small>Coalesse</small>Free Stand</dt>
+                  <dd>$637</dd>
+                </dl>
+              </li>
+              <li class="all deskTable conferenceClassroomTable">
+                <div>
+                  <a href="detaildeskTables023.html"><span>more<span></a>
+                  <img src="images/listDeskTable023.png" alt="listDeskTable023">
+                </div>
+                <dl>
+                  <dt><small>Coalesse</small>SW_1 Conference Table</dt>
+                  <dd>$2176</dd>
+                </dl>
+              </li>
+              <li class="all deskTable conferenceClassroomTable">
+                <div>
+                  <a href="detaildeskTables024.html"><span>more<span></a>
+                  <img src="images/listDeskTable024.png" alt="listDeskTable024">
+                </div>
+                <dl>
+                  <dt><small>Steelcase</small>Verb Chevron Table</dt>
+                  <dd>$747</dd>
+                </dl>
+              </li>
+              <li class="all">
+                <div>
+                  <a href="detaildeskTables025.html"><span>more<span></a>
+                  <img src="images/listDeskTable025.png" alt="listDeskTable025">
+                </div>
+                <dl>
+                  <dt><small>Steelcase</small>Turnstone Bivi Arch</dt>
+                  <dd>$389</dd>
+                </dl>
+              </li>
+              <li class="all deskTable occasionalTables">
+                <div>
+                  <a href="detaildeskTables026.html"><span>more<span></a>
+                  <img src="images/listDeskTable026.png" alt="listDeskTable026">
+                </div>
+                <dl>
+                  <dt><small>Steelcase</small>Campfire Skate Table - Ready to Ship</dt>
+                  <dd>$475</dd>
+                </dl>
+              </li>
+              <li class="all deskTable">
+                <div>
+                  <a href="detaildeskTables027.html"><span>more<span></a>
+                  <img src="images/listDeskTable027.png" alt="listDeskTable027">
+                </div>
+                <dl>
+                  <dt><small>Steelcase</small>Turnstone Campfire Standing Height Slim Table</dt>
+                  <dd>$1335</dd>
+                </dl>
+              </li>
+              <li class="all deskTable occasionalTables">
+                <div>
+                  <a href="detaildeskTables028.html"><span>more<span></a>
+                  <img src="images/listDeskTable028.png" alt="listDeskTable028">
+                </div>
+                <dl>
+                  <dt><small>Coalesse</small>Lagunitas Personal Table</dt>
+                  <dd>$637</dd>
+                </dl>
+              </li>
+            </ol>
+          </li>
+          <li class="listPageDeskTable02">
+            <ol>
+              <li class="all deskTable occasionalTables">
+                <div>
+                  <a href="detaildeskTables029.html"><span>more<span></a>
+                  <img src="images/listDeskTable029.png" alt="listDeskTable029">
+                </div>
+                <dl>
+                  <dt><small>Steelcase</small>Turnstone Campfire Paper Table</dt>
+                  <dd>$917</dd>
+                </dl>
+              </li>
+              <li class="all deskTable occasionalTables">
+                <div>
+                  <a href="detaildeskTables030.html"><span>more<span></a>
+                  <img src="images/listDeskTable030.png" alt="listDeskTable030">
+                </div>
+                <dl>
+                  <dt><small>Steelcase</small>Turnstone Simple Lounge Height Rectangle Table</dt>
+                  <dd>$1085</dd>
+                </dl>
+              </li>
+              <li class="all deskTable occasionalTables">
+                <div>
+                  <a href="detaildeskTables031.html"><span>more<span></a>
+                  <img src="images/listDeskTable031.png" alt="listDeskTable031">
+                </div>
+                <dl>
+                  <dt><small>West Elm Work</small>Linear C Side Table by West Elm</dt>
+                  <dd>$407</dd>
+                </dl>
+              </li>
+              <li class="all">
+                <div>
+                  <a href="detaildeskTables032.html"><span>more<span></a>
+                  <img src="images/listDeskTable032.png" alt="listDeskTable032">
+                </div>
+                <dl>
+                  <dt><small>Steelcase</small>Turnstone Bivi Table For One</dt>
+                  <dd>$1426</dd>
+                </dl>
+              </li>
+              <li class="all deskTable">
+                <div>
+                  <a href="detaildeskTables033.html"><span>more<span></a>
+                  <img src="images/listDeskTable033.png" alt="listDeskTable033">
+                </div>
+                <dl>
+                  <dt><small>M.A.D.</small>Surround Desk</dt>
+                  <dd>$799</dd>
+                </dl>
+              </li>
+              <li class="all deskTable conferenceClassroomTable">
+                <div>
+                  <a href="detaildeskTables034.html"><span>more<span></a>
+                  <img src="images/listDeskTable034.png" alt="listDeskTable034">
+                </div>
+                <dl>
+                  <dt><small>Steelcase</small>Verb Team Table</dt>
+                  <dd>$779</dd>
+                </dl>
+              </li>
+              <li class="all deskTable occasionalTables">
+                <div>
+                  <a href="detaildeskTables035.html"><span>more<span></a>
+                  <img src="images/listDeskTable035.png" alt="listDeskTable035">
+                </div>
+                <dl>
+                  <dt><small>Steelcase</small>Bassline Occasional Tables</dt>
+                  <dd>$556</dd>
+                </dl>
+              </li>
+              <li class="all deskTable">
+                <div>
+                  <a href="detaildeskTables036.html"><span>more<span></a>
+                  <img src="images/listDeskTable036.png" alt="listDeskTable036">
+                </div>
+                <dl>
+                  <dt><small>Steelcase</small>Frank Lloyd Wright Racine Desk</dt>
+                  <dd>$5221</dd>
+                </dl>
+              </li>
+              <li class="all deskTable occasionalTables">
+                <div>
+                  <a href="detaildeskTables037.html"><span>more<span></a>
+                  <img src="images/listDeskTable037.png" alt="listDeskTable037">
+                </div>
+                <dl>
+                  <dt><small>Steelcase</small>Groupwork Coffee Table</dt>
+                  <dd>$475</dd>
+                </dl>
+              </li>
+              <li class="all">
+                <div>
+                  <a href="detaildeskTables038.html"><span>more<span></a>
+                  <img src="images/listDeskTable038.png" alt="listDeskTable038">
+                </div>
+                <dl>
+                  <dt><small>Steelcase</small>Turnstone Bivi Bottom Shelf</dt>
+                  <dd>$187</dd>
+                </dl>
+              </li>
+              <li class="all deskTable">
+                <div>
+                  <a href="detaildeskTables039.html"><span>more<span></a>
+                  <img src="images/listDeskTable039.png" alt="listDeskTable039">
+                </div>
+                <dl>
+                  <dt><small>Steelcase</small>Groupwork Standing Height Desk</dt>
+                  <dd>$871</dd>
+                </dl>
+              </li>
+              <li class="all">
+                <div>
+                  <a href="detaildeskTables040.html"><span>more<span></a>
+                  <img src="images/listDeskTable040.png" alt="listDeskTable040">
+                </div>
+                <dl>
+                  <dt><small>Steelcase</small>Turnstone Bivi Top Shelf</dt>
+                  <dd>$194</dd>
+                </dl>
+              </li>
+              <li class="all">
+                <div>
+                  <a href="detaildeskTables041.html"><span>more<span></a>
+                  <img src="images/listDeskTable041.png" alt="listDeskTable041">
+                </div>
+                <dl>
+                  <dt><small>Steelcase</small>Turnstone Bivi Holder</dt>
+                  <dd>$272</dd>
+                </dl>
+              </li>
+              <li class="all deskTable conferenceClassroomTable">
+                <div>
+                  <a href="detaildeskTables042.html"><span>more<span></a>
+                  <img src="images/listDeskTable042.png" alt="listDeskTable042">
+                </div>
+                <dl>
+                  <dt><small>Steelcase</small>Verb Keystone Personal Table</dt>
+                  <dd>$642</dd>
+                </dl>
+              </li>
+              <li class="all deskTable conferenceClassroomTable">
+                <div>
+                  <a href="detaildeskTables043.html"><span>more<span></a>
+                  <img src="images/listDeskTable043.png" alt="listDeskTable043">
+                </div>
+                <dl>
+                  <dt><small>Coalesse</small>Potrero415 Light Table with Metal Leg</dt>
+                  <dd>$1922</dd>
+                </dl>
+              </li>
+              <li class="all deskTable">
+                <div>
+                  <a href="detaildeskTables044.html"><span>more<span></a>
+                  <img src="images/listDeskTable044.png" alt="listDeskTable044">
+                </div>
+                <dl>
+                  <dt><small>Steelcase</small>Frank Lloyd Wright Racine Signature Utility Table</dt>
+                  <dd>$3356</dd>
+                </dl>
+              </li>
+              <li class="all deskTable occasionalTables">
+                <div>
+                  <a href="detaildeskTables045.html"><span>more<span></a>
+                  <img src="images/listDeskTable045.png" alt="listDeskTable045">
+                </div>
+                <dl>
+                  <dt><small>Steelcase</small>Frank Lloyd Wright Racine Utility Table</dt>
+                  <dd>$2958</dd>
+                </dl>
+              </li>
+              <li class="all deskTable">
+                <div>
+                  <a href="detaildeskTables046.html"><span>more<span></a>
+                  <img src="images/listDeskTable046.png" alt="listDeskTable046">
+                </div>
+                <dl>
+                  <dt><small>Steelcase</small>Frank Lloyd Wright Racine Executive Desk</dt>
+                  <dd>$5348</dd>
+                </dl>
+              </li>
+              <li class="all deskTable occasionalTables outdoorTables">
+                <div>
+                  <a href="detaildeskTables047.html"><span>more<span></a>
+                  <img src="images/listDeskTable047.png" alt="listDeskTable047">
+                </div>
+                <dl>
+                  <dt><small>Coalesse</small>EMU Round Outdoor Counter Table</dt>
+                  <dd>$750</dd>
+                </dl>
+              </li>
+              <li class="all deskTable occasionalTables outdoorTables">
+                <div>
+                  <a href="detaildeskTables048.html"><span>more<span></a>
+                  <img src="images/listDeskTable048.png" alt="listDeskTable048">
+                </div>
+                <dl>
+                  <dt><small>Coalesse</small>Emu Round Outdoor Table</dt>
+                  <dd>$779</dd>
+                </dl>
+              </li>
+              <li class="all deskTable occasionalTables">
+                <div>
+                  <a href="detaildeskTables049.html"><span>more<span></a>
+                  <img src="images/listDeskTable049.png" alt="listDeskTable049">
+                </div>
+                <dl>
+                  <dt><small>Steelcase</small>Turnstone Bassline Box Top Table</dt>
+                  <dd>$645</dd>
+                </dl>
+              </li>
+              <li class="all deskTable occasionalTables">
+                <div>
+                  <a href="detaildeskTables050.html"><span>more<span></a>
+                  <img src="images/listDeskTable050.png" alt="listDeskTable050">
+                </div>
+                <dl>
+                  <dt><small>MATTIAZZI</small>Medici Table</dt>
+                  <dd>$794</dd>
+                </dl>
+              </li>
+              <li class="all deskTable occasionalTables">
+                <div>
+                  <a href="detaildeskTables051.html"><span>more<span></a>
+                  <img src="images/listDeskTable051.png" alt="listDeskTable051">
+                </div>
+                <dl>
+                  <dt><small>MATTIAZZI</small>Tronco Table</dt>
+                  <dd>$1812</dd>
+                </dl>
+              </li>
+              <li class="all deskTable occasionalTables">
+                <div>
+                  <a href="detaildeskTables052.html"><span>more<span></a>
+                  <img src="images/listDeskTable052.png" alt="listDeskTable052">
+                </div>
+                <dl>
+                  <dt><small>Coalesse</small>Sebastopol Table</dt>
+                  <dd>$1322</dd>
+                </dl>
+              </li>
+              <li class="all deskTable occasionalTables">
+                <div>
+                  <a href="detaildeskTables053.html"><span>more<span></a>
+                  <img src="images/listDeskTable053.png" alt="listDeskTable053">
+                </div>
+                <dl>
+                  <dt><small>Coalesse</small>CG_1 Metal Frame Table</dt>
+                  <dd>$1775</dd>
+                </dl>
+              </li>
+              <li class="all deskTable occasionalTables outdoorTables">
+                <div>
+                  <a href="detaildeskTables054.html"><span>more<span></a>
+                  <img src="images/listDeskTable054.png" alt="listDeskTable054">
+                </div>
+                <dl>
+                  <dt><small>Coalesse</small>Emu Heaven Table</dt>
+                  <dd>$1450</dd>
+                </dl>
+              </li>
+              <li class="all deskTable occasionalTables">
+                <div>
+                  <a href="detaildeskTables055.html"><span>more<span></a>
+                  <img src="images/listDeskTable055.png" alt="listDeskTable055">
+                </div>
+                <dl>
+                  <dt><small>West Elm Work</small>Mesa Coffee Table by West Elm</dt>
+                  <dd>$383</dd>
+                </dl>
+              </li>
+              <li class="all deskTable conferenceClassroomTable">
+                <div>
+                  <a href="detaildeskTables056.html"><span>more<span></a>
+                  <img src="images/listDeskTable056.png" alt="listDeskTable056">
+                </div>
+                <dl>
+                  <dt><small>Coalesse</small>Potrero415 Light Table with Wood Leg</dt>
+                  <dd>$2301</dd>
+                </dl>
+              </li>
+            </ol>
+          </li>
+          <li class="listPageDeskTable03">
+            <ol>
+              <li class="all deskTable">
+                <div>
+                  <a href="detaildeskTables057.html"><span>more<span></a>
+                  <img src="images/listDeskTable057.png" alt="listDeskTable057">
+                </div>
+                <dl>
+                  <dt><small>BOLIA</small>Acentric Desk</dt>
+                  <dd>$1777</dd>
+                </dl>
+              </li>
+              <li class="all deskTable">
+                <div>
+                  <a href="detaildeskTables058.html"><span>more<span></a>
+                  <img src="images/listDeskTable058.png" alt="listDeskTable058">
+                </div>
+                <dl>
+                  <dt><small>BOLIA</small>Graceful Desk</dt>
+                  <dd>$1867</dd>
+                </dl>
+              </li>
+              <li class="all deskTable occasionalTables">
+                <div>
+                  <a href="detaildeskTables059.html"><span>more<span></a>
+                  <img src="images/listDeskTable059.png" alt="listDeskTable059">
+                </div>
+                <dl>
+                  <dt><small>Coalesse</small>CG_1 Table (Wood Frame, Wood Top)</dt>
+                  <dd>$1925</dd>
+                </dl>
+              </li>
+              <li class="all deskTable occasionalTables">
+                <div>
+                  <a href="detaildeskTables060.html"><span>more<span></a>
+                  <img src="images/listDeskTable060.png" alt="listDeskTable060">
+                </div>
+                <dl>
+                  <dt><small>MATTIAZZI</small>Cugino</dt>
+                  <dd>$1228</dd>
+                </dl>
+              </li>
+            </ol>
+          </li>
+        </ul>
+        <div class="pager">
+          <a class="prev"></a>
+          <ul>
+            <li class="active"><a href="listPage01_deskTables.html">1</a></li>
+            <li><a href="listPage02_deskTables.html">2</a></li>
+            <li><a href="listPage03_deskTables.html">3</a></li>
+          </ul>
+          <a href="listPage02_deskTables.html" class="next active"></a>
+        </div>
+      </div>
+    </section>
+
+    <footer>
+      <ul>
+        <li>
+          <h2>Subscribe</h2>
+          <p>Sign up for exclusive offers, product releases and the latest news from Steelcase.</p>
+          <div>
+            <label for="userEmail">Email*</label>
+            <input type="email" id="userEmail" placeholder="Write Your E- mail">
+            <input type="submit" value="Sign Up">
+          </div>
+        </li>
+        <li class="footerContent">
+          <h2>Need Help?<img src="images/footerArrowDown.png" alt="footerContent"></h2>
+          <ol>
+            <li><a href="page_FAQs.html">FAQs</a></li>
+            <li><a href="page_FAQs01Shipping.html">Shipping + Delivery</a></li>
+            <li><a href="page_FAQs02Orders.html">Orders</a></li>
+            <li><a href="page_FAQs03Return.html">Returns</a></li>
+            <li><a href="page_FAQs05warranty.html">Warranty</a></li>
+            <li><a href="page_FAQs06payment.html">Payment + Financing</a></li>
+          </ol>
+        </li>
+        <li class="footerContent">
+          <h2>Contact<img src="images/footerArrowDown.png" alt="footerContent"></h2>
+          <ol>
+            <li><a href="page_contactUs.html">Online Support</a></li>
+            <li><a href="tel:+18005163454">1.800.516.3454</a></li>
+            <li><span>Monday - Friday</span></li>
+            <li><span>9AM - 6PM EST</span></li>
+          </ol>
+        </li>
+        <li class="footerContent">
+          <h2>Steelcase<img src="images/footerArrowDown.png" alt="footerContent"></h2>
+          <ol>
+            <li><a href="page_About.html">About</a></li>
+            <li><a href="page_sustainability.html">Sustainability</a></li>
+            <li><a href="page_privacyPolicy.html">Privacy Policy</a></li>
+            <li><a href="page_TermsOfUse.html">Terms of Use</a></li>
+            <li><a href="page_trademarks.html">Trademarks</a></li>
+            <li><a href="page_accessibilityStatement.html">Accessibility Statement</a></li>
+          </ol>
+        </li>
+        <li>
+          <h2>Follow Us</h2>
+          <ol>
+            <li><a href="https://www.instagram.com/steelcase/">instagram</a></li>
+            <li><a href="https://www.linkedin.com/company/steelcase">linkedin</a></li>
+            <li><a href="https://www.facebook.com/Steelcase">facebook</a></li>
+            <li><a href="https://twitter.com/Steelcase">twitter</a></li>
+            <li><a href="https://www.youtube.com/user/STEELCASETV">youtube</a></li>
+            <li><a href="https://www.pinterest.co.kr/steelcase/">pinterst</a></li>
+          </ol>
+        </li>
+      </ul>
+      <p>© 2024 Steelcase Inc.</p>
+    </footer>
+    
+  </body>
+</html>

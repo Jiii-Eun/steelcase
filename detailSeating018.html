@@ -1,0 +1,659 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SteelcaseStore</title>
+    <script src="https://code.jquery.com/jquery-3.7.1.js"></script>
+    <script src="https://code.jquery.com/ui/1.13.2/jquery-ui.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bxslider/4.2.15/jquery.bxslider.min.js"></script>
+    <script src="js/steel.js"></script>
+    <link rel="shortcut icon" href="images/favicon.png" type="image/x-icon">
+    <link rel="stylesheet" href="css/import.css">
+  </head>
+  <body>
+    <div id="menuOpen" class="panel menuOpen">
+      <input type="button" value="close" class="material-symbols-outlined" data-panelName="menuOpen">
+      <h2><a href="index.html"></a>
+        <img src="images/panelLogo.png" alt="steelcase">
+      </h2>
+      <div>
+        <nav>
+          <ul class="mainCatecories">
+            <li class="btn_seating"><input type="button" value="Seating" data-panelName="detail_seating"></li>
+            <li class="btn_deskTables"><input type="button" value="Desks + Tables"  data-panelName="detail_deskTables"></li>
+            <li class="btn_storage"><input type="button" value="Storage"  data-panelName="detail_storage"></li>
+            <li class="btn_accessories"><input type="button" value="Accessories"  data-panelName="detail_accessories"></li>
+            <li><a href="page_Gaming.html">Gaming</a></li>
+            <li class="btn_resources"><input type="button" value="Resources" data-panelName="detail_resources"></li>
+            <li class="btn_brands"><input type="button" value="Brands" data-panelName="detail_brands"></li>
+          </ul>
+        </nav>
+        <div>
+          <ul>
+            <li class="detail_seating">
+              <ol>
+                <li class="backMenu" data-panelName="detail_seating"><img src="images/panelLeftarrow.png" alt="leftArrow"><span>categories</span></li>
+                <li><a href="listPage01_seating.html">All Seating</a></li>
+                <li><a href="listPage05_seating.html">High Performance Seating</a></li>
+                <li><a href="listPage06_seating.html">Office Chairs</a></li>
+                <li><a href="listPage07_seating.html">Side + Guest Chairs</a></li>
+                <li><a href="listPage08_seating.html">Lounge Chairs</a></li>
+                <li><a href="listPage09_seating.html">Conference Chairs</a></li>
+                <li><a href="listPage10_seating.html">Benches + Ottomans</a></li>
+                <li><a href="listPage11_seating.html">Stools</a></li>
+                <li><a href="listPage12_seating.html">Outdoor Chairs</a></li>
+                <li><a href="listPage13_seating.html">Seating Service Parts</a></li>
+              </ol>
+            </li>
+            <li class="detail_deskTables">
+              <ol>
+                <li class="backMenu" data-panelName="detail_deskTables"><img src="images/panelLeftarrow.png" alt="leftArrow"><span>categories</span></li>
+                <li><a href="listPage01_deskTables.html">All Desks + Tables</a></li>
+                <li><a href="listPage04_deskTables.html">Desks + Tables</a></li>
+                <li><a href="listPage05_deskTables.html">Sit-to-Stand Desks</a></li>
+                <li><a href="listPage06_deskTables.html">Occasional Tables</a></li>
+                <li><a href="listPage07_deskTables.html">Conference + Classroom Tables</a></li>
+                <li><a href="listPage08_deskTables.html">Outdoor Tables</a></li>
+                <li><a href="listPage09_deskTables.html">Desks + Tables Service Parts</a></li>
+              </ol>
+            </li>
+            <li class="detail_storage">
+              <ol>
+                <li class="backMenu" data-panelName="detail_storage"><img src="images/panelLeftarrow.png" alt="leftArrow"><span>categories</span></li>
+                <li><a href="listPage01_storage.html">All Storage</a></li>
+                <li><a href="listPage02_storage.html">pedestals</a></li>
+                <li><a href="listPage03_storage.html">Bookcases + Cabinets + Credenzas</a></li>
+                <li><a href="listPage04_storage.html">Storage Service Parts</a></li>
+              </ol>
+            </li>
+            <li class="detail_accessories">
+              <ol>
+                <li class="backMenu" data-panelName="detail_accessories"><img src="images/panelLeftarrow.png" alt="leftArrow"><span>categories</span></li>
+                <li><a href="listPage01_accessories.html">All Accessories</a></li>
+                <li><a href="listPage03_accessories.html">Lighting</a></li>
+                <li><a href="listPage04_accessories.html">Organization Tools</a></li>
+                <li><a href="listPage05_accessories.html">Computer Support</a></li>
+                <li><a href="listPage06_accessories.html">Power + Cable Management</a></li>
+                <li><a href="listPage07_accessories.html">Whiteboards</a></li>
+                <li><a href="listPage08_accessories.html">Space Division</a></li>
+                <li><a href="listPage09_accessories.html">Bivi Accessories</a></li>
+              </ol>
+            </li>
+            <li class="detail_resources">
+              <ol>
+                <li class="backMenu" data-panelName="detail_resources"><img src="images/panelLeftarrow.png" alt="leftArrow"><span>Resources</span></li>
+                <li><a href="page_adjust.html">How to Adjust Your Chair</a></li>
+                <li><a href="page_quiz01.html">Take Our Chair Quiz</a></li>
+                <li><a href="page_sustainability.html">Sustainability</a></li>
+                <li><a href="page_FAQs.html">FAQs</a></li>
+                <li><a href="page_FAQs05warranty.html">Steelcase Warranty</a></li>
+                <li><a href="page_freeDesignService.html">Free Design Services</a></li>
+                <li><a href="page_madeFor.html">Made-for-Life Materials</a></li>
+                <li><a href="page_orderFreeFabricSwatches.html">Order Free Fabric Swatches</a></li>
+              </ol>
+            </li>
+            <li class="detail_brands">
+              <ol>
+                <li class="backMenu" data-panelName="detail_brands"><img src="images/panelLeftarrow.png" alt="leftArrow"><span>Brands</span></li>
+                <li><a href="listPage_brands01.html">AMQ</a></li>
+                <li><a href="listPage_brands02.html">Bolia</a></li>
+                <li><a href="listPage_brands03.html">Coalesse</a></li>
+                <li><a href="listPage_brands04.html">m.a.d.</a></li>
+                <li><a href="listPage_brands05.html">Mattiazzi</a></li>
+                <li><a href="listPage_brands06.html">West Elm Work</a></li>
+              </ol>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div id="searchOpen" class="panel searchOpen">
+      <input type="button" value="close" class="material-symbols-outlined" data-panelName="searchOpen">
+      <div class="rightwidth">
+        <h2>Search product</h2>
+        <div>
+          <input type="search" id="productsearch" placeholder="Search by name">
+        </div>
+        <input type="submit" value="SEARCH" data-panelName="searchOpen">
+      </div>
+    </div>
+    <div id="cartHave" class="panel cartHave">
+      <input type="button" value="close" class="material-symbols-outlined" data-panelName="cartHave">
+      <div>
+        <h2>Added To Cart</h2>
+        <ul>
+            <li>
+              <img src="images/listSeating002.png" alt="item01">
+              <div>
+                <span>Steelcase</span>
+                <input type="button" value="delete" class="material-symbols-outlined" data-panelName="cartEmpty">
+                <a href="detailSeating002.html">Steelcase Series 1</a>
+              </div>
+              <div>
+                <div>
+                  <input type="button" class="decrease" value="-">
+                  <span class="quantity">1</span>
+                  <input type="button" class="increase" value="+">
+                </div>                
+                <output data-price="493">$493</output>
+              </div>
+            </li>
+            <!-- <li>
+                <div>
+                  <span>Steelcase</span>
+                  <a href="#">alo</a>
+                  <input type="button" value="delete" class="material-symbols-outlined" data-panelName="cartEmpty">
+                </div>
+                <div>
+                  <div>
+                    <input type="button" class="decrease" value="-">
+                    <span class="quantity">1</span>
+                    <input type="button" class="increase" value="+">
+                </div>                
+                <output data-price="3553">3,553</output>
+              </div>
+            </li> -->
+        </ul>
+        <div>
+          <div>
+            <span>TOTAL</span>
+            <output class="totalOutput">1,371</output>
+          </div>
+          <a href="shippingPage.html">Review Cart</a>
+        </div>
+      </div>
+    </div>
+    <div id="cartEmpty" class="panel cartEmpty">
+        <input type="button" value="close" class="material-symbols-outlined" data-panelName="cartEmpty">
+        <div>
+          <h2>Your shopping cart is empty.</h2>
+          <input type="button" id="continue" value="Continue Shopping" data-panelName="cartEmpty">
+        </div>
+    </div>
+    <header>
+      <h1><a href="index.html">
+        <img src="images/headerLogo.png" alt="welcome steelcase"></a></h1>
+      <ul>
+        <li><input type="button" value="search" class="material-symbols-outlined btn_search" data-panelName="searchOpen"></li>
+        <li><input type="button" value="menu" class="material-symbols-outlined btn_menu" data-panelName="menuOpen"></li>
+        <li>
+          <a href="loginPage.html" id="loginLink"><input type="button" value="login" class="material-symbols-outlined login"></a>
+          <div id="myPageOption">
+            <ol>
+              <li><a href="myAccountPage.html" id="myAccount"><input type="button" value="account_circle" class="material-symbols-outlined account">My Account</a></li>
+              <li><a href="loginPage.html" id="logoutLink"><input type="button" value="logout" class="material-symbols-outlined logout">Logout</a></li>
+            </ol>
+          </div>
+        </li>
+        <li><input type="button" value="shopping_cart" class="material-symbols-outlined btn_cart" data-panelName="cartHave"></li>
+        <li id="selectBox">
+          <select id="language">
+            <option value="english">EN</option>
+            <option value="french">FR</option>
+            <option value="german">DE</option>
+            <option value="japan">JP</option>
+            <option value="zh-cn">ZH-CN</option>
+            <option value="zh-tw">ZH-TW</option>
+            <option value="Spanish">ES</option>
+            <option value="Romania">RO</option>
+          </select>
+        </li>
+      </ul>
+    </header>
+    
+    <section class="pageDetailSeating018Container"> 
+      <div>
+        <div id="mainDetailOption">
+          <div class="detailMainImg">
+            <div>
+              <img src="images/detailSeating018color01.png" alt="mainImg">
+            </div>
+          </div>
+          <div>
+            <div>
+              <small>HOME / HIGH PERFORMANCE SEATING / Think - Ready to Ship</small>
+              <div id="reviews">
+                <span>4.3</span>
+                <img src="images/detailStar04.png" alt="star04">
+                <small>Based on 88 reviews</small>
+              </div>
+              <div>
+                <span>Steelcase</span>
+              </div>
+              <h2>Think - Ready to Ship</h2>
+            </div>
+            <ul class="optionListCheck">
+              <li class="colorCheck">
+                <h3>Color</h3>
+                <div class="selectBox detail">
+                  <div>
+                    <img src="images/footerArrowDown.png" alt="selectBoxArrowDown">
+                    <button class="label">Color Scheme</button>
+                    <ul class="optionList">
+                      <li class="optionItem active" data-panelName="colorsetcolor"><span>Color Scheme<output data-price="0"></output></span></li>
+                    </ul>
+                  </div>
+                </div>
+                <div class="colorOption">
+                  <ul>
+                    <li class="colorsetcolor active">
+                      <h3>Color Scheme</h3>
+                      <ol>
+                        <li>
+                          <button type="button" class="btn_colorOption active" data-src="Seating018color01"><img src="images/3DKnitLicoriceBlack.png" alt="setcolor01"></button>
+                          <span>3D Knit Licorice / Black</span></li>
+                        <li>
+                          <button type="button" class="btn_colorOption" data-src="Seating018color02"><img src="images/3DKnitNickelSeagull.png" alt="setcolor02"></button>
+                          <span>3D Knit Nickel / Seagull</span>
+                        </li>
+                      </ol>
+                    </li>
+                  </ul>
+                </div>
+              </li>
+              <li>
+                <h3>
+                  <span>Wheels</span>
+                  <a><img src="images/detailInfoIcon.png" alt="info"></a>
+                  <div>
+                    <h4>Wheels</h4>
+                    <p>Wheels for Carpet Hard, roll-control casters for use on carpets.</p>
+                    <p>Wheels for Hard Floors Soft, roll-control casters for use on hard floors.</p>
+                  </div>
+                </h3>
+                <div class="selectBox detail">
+                  <div>
+                    <img src="images/footerArrowDown.png" alt="selectBoxArrowDown">
+                    <button class="label">Wheels for Carpet</button>
+                    <ul class="optionList">
+                      <li class="optionItem active" data-src="Seating018color01"><span>Wheels for Hard Floors<output data-price="21">+$21</output></span></li>
+                      <li class="optionItem" data-src="Seating018color01"><span>Wheels for Hard Floors <output data-price="21">+$21</output></span></li>
+                    </ul>
+                  </div>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="colorOption">
+          <div class="detailPrice">
+            <output data-price="1049">$1,049</output>
+            <div>
+              <input type="button" class="decrease" value="-">
+              <span class="quantity">1</span>
+              <input type="button" class="increase" value="+">
+            </div>
+            <input type="button" class="btn_addCart" value="Add to Cart">
+          </div>
+          <div class="addMessageBox">
+            <span>Success!<br>Added To Cart</span>
+            <input type="button" value="Review Cart" class="btn_cart" data-panelName="cartHave">
+          </div>
+        </div>
+      </div>
+
+      <div class="two">
+        <div class="boxSilder01">
+          <div>
+            <ul class="detailSlider">
+              <li>
+                <img src="images/detailSeating018detail01.png" alt="detail01">
+                <div>
+                  <h3>Back Support</h3>
+                  <p>LiveBack® Flexor System conforms to your spine to provide flexibility and support.</p>
+                </div>  
+              </li>
+              <li>
+                <img src="images/detailSeating018detail02.png" alt="detail02">
+                <div>
+                  <h3>Adjustment Mechanism</h3>
+                  <p>Weight activated responsive adjustment with boosted tension setting offers additional resistance for those that need it most.</p>
+                </div>  
+              </li>
+              <li>
+                <img src="images/detailSeating018detail03.png" alt="detail03">
+                <div>
+                  <h3>Lumbar Support</h3>
+                  <p>Standard height-adjustable lumbar support.</p>
+                </div>  
+              </li>
+              <li>
+                <img src="images/detailSeating018detail04.png" alt="detail04">
+                <div>
+                  <h3>Seat Ergonomics</h3>
+                  <p>Seat includes flexible edges and adaptive bolstering in the foam providing a pressure-free sit.</p>
+                </div>  
+              </li>
+              <li>
+                <img src="images/detailSeating018detail05.png" alt="detail05">
+                <div>
+                  <h3>Recline Adjustments</h3>
+                  <p>Recline range includes full recline, boosted recline, mid-and-upright back lock.</p>
+                </div>
+              </li>
+              <li>
+                <img src="images/detailSeating018detail06.png" alt="detail06">
+                <div>
+                  <h3>Arm Ergonomics</h3>
+                  <p>Four-dimensional arm support adjusts to your preferred height, width, depth, and pivot.</p>
+                </div>  
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="boxSilder02">
+          <div>
+            <ol class="detailSlider2">
+              <li><img src="images/detailSeating018image01.png" alt="decoimage01"></li>
+              <li><img src="images/detailSeating018image02.png" alt="decoimage02"></li>
+            </ol>
+          </div>
+        </div>
+      </div>
+      <div class="three">
+        <div>
+          <div>
+            <h3>Sustainability</h3>
+            <p>We create products that are good for people, and good for the world. Our products and operations are designed around a commitment to reduce climate change, reinforced by sustainable practices across our value chain.</p>
+          </div>
+          <div>
+            <span>27% Recycled</span>
+            <span>94% Recyclable</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="productTitle">
+        <div>
+          <h3>Product Details</h3>
+          <input type="button" value="Overview" class="btn_overview active" data-panelName="productoverview">
+          <input type="button" value="Details and Dimensions" class="btn_dimensions" data-panelName="productdimensions">
+          <input type="button" value="Assembly and User Guides" class="btn_assembly" data-panelName="productassembly">
+        </div>
+        <h3 class="btn_frequently" data-panelName="productfrequentlyAsk">Frequently Asked Questions</h3>
+      </div>
+
+      <div class="productDetail">
+        <div>
+          <div class="productoverview active">
+            <div>
+              <p>Get to work faster with this pre-configured version of Amia. Specified in our most popular finish combinations.</p>
+              <p>Amia brings a refined style to any space, without compromising the significant science included in every Steelcase chair. Including high-performing features both seen and unseen. Designed by the Steelcase Design Studio in collaboration with industrial designer Thomas Overthun of IDEO, the team set out to create a beautiful, quietly intelligent chair— Amia is a beloved, fan favorite.</p>
+              <p>  - Designed with a hidden advanced LiveLumbar system, Amia flexes with your every move providing consistent, dynamic support for your lower back. Different than a typical lumbar “cushion”, LiveLumbar is a system of flexors that move with your back. Two handles on the chair’s backrest let you slide the LiveLumbar to the ideal position for you</p>
+              <p>  - Custom manual adjustment controls allow the user to tailor in their perfect fit. The adjustment controls are labeled, eliminating any question about how to dial-in the perfect fit for your perfect sit</p>
+              <p>  - The seat includes flexible edges for a pressure-free sit and adaptive bolstering in the seat cushion – which allows the seat to conform to the body distributing the user’s weight to allow for a comfortable sit for any size user From the way the arms move to the way the back is shaped, Amia strikes that sweet spot between performance and presentation, making it one of our most sought-after chairs. The versatile design of Amia fits seamlessly into your environment—and your life.</p>
+            </div>
+            <div>
+              <p>All Steelcase High Performance task seating is contract grade quality:</p>
+              <p>  - Quality & durability – Amia is tested above industry standards to ensure reliability now and in the future.</p>
+              <p>  - Warrantied to last – 12-year, multi-shift, on both parts and labor.</p>
+              <p>  - Free shipping + returns – Free FedEx delivery and free returns.</p>
+            </div>
+            <div>
+              <mark class="shipping">Shipping</mark>
+              <p>  - Chairs ordered by 6pm EST will ship the next business day.</p>
+            </div>
+          </div>
+          <table class="productdimensions">
+            <tbody>
+              <tr>
+                <th>Color Scheme</th>
+                <td>3D Knit Licorice / Black</td>
+                <td>3D Knit Nickel / Seagull</td>
+              </tr>
+              <tr>
+                <th>Seat Upholstery</th>
+                <td>Cogent: Connect Licorice Seat</td>
+                  <td>Cogent: Connect Nickel Seat</td>
+              </tr>
+              <tr>
+                <th>Back Upholstery</th>
+                <td>3D Knit Licorice</td>
+                <td>3D Knit Nickel</td>
+              </tr>
+              <tr>
+                <th>Seat Frame</th>
+                <td>Black</td>
+                <td>Seagull</td>
+              </tr>
+              <tr>
+                <th>Base</th>
+                <td>Black</td>
+                <td>Seagull</td>
+              </tr>
+              <tr>
+                <th>Arms</th>
+                <td>4-Way Adjustable</td>
+                <td>4-Way Adjustable</td>
+              </tr>
+              <tr>
+                <th>Overall Height</th>
+                <td>37.25″ to 42.5″</td>
+                <td></td>
+              </tr>
+              <tr>
+                <th>Overall Width</th>
+                <td>28.5″</td>
+                <td></td>
+              </tr>
+              <tr>
+                <th>Overall Depth</th>
+                <td>22″ – 24.25″</td>
+                <td></td>
+              </tr>
+              <tr>
+                <th>Seat Depth</th>
+                <td>18.5″</td>
+                <td></td>
+              </tr>
+              <tr>
+                <th>Functional Seat Depth</th>
+                <td>15.5″ – 18″</td>
+                <td></td>
+              </tr>
+              <tr>
+                <th>Seat Width</th>
+                <td>20.25″</td>
+                <td></td>
+              </tr>
+              <tr>
+                <th>Seat Height from Floor</th>
+                <td>16.5″ – 21.25″</td>
+                <td></td>
+              </tr>
+              <tr>
+                <th>Back Width</th>
+                <td>18″</td>
+                <td></td>
+              </tr>
+              <tr>
+                <th>Back height from seat</th>
+                <td>20.75″</td>
+                <td></td>
+              </tr>
+              <tr>
+                <th>Back Lumbar Height</th>
+                <td>6″ – 10.25″</td>
+                <td></td>
+              </tr>
+              <tr>
+                <th>Width Between Arms</th>
+                <td>14″ – 2.25″</td>
+                <td></td>
+              </tr>
+              <tr>
+                <th>Arm to Floor</th>
+                <td>22.625″ – 27.625″</td>
+                <td></td>
+              </tr>
+              <tr>
+                <th>Arm Height from Seat</th>
+                <td>7″ to 11″</td>
+                <td></td>
+              </tr>
+              <tr>
+                <th>Arm Cap Pivot Range</th>
+                <td>+/- 30 degrees</td>
+                <td></td>
+              </tr>
+              <tr>
+                <th>Seat Pan Angle</th>
+                <td>2 degrees to 6 degrees</td>
+                <td></td>
+              </tr>
+              <tr>
+                <th>Angle Between Seat and Back</th>
+                <td>98 degrees to 116 degrees</td>
+                <td></td>
+              </tr>
+              <tr>
+                <th>Weight Limit</th>
+                <td>400 lbs.</td>
+                <td></td>
+              </tr>
+              <tr>
+                <th>Shipping Box Dimensions</th>
+                <td>32.5″ H x 27.5″ W x 21.25″ D</td>
+                <td></td>
+              </tr>
+              <tr>
+                <th>Shipping Box Weight</th>
+                <td>48 lbs.</td>
+                <td></td>
+              </tr>
+            </tbody>
+          </table>
+          <div class="productassembly">
+            <span>Assembly Required.</span>
+            <p>How simple is assembly? 1 Person can assemble in less than 2 minutes with 3 parts and no tools.</p>
+            <a href="https://www.youtube.com/watch?v=nPUgqfkhyYY">Think Assembly Video</a>
+            <a href="https://www.steelcase.com/content/uploads/2023/01/Think-FedEx-Assembly_Final.pdf">Think Assembly Directions</a>
+            <p>Give yourself the best support by adjusting your Think chair to your needs.</p>
+            <a href="https://storemedia.steelcase.com/video/upload/v1695907903/Landing%20Page/Adjustability/Think_16-0073674.mp4">Think Adjustability Video</a>
+          </div>
+          <ul class="productfrequentlyAsk">
+            <li>
+              <span>How can you clean the seat on your Think chair?</span>
+              <p>In order to keep the seat on your Think clean and disinfected without damaging the fabric, we recommend using a solution of one part clear dish detergent and 16 parts water, mixed in a spray bottle. Any harsher cleaning products than this run the risk of damaging the fabric and/or the materials used for the frame and base of the chair.</p>
+              <p>Spray the surface of your chair evenly until damp, let it sit for 1-2 minutes, and use a wet/dry vac to remove the rest of the moisture before letting it air dry. (A similar process can be used for other Steelcase products as needed.)</p>
+            </li>
+            <li>
+              <span>How can you adjust a Steelcase Think?</span>
+              <p>Think has several points of adjustment available for sitters of all heights and postures, allowing them to sit more naturally and in a way that encourages overall health and comfort. The arms are adjusted by an optional mechanism mounted on either arm that can adjust height, width, pivot, and depth. Lumbar is adjusted by two handles on the side of the chair’s back, while the seat height is adjusted via a lever on the underside of the chair.</p>
+              <p>Angle of reclination is adjusted via our Comfort Dial near the bottom of the seat. The flexible seat edge adjusts automatically as you change positions through the day.</p>
+            </li>
+            <li>
+              <span>What is the difference between height adjustable arms and 4-way adjustable arms?</span>
+              <p>Think offers two types of adjustable arms, depending on what options you select. While height adjustment comes standard on all Think chairs, allowing you to raise or lower the height of your armrests as needed, we also offer our innovative four-way adjustable arms on Think. The four-way adjustment allows you to change the height, width, pivot, and depth of each armest individually for maximum comfort no matter how your posture changes during the day.</p>
+            </li>
+            <li>
+              <span>How tall is Steelcase Think?</span>
+              <p>Think has an overall height of 37.25” to 42” (adjustable), with an adjustable seat height of 16.5” to 21.5”, making it ideal for a range of preferred heights and postures.</p>
+            </li>
+            <li>
+              <span>Where are Steelcase Think chairs made?</span>
+              <p>Think is manufactured by Steelcase in Kentwood, MI.</p>
+            </li>
+          </ul>
+        </div>
+          <div>
+            <div>
+              <h3>Related Products</h3>
+              <a href="listPage05_seating.html">View all High Performance Seating</a>
+            </div>
+            <ol>
+              <li>
+                <img src="images/detailRelated01Gesture.png" alt="related01">
+                <div>
+                  <a href="detailSeating009.html">Gesture - Ready to Ship</a>
+                  <span>$1399 - $1460</span>
+                </div>
+              </li>
+              <li>
+                <img src="images/detailRelated02Leap.png" alt="related02">
+                <div>
+                  <a href="detailSeating003.html">Leap</a>
+                  <span>$1006 - $2621</span>
+                </div>
+              </li>
+              <li>
+                <img src="images/detailRelated03Migration.png" alt="related03">
+                <div>
+                  <a href="detaildeskTables002.html">Migration SE Sit-to-Stand Desk</a>
+                  <span>$999 - $1215</span>
+                </div>
+              </li>
+              <li>
+                <img src="images/detailRelated04LateralFile.png" alt="related04">
+                <div>
+                  <a href="detailStorage018.html">West Elm Work Greenpoint Lateral File</a>
+                  <span>$2620</span>
+                </div>
+              </li>
+            </ol>
+          </div>
+      </div>
+      
+
+    </section>
+
+    <footer>
+      <ul>
+        <li>
+          <h2>Subscribe</h2>
+          <p>Sign up for exclusive offers, product releases and the latest news from Steelcase.</p>
+          <div>
+            <label for="userEmail">Email*</label>
+            <input type="email" id="userEmail" placeholder="Write Your E- mail">
+            <input type="submit" value="Sign Up">
+          </div>
+        </li>
+        <li class="footerContent">
+          <h2>Need Help?<img src="images/footerArrowDown.png" alt="footerContent"></h2>
+          <ol>
+            <li><a href="page_FAQs.html">FAQs</a></li>
+            <li><a href="page_FAQs01Shipping.html">Shipping + Delivery</a></li>
+            <li><a href="page_FAQs02Orders.html">Orders</a></li>
+            <li><a href="page_FAQs03Return.html">Returns</a></li>
+            <li><a href="page_FAQs05warranty.html">Warranty</a></li>
+            <li><a href="page_FAQs06payment.html">Payment + Financing</a></li>
+          </ol>
+        </li>
+        <li class="footerContent">
+          <h2>Contact<img src="images/footerArrowDown.png" alt="footerContent"></h2>
+          <ol>
+            <li><a href="page_contactUs.html">Online Support</a></li>
+            <li><a href="tel:+18005163454">1.800.516.3454</a></li>
+            <li><span>Monday - Friday</span></li>
+            <li><span>9AM - 6PM EST</span></li>
+          </ol>
+        </li>
+        <li class="footerContent">
+          <h2>Steelcase<img src="images/footerArrowDown.png" alt="footerContent"></h2>
+          <ol>
+            <li><a href="page_About.html">About</a></li>
+            <li><a href="page_sustainability.html">Sustainability</a></li>
+            <li><a href="page_privacyPolicy.html">Privacy Policy</a></li>
+            <li><a href="page_TermsOfUse.html">Terms of Use</a></li>
+            <li><a href="page_trademarks.html">Trademarks</a></li>
+            <li><a href="page_accessibilityStatement.html">Accessibility Statement</a></li>
+          </ol>
+        </li>
+        <li>
+          <h2>Follow Us</h2>
+          <ol>
+            <li><a href="https://www.instagram.com/steelcase/">instagram</a></li>
+            <li><a href="https://www.linkedin.com/company/steelcase">linkedin</a></li>
+            <li><a href="https://www.facebook.com/Steelcase">facebook</a></li>
+            <li><a href="https://twitter.com/Steelcase">twitter</a></li>
+            <li><a href="https://www.youtube.com/user/STEELCASETV">youtube</a></li>
+            <li><a href="https://www.pinterest.co.kr/steelcase/">pinterst</a></li>
+          </ol>
+        </li>
+      </ul>
+      <p>© 2024 Steelcase Inc.</p>
+    </footer>
+    
+  </body>
+</html>

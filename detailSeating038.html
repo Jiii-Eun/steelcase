@@ -1,0 +1,681 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SteelcaseStore</title>
+    <script src="https://code.jquery.com/jquery-3.7.1.js"></script>
+    <script src="https://code.jquery.com/ui/1.13.2/jquery-ui.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bxslider/4.2.15/jquery.bxslider.min.js"></script>
+    <script src="js/steel.js"></script>
+    <link rel="shortcut icon" href="images/favicon.png" type="image/x-icon">
+    <link rel="stylesheet" href="css/import.css">
+  </head>
+  <body>
+    <div id="menuOpen" class="panel menuOpen">
+      <input type="button" value="close" class="material-symbols-outlined" data-panelName="menuOpen">
+      <h2><a href="index.html"></a>
+        <img src="images/panelLogo.png" alt="steelcase">
+      </h2>
+      <div>
+        <nav>
+          <ul class="mainCatecories">
+            <li class="btn_seating"><input type="button" value="Seating" data-panelName="detail_seating"></li>
+            <li class="btn_deskTables"><input type="button" value="Desks + Tables"  data-panelName="detail_deskTables"></li>
+            <li class="btn_storage"><input type="button" value="Storage"  data-panelName="detail_storage"></li>
+            <li class="btn_accessories"><input type="button" value="Accessories"  data-panelName="detail_accessories"></li>
+            <li><a href="page_Gaming.html">Gaming</a></li>
+            <li class="btn_resources"><input type="button" value="Resources" data-panelName="detail_resources"></li>
+            <li class="btn_brands"><input type="button" value="Brands" data-panelName="detail_brands"></li>
+          </ul>
+        </nav>
+        <div>
+          <ul>
+            <li class="detail_seating">
+              <ol>
+                <li class="backMenu" data-panelName="detail_seating"><img src="images/panelLeftarrow.png" alt="leftArrow"><span>categories</span></li>
+                <li><a href="listPage01_seating.html">All Seating</a></li>
+                <li><a href="listPage05_seating.html">High Performance Seating</a></li>
+                <li><a href="listPage06_seating.html">Office Chairs</a></li>
+                <li><a href="listPage07_seating.html">Side + Guest Chairs</a></li>
+                <li><a href="listPage08_seating.html">Lounge Chairs</a></li>
+                <li><a href="listPage09_seating.html">Conference Chairs</a></li>
+                <li><a href="listPage10_seating.html">Benches + Ottomans</a></li>
+                <li><a href="listPage11_seating.html">Stools</a></li>
+                <li><a href="listPage12_seating.html">Outdoor Chairs</a></li>
+                <li><a href="listPage13_seating.html">Seating Service Parts</a></li>
+              </ol>
+            </li>
+            <li class="detail_deskTables">
+              <ol>
+                <li class="backMenu" data-panelName="detail_deskTables"><img src="images/panelLeftarrow.png" alt="leftArrow"><span>categories</span></li>
+                <li><a href="listPage01_deskTables.html">All Desks + Tables</a></li>
+                <li><a href="listPage04_deskTables.html">Desks + Tables</a></li>
+                <li><a href="listPage05_deskTables.html">Sit-to-Stand Desks</a></li>
+                <li><a href="listPage06_deskTables.html">Occasional Tables</a></li>
+                <li><a href="listPage07_deskTables.html">Conference + Classroom Tables</a></li>
+                <li><a href="listPage08_deskTables.html">Outdoor Tables</a></li>
+                <li><a href="listPage09_deskTables.html">Desks + Tables Service Parts</a></li>
+              </ol>
+            </li>
+            <li class="detail_storage">
+              <ol>
+                <li class="backMenu" data-panelName="detail_storage"><img src="images/panelLeftarrow.png" alt="leftArrow"><span>categories</span></li>
+                <li><a href="listPage01_storage.html">All Storage</a></li>
+                <li><a href="listPage02_storage.html">pedestals</a></li>
+                <li><a href="listPage03_storage.html">Bookcases + Cabinets + Credenzas</a></li>
+                <li><a href="listPage04_storage.html">Storage Service Parts</a></li>
+              </ol>
+            </li>
+            <li class="detail_accessories">
+              <ol>
+                <li class="backMenu" data-panelName="detail_accessories"><img src="images/panelLeftarrow.png" alt="leftArrow"><span>categories</span></li>
+                <li><a href="listPage01_accessories.html">All Accessories</a></li>
+                <li><a href="listPage03_accessories.html">Lighting</a></li>
+                <li><a href="listPage04_accessories.html">Organization Tools</a></li>
+                <li><a href="listPage05_accessories.html">Computer Support</a></li>
+                <li><a href="listPage06_accessories.html">Power + Cable Management</a></li>
+                <li><a href="listPage07_accessories.html">Whiteboards</a></li>
+                <li><a href="listPage08_accessories.html">Space Division</a></li>
+                <li><a href="listPage09_accessories.html">Bivi Accessories</a></li>
+              </ol>
+            </li>
+            <li class="detail_resources">
+              <ol>
+                <li class="backMenu" data-panelName="detail_resources"><img src="images/panelLeftarrow.png" alt="leftArrow"><span>Resources</span></li>
+                <li><a href="page_adjust.html">How to Adjust Your Chair</a></li>
+                <li><a href="page_quiz01.html">Take Our Chair Quiz</a></li>
+                <li><a href="page_sustainability.html">Sustainability</a></li>
+                <li><a href="page_FAQs.html">FAQs</a></li>
+                <li><a href="page_FAQs05warranty.html">Steelcase Warranty</a></li>
+                <li><a href="page_freeDesignService.html">Free Design Services</a></li>
+                <li><a href="page_madeFor.html">Made-for-Life Materials</a></li>
+                <li><a href="page_orderFreeFabricSwatches.html">Order Free Fabric Swatches</a></li>
+              </ol>
+            </li>
+            <li class="detail_brands">
+              <ol>
+                <li class="backMenu" data-panelName="detail_brands"><img src="images/panelLeftarrow.png" alt="leftArrow"><span>Brands</span></li>
+                <li><a href="listPage_brands01.html">AMQ</a></li>
+                <li><a href="listPage_brands02.html">Bolia</a></li>
+                <li><a href="listPage_brands03.html">Coalesse</a></li>
+                <li><a href="listPage_brands04.html">m.a.d.</a></li>
+                <li><a href="listPage_brands05.html">Mattiazzi</a></li>
+                <li><a href="listPage_brands06.html">West Elm Work</a></li>
+              </ol>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div id="searchOpen" class="panel searchOpen">
+      <input type="button" value="close" class="material-symbols-outlined" data-panelName="searchOpen">
+      <div class="rightwidth">
+        <h2>Search product</h2>
+        <div>
+          <input type="search" id="productsearch" placeholder="Search by name">
+        </div>
+        <input type="submit" value="SEARCH" data-panelName="searchOpen">
+      </div>
+    </div>
+    <div id="cartHave" class="panel cartHave">
+      <input type="button" value="close" class="material-symbols-outlined" data-panelName="cartHave">
+      <div>
+        <h2>Added To Cart</h2>
+        <ul>
+            <li>
+              <img src="images/listSeating002.png" alt="item01">
+              <div>
+                <span>Steelcase</span>
+                <input type="button" value="delete" class="material-symbols-outlined" data-panelName="cartEmpty">
+                <a href="detailSeating002.html">Steelcase Series 1</a>
+              </div>
+              <div>
+                <div>
+                  <input type="button" class="decrease" value="-">
+                  <span class="quantity">1</span>
+                  <input type="button" class="increase" value="+">
+                </div>                
+                <output data-price="493">$493</output>
+              </div>
+            </li>
+            <!-- <li>
+                <div>
+                  <span>Steelcase</span>
+                  <a href="#">alo</a>
+                  <input type="button" value="delete" class="material-symbols-outlined" data-panelName="cartEmpty">
+                </div>
+                <div>
+                  <div>
+                    <input type="button" class="decrease" value="-">
+                    <span class="quantity">1</span>
+                    <input type="button" class="increase" value="+">
+                </div>                
+                <output data-price="3553">3,553</output>
+              </div>
+            </li> -->
+        </ul>
+        <div>
+          <div>
+            <span>TOTAL</span>
+            <output class="totalOutput">1,371</output>
+          </div>
+          <a href="shippingPage.html">Review Cart</a>
+        </div>
+      </div>
+    </div>
+    <div id="cartEmpty" class="panel cartEmpty">
+        <input type="button" value="close" class="material-symbols-outlined" data-panelName="cartEmpty">
+        <div>
+          <h2>Your shopping cart is empty.</h2>
+          <input type="button" id="continue" value="Continue Shopping" data-panelName="cartEmpty">
+        </div>
+    </div>
+    <header>
+      <h1><a href="index.html">
+        <img src="images/headerLogo.png" alt="welcome steelcase"></a></h1>
+      <ul>
+        <li><input type="button" value="search" class="material-symbols-outlined btn_search" data-panelName="searchOpen"></li>
+        <li><input type="button" value="menu" class="material-symbols-outlined btn_menu" data-panelName="menuOpen"></li>
+        <li>
+          <a href="loginPage.html" id="loginLink"><input type="button" value="login" class="material-symbols-outlined login"></a>
+          <div id="myPageOption">
+            <ol>
+              <li><a href="myAccountPage.html" id="myAccount"><input type="button" value="account_circle" class="material-symbols-outlined account">My Account</a></li>
+              <li><a href="loginPage.html" id="logoutLink"><input type="button" value="logout" class="material-symbols-outlined logout">Logout</a></li>
+            </ol>
+          </div>
+        </li>
+        <li><input type="button" value="shopping_cart" class="material-symbols-outlined btn_cart" data-panelName="cartHave"></li>
+        <li id="selectBox">
+          <select id="language">
+            <option value="english">EN</option>
+            <option value="french">FR</option>
+            <option value="german">DE</option>
+            <option value="japan">JP</option>
+            <option value="zh-cn">ZH-CN</option>
+            <option value="zh-tw">ZH-TW</option>
+            <option value="Spanish">ES</option>
+            <option value="Romania">RO</option>
+          </select>
+        </li>
+      </ul>
+    </header>
+    
+    <section class="pageDetailSeating038Container"> 
+      <div>
+        <div id="mainDetailOption">
+          <div class="detailMainImg">
+            <div>
+              <img src="images/detailSeating038shell01.png" alt="mainImg">
+            </div>
+          </div>
+          <div>
+            <div>
+              <small>HOME / CONFERENCE CHAIRS / NODE 5-STAR BASE</small>
+              <div>
+                <span>Steelcase</span>
+              </div>
+              <h2>Node 5-Star Base</h2>
+            </div>
+            <ul class="optionListCheck">
+              <li>
+                <h3>Chair Height</h3>
+                <div class="selectBox detail">
+                  <div>
+                    <img src="images/footerArrowDown.png" alt="selectBoxArrowDown">
+                    <button class="label">Chair</button>
+                    <ul class="optionList">
+                      <li class="optionItem active" data-src="Seating038shell01"><span>Chair<output data-price="0"></output></span></li>
+                      <li class="optionItem" data-src="Seating038stool"><span>Stool<output data-price="238">+$238</output></span></li>
+                    </ul>
+                  </div>
+                </div>
+              </li>
+              <li>
+                <h3>Back Height</h3>
+                <div class="selectBox detail">
+                  <div>
+                    <img src="images/footerArrowDown.png" alt="selectBoxArrowDown">
+                    <button class="label">High-Back</button>
+                    <ul class="optionList">
+                      <li class="optionItem active" data-src="Seating038highback"><span>High-Back<output data-price="0"></output></span></li>
+                      <li class="optionItem" data-src="Seating038midback"><span>Mid-Back<output data-price="0"></output></span></li>
+                    </ul>
+                  </div>
+                </div>
+              </li>
+              <li>
+                <h3>Worksurface</h3>
+                <div class="selectBox detail">
+                  <div>
+                    <img src="images/footerArrowDown.png" alt="selectBoxArrowDown">
+                    <button class="label">No Worksurface</button>
+                    <ul class="optionList">
+                      <li class="optionItem active" data-src="Seating038shell01"><span>No Worksurface<output data-price="0"></output></span></li>
+                      <li class="optionItem" data-src="Seating038Worksurface"><span>Worksurface<output data-price="251">+$251</output></span></li>
+                      <li class="optionItem" data-src="Seating038CupHolder"><span>Cup Holder<output data-price="340">+$340</output></span></li>
+                      <li class="optionItem" data-src="Seating038TabletStand"><span>Tablet Stand<output data-price="398">+$398</output></span></li>
+                      <li class="optionItem" data-src="Seating038CupHolderTabletStand"><span>Cup Holder, Tablet Stand<output data-price="306">+$306</output></span></li>
+                    </ul>
+                  </div>
+                </div>
+              </li>
+              <li>
+                <h3>Cushion</h3>
+                <div class="selectBox detail">
+                  <div>
+                    <img src="images/footerArrowDown.png" alt="selectBoxArrowDown">
+                    <button class="label">No Cushion</button>
+                    <ul class="optionList">
+                      <li class="optionItem active" data-src="Seating038shell01"><span>No Cushion<output data-price="0"></output></span></li>
+                      <li class="optionItem" data-src="Seating038Cushion01"><span>Cushion<output data-price="107">+$107</output></span></li>
+                    </ul>
+                  </div>
+                </div>
+              </li>
+              <li class="colorCheck">
+                <h3>Color</h3>
+                <div class="selectBox detail">
+                  <div>
+                    <img src="images/footerArrowDown.png" alt="selectBoxArrowDown">
+                    <button class="label">Shell Color</button>
+                    <ul class="optionList">
+                      <li class="optionItem active" data-panelName="colorshell"><span>Shell Color<output data-price="0"></output></span></li>
+                      <li class="optionItem" data-panelName="colorbase"><span>Base Color<output data-price="0"></output></span></li>
+                      <li class="optionItem" data-panelName="colorworksurface"><span>Worksurface Color<output data-price="0"></output></span></li>
+                      <li class="optionItem" data-panelName="colorcushion"><span>Cushion Color<output data-price="0"></output></span></li>
+                    </ul>
+                  </div>
+                </div>
+                <div class="colorOption">
+                  <ul>
+                    <li class="colorshell active">
+                      <h3>Shell Color</h3>
+                      <ol> 
+                        <li>
+                          <button type="button" class="btn_colorOption active" data-src="Seating038shell01"><img src="images/shellBlack.png" alt="shell01"></button>
+                          <span>Black</span>
+                        </li>
+                        <li>
+                          <button type="button" class="btn_colorOption" data-src="Seating038shell02"><img src="images/shellChili.png" alt="shell02"></button>
+                          <span>Chili</span>
+                        </li>
+                        <li>
+                          <button type="button" class="btn_colorOption" data-src="Seating038shell03"><img src="images/shellWasabi.png" alt="shell03"></button>
+                          <span>Wasabi</span>
+                        </li>
+                        <li>
+                          <button type="button" class="btn_colorOption" data-src="Seating038shell04"><img src="images/shellJazzNavy.png" alt="shell04"></button>
+                          <span>Jazz (Navy)</span>
+                        </li>
+                        <li>
+                          <button type="button" class="btn_colorOption" data-src="Seating038shell05"><img src="images/shellSterlingDarkSolid.png" alt="shell05"></button>
+                          <span>Sterling Dark Solid</span>
+                        </li>
+                        <li>
+                          <button type="button" class="btn_colorOption" data-src="Seating038shell06"><img src="images/shellPlatinum.png" alt="shell06"></button>
+                          <span>Platinum</span>
+                        </li>
+                        <li>
+                          <button type="button" class="btn_colorOption" data-src="Seating038shell07"><img src="images/shellArcticWhite.png" alt="shell07"></button>
+                          <span>Arctic White</span>
+                        </li>
+                      </ol>
+                    </li>
+                    <li class="colorworksurface">
+                      <h3 class="worksurface">WorksurfaceColor</h3>
+                      <ol>
+                        <li>
+                          <button type="button" class="btn_colorOption" data-src="Seating038worksurface01"><img src="images/workfaceNearBlack.png" alt="worksurface01"></button>
+                          <span>Near Black</span>
+                        </li>
+                        <li>
+                          <button type="button" class="btn_colorOption" data-src="Seating038worksurface02"><img src="images/framePlatinumSolid.png" alt="worksurface02"></button>
+                          <span>Platinum Solid</span>
+                        </li>
+                        <li>
+                          <button type="button" class="btn_colorOption" data-src="Seating038worksurface03"><img src="images/frameBaseSeagull.png" alt="worksurface03"></button>
+                          <span>Seagull</span>
+                        </li>
+                      </ol>
+                    </li>
+                    <li class="colorcushion">
+                      <h3>Cushion Color</h3>
+                      <ol>
+                        <li>
+                          <button type="button" class="btn_colorOption" data-src="Seating038Cushion01"><img src="images/cushionTomato.png" alt="cushion01"></button>
+                          <span>Tomato</span></li>
+                        <li>
+                          <button type="button" class="btn_colorOption active" data-src="Seating038Cushion02"><img src="images/cushionRed.png" alt="cushion02"></button>
+                          <span>Red</span></li>
+                        <li>
+                          <button type="button" class="btn_colorOption" data-src="Seating038Cushion03"><img src="images/cushionBurgundy.png" alt="cushion03"></button>
+                          <span>Burgundy</span>
+                        </li>
+                        <li>
+                          <button type="button" class="btn_colorOption" data-src="Seating038Cushion04"><img src="images/cushionSky.png" alt="cushion04"></button>
+                          <span>Sky</span>
+                        </li>
+                        <li>
+                          <button type="button" class="btn_colorOption" data-src="Seating038Cushion05"><img src="images/cushionBlue.png" alt="cushion05"></button>
+                          <span>Blue</span>
+                        </li>
+                        <li>
+                          <button type="button" class="btn_colorOption" data-src="Seating038Cushion06"><img src="images/cushionNavy.png" alt="cushion06"></button>
+                          <span>Navy</span>
+                        </li>
+                        <li>
+                          <button type="button" class="btn_colorOption" data-src="Seating038Cushion07"><img src="images/cushionStone.png" alt="cushion07"></button>
+                          <span>Stone</span>
+                        </li>
+                        <li>
+                          <button type="button" class="btn_colorOption" data-src="Seating038Cushion08"><img src="images/cushionGrey.png" alt="cushion08"></button>
+                          <span>Grey</span>
+                        </li>
+                        <li>
+                          <button type="button" class="btn_colorOption" data-src="Seating038Cushion09"><img src="images/cushionBlack.png" alt="cushion09"></button>
+                          <span>Black</span>
+                        </li>
+                        <li>
+                          <button type="button" class="btn_colorOption" data-src="Seating038Cushion10"><img src="images/cushionDunegrass.png" alt="cushion10"></button>
+                          <span>Dunegrass</span>
+                        </li>
+                        <li>
+                          <button type="button" class="btn_colorOption" data-src="Seating038Cushion11"><img src="images/cushionSable.png" alt="cushion11"></button>
+                          <span>Sable</span>
+                        </li>
+                        <li>
+                          <button type="button" class="btn_colorOption" data-src="Seating038Cushion12"><img src="images/cushionPumpkin.png" alt="cushion12"></button>
+                          <span>Pumpkin</span>
+                        </li>
+                        <li>
+                          <button type="button" class="btn_colorOption" data-src="Seating038Cushion13"><img src="images/cushionRouge.png" alt="cushion13imgCushion13"></button>
+                          <span>Rouge</span>
+                        </li>
+                        <li>
+                          <button type="button" class="btn_colorOption" data-src="Seating038Cushion14"><img src="images/cushionMeadow.png" alt="cushion14"></button>
+                          <span>Meadow</span>
+                        </li>
+                        <li>
+                          <button type="button" class="btn_colorOption" data-src="Seating038Cushion15"><img src="images/cushionCyan.png" alt="cushion15"></button>
+                          <span>Cyan</span>
+                        </li>
+                        <li>
+                          <button type="button" class="btn_colorOption active" data-src="Seating038Cushion16"><img src="images/cushionAtlantic.png" alt="cushion16imgCushion16"></button>
+                          <span>Atlantic</span>
+                        </li>
+                        <li>
+                          <button type="button" class="btn_colorOption" data-src="Seating038Cushion17"><img src="images/cushionCrocus.png" alt="cushion17"></button>
+                          <span>Crocus</span>
+                        </li>
+                        <li>
+                          <button type="button" class="btn_colorOption" data-src="Seating038Cushion18"><img src="images/cushionAlpine.png" alt="cushion18"></button>
+                          <span>Alpine</span>
+                        </li>
+                        <li>
+                          <button type="button" class="btn_colorOption" data-src="Seating038Cushion19"><img src="images/cushionTornado.png" alt="cushion19"></button>
+                          <span>Tornado</span>
+                        </li>
+                      </ol>
+                    </li>
+                    <li class="colorbase">
+                      <h3>Base Color</h3>
+                      <ol>
+                        <li>
+                          <button type="button" class="btn_colorOption" data-src="Seating038base01"><img src="images/baseNearBlack.png" alt="base01"></button>
+                          <span>Near Black</span>
+                        </li>
+                        <li>
+                          <button type="button" class="btn_colorOption" data-src="Seating038base02"><img src="images/platinumSolid.png" alt="base02"></button>
+                          <span>Platinum</span>
+                        </li>
+                      </ol>
+                    </li>
+                  </ul>
+                </div>
+              </li>
+              <li>
+                <h3>
+                  <span>Wheels</span>
+                  <a><img src="images/detailInfoIcon.png" alt="info"></a>
+                  <div>
+                    <h4>Wheels</h4>
+                    <p>Wheels for Carpet Hard, roll-control casters for use on carpets.</p>
+                    <p>Wheels for Hard Floors Soft, roll-control casters for use on hard floors.</p>
+                  </div>
+                </h3>
+                <div class="selectBox detail">
+                  <div>
+                    <img src="images/footerArrowDown.png" alt="selectBoxArrowDown">
+                    <button class="label">Wheels for Carpet</button>
+                    <ul class="optionList">
+                      <li class="optionItem active" data-src="Seating038shell01"><span>Wheels for Hard Floors<output data-price="21">+$21</output></span></li>
+                      <li class="optionItem" data-src="Seating038shell01"><span>Wheels for Hard Floors <output data-price="35">+$35</output></span></li>
+                    </ul>
+                  </div>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="colorOption">
+          <div class="detailPrice">
+            <output data-price="376">$376</output>
+            <div>
+              <input type="button" class="decrease" value="-">
+              <span class="quantity">1</span>
+              <input type="button" class="increase" value="+">
+            </div>
+            <input type="button" class="btn_addCart" value="Add to Cart">
+          </div>
+          <div class="addMessageBox">
+            <span>Success!<br>Added To Cart</span>
+            <input type="button" value="Review Cart" class="btn_cart" data-panelName="cartHave">
+          </div>
+        </div>
+      </div>
+
+      <div class="two">
+        <div class="boxSilder02">
+          <div>
+            <ol class="detailSlider2">
+              <li><img src="images/detailSeating038image01.png" alt="decoimage01"></li>
+              <li><img src="images/detailSeating038image02.png" alt="decoimage02"></li>
+              <li><img src="images/detailSeating038image03.png" alt="decoimage03"></li>
+              <li><img src="images/detailSeating038image04.png" alt="decoimage04"></li>
+              <li><img src="images/detailSeating038image05.png" alt="decoimage05"></li>
+              <li><img src="images/detailSeating038image06.png" alt="decoimage06"></li>
+              <li><img src="images/detailSeating038image07.png" alt="decoimage07"></li>
+              <li><img src="images/detailSeating038image08.png" alt="decoimage08"></li>
+            </ol>
+          </div>
+        </div>
+      </div>
+
+
+      <div class="productTitle">
+        <div>
+          <h3>Product Details</h3>
+            <input type="button" value="Overview" class="btn_overview active" data-panelName="productoverview">
+            <input type="button" value="Details and Dimensions" class="btn_dimensions" data-panelName="productdimensions">
+            <input type="button" value="Assembly and User Guides" class="btn_assembly" data-panelName="productassembly">
+          </div>
+        </div>
+
+        <div class="productDetail">
+          <div>
+            <div class="productoverview active">
+              <div>
+                <p>  - The flexible seat keeps you comfortable in a variety of postures and swivels to keep sightlines open</p>
+                <p>  - 5-star base allows for height adjustability and ease of mobility</p>
+                <p>  - Open seat design offers easy access, while arms serve as backpack hooks</p>
+                <p>  - In high-density environments, people are often forced to move against the wall and Node mid-back supports active learning, while minimizing contact</p>
+                <p>  - Comfort without upholstery means easy maintenance</p>
+                <p>  - Optional personal worksurface accomodates both left and right handed users and swivels in tandem with seat and is adjustable for users of all sizes</p>
+                <p>  - Durable and tough enough to support up to 300 lbs.</p>
+                <a href="https://www.steelcase.com/content/uploads/2019/06/Steelcase_node-and-U-M_case_study.pdf">Node Education Brochure PDF</a>
+                <a href="https://www.youtube.com/watch?list=PL45F5E0911052CD63%3Frel%3D0&v=QiEXdAx4h54&feature=youtu.be">Newmark School Case Study</a>
+                <a href="https://www.youtube.com/watch?list=PL45F5E0911052CD63%3Frel%3D0&v=cbo1paLtYHk&feature=youtu.be">University Of Michigan Case Study</a>
+              </div>
+            </div>
+            <table class="productdimensions">
+              <tbody>
+                <tr>
+                  <th></th>
+                  <td>Chair</td>
+                  <td>Stool</td>
+                </tr>
+                <tr>
+                  <th>Overall Height</th>
+                  <td>32.625″ – 37.75″</td>
+                  <td>20.875″ – 48.25″</td>
+                </tr>
+                <tr>
+                  <th>Overall Depth</th>
+                  <td>24.75″</td>
+                  <td>24.75″</td>
+                </tr>
+                <tr>
+                  <th>Overall Width</th>
+                  <td>25.75″</td>
+                  <td>25.75″</td>
+                </tr>
+                <tr>
+                  <th>Seat Depth</th>
+                  <td>16.5″</td>
+                  <td>16.5″</td>
+                </tr>
+                <tr>
+                  <th>Seat Width</th>
+                  <td>19.5″</td>
+                  <td>19.5″</td>
+                </tr>
+                <tr>
+                  <th>Seat Height from Floor</th>
+                  <td>15.625″ – 20.75″</td>
+                  <td>23.625″ – 31.375″</td>
+                </tr>
+                <tr>
+                  <th>Ring Height from Floo</th>
+                  <td>N/A</td>
+                  <td>11.5″ – 15.5″</td>
+                </tr>
+                <tr>
+                  <th>Width Between Arms</th>
+                  <td>20.125″</td>
+                  <td>20.125″</td>
+                </tr>
+                <tr>
+                  <th>Shipping Box Dimensions</th>
+                  <td>27″ H x 28″ W x 28″ D</td>
+                  <td>27″ H x 28″ W x 28″ D</td>
+                </tr>
+              </tbody>
+            </table>
+            <div class="productassembly">
+              <span>Assembly Required.</span>
+              <p>Shipped in two simple parts (base and seat shell) that assemble in 30 seconds without tools, really.</p>
+              <a href="https://s3.amazonaws.com/steelcase.productdata.psl/PROD/AssemblyDirections/AD1773/Rev_A/Version_1/9f9139ab-6600-4336-88d3-e2d1b33bdf28/9548003.pdf">Node With A 5-Star Base Assembly Directions</a>
+            </div>
+          </div>
+          <div>
+            <div>
+              <h3>Related Products</h3>
+              <a href="listPage05_seating.html">View all High Performance Seating</a>
+            </div>
+            <ol>
+              <li>
+                <img src="images/detailRelated01Gesture.png" alt="related01">
+                <div>
+                  <a href="detailSeating009.html">Gesture - Ready to Ship</a>
+                  <span>$1399 - $1460</span>
+                </div>
+              </li>
+              <li>
+                <img src="images/detailRelated02Leap.png" alt="related02">
+                <div>
+                  <a href="detailSeating003.html">Leap</a>
+                  <span>$1006 - $2621</span>
+                </div>
+              </li>
+              <li>
+                <img src="images/detailRelated03Migration.png" alt="related03">
+                <div>
+                  <a href="detaildeskTables002.html">Migration SE Sit-to-Stand Desk</a>
+                  <span>$999 - $1215</span>
+                </div>
+              </li>
+              <li>
+                <img src="images/detailRelated04LateralFile.png" alt="related04">
+                <div>
+                  <a href="detailStorage018.html">West Elm Work Greenpoint Lateral File</a>
+                  <span>$2620</span>
+                </div>
+              </li>
+            </ol>
+          </div>
+        </div>
+      
+
+    </section>
+
+    <footer>
+      <ul>
+        <li>
+          <h2>Subscribe</h2>
+          <p>Sign up for exclusive offers, product releases and the latest news from Steelcase.</p>
+          <div>
+            <label for="userEmail">Email*</label>
+            <input type="email" id="userEmail" placeholder="Write Your E- mail">
+            <input type="submit" value="Sign Up">
+          </div>
+        </li>
+        <li class="footerContent">
+          <h2>Need Help?<img src="images/footerArrowDown.png" alt="footerContent"></h2>
+          <ol>
+            <li><a href="page_FAQs.html">FAQs</a></li>
+            <li><a href="page_FAQs01Shipping.html">Shipping + Delivery</a></li>
+            <li><a href="page_FAQs02Orders.html">Orders</a></li>
+            <li><a href="page_FAQs03Return.html">Returns</a></li>
+            <li><a href="page_FAQs05warranty.html">Warranty</a></li>
+            <li><a href="page_FAQs06payment.html">Payment + Financing</a></li>
+          </ol>
+        </li>
+        <li class="footerContent">
+          <h2>Contact<img src="images/footerArrowDown.png" alt="footerContent"></h2>
+          <ol>
+            <li><a href="page_contactUs.html">Online Support</a></li>
+            <li><a href="tel:+18005163454">1.800.516.3454</a></li>
+            <li><span>Monday - Friday</span></li>
+            <li><span>9AM - 6PM EST</span></li>
+          </ol>
+        </li>
+        <li class="footerContent">
+          <h2>Steelcase<img src="images/footerArrowDown.png" alt="footerContent"></h2>
+          <ol>
+            <li><a href="page_About.html">About</a></li>
+            <li><a href="page_sustainability.html">Sustainability</a></li>
+            <li><a href="page_privacyPolicy.html">Privacy Policy</a></li>
+            <li><a href="page_TermsOfUse.html">Terms of Use</a></li>
+            <li><a href="page_trademarks.html">Trademarks</a></li>
+            <li><a href="page_accessibilityStatement.html">Accessibility Statement</a></li>
+          </ol>
+        </li>
+        <li>
+          <h2>Follow Us</h2>
+          <ol>
+            <li><a href="https://www.instagram.com/steelcase/">instagram</a></li>
+            <li><a href="https://www.linkedin.com/company/steelcase">linkedin</a></li>
+            <li><a href="https://www.facebook.com/Steelcase">facebook</a></li>
+            <li><a href="https://twitter.com/Steelcase">twitter</a></li>
+            <li><a href="https://www.youtube.com/user/STEELCASETV">youtube</a></li>
+            <li><a href="https://www.pinterest.co.kr/steelcase/">pinterst</a></li>
+          </ol>
+        </li>
+      </ul>
+      <p>© 2024 Steelcase Inc.</p>
+    </footer>
+    
+  </body>
+</html>

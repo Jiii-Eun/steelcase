@@ -1,0 +1,418 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SteelcaseStore</title>
+    <script src="https://code.jquery.com/jquery-3.7.1.js"></script>
+    <script src="https://code.jquery.com/ui/1.13.2/jquery-ui.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bxslider/4.2.15/jquery.bxslider.min.js"></script>
+    <script src="js/steel.js"></script>
+    <link rel="shortcut icon" href="images/favicon.png" type="image/x-icon">
+    <link rel="stylesheet" href="css/import.css">
+  </head>
+  <body>
+    <div id="menuOpen" class="panel menuOpen">
+      <input type="button" value="close" class="material-symbols-outlined" data-panelName="menuOpen">
+      <h2><a href="index.html"></a>
+        <img src="images/panelLogo.png" alt="steelcase">
+      </h2>
+      <div>
+        <nav>
+          <ul class="mainCatecories">
+            <li class="btn_seating"><input type="button" value="Seating" data-panelName="detail_seating"></li>
+            <li class="btn_deskTables"><input type="button" value="Desks + Tables"  data-panelName="detail_deskTables"></li>
+            <li class="btn_storage"><input type="button" value="Storage"  data-panelName="detail_storage"></li>
+            <li class="btn_accessories"><input type="button" value="Accessories"  data-panelName="detail_accessories"></li>
+            <li><a href="page_Gaming.html">Gaming</a></li>
+            <li class="btn_resources"><input type="button" value="Resources" data-panelName="detail_resources"></li>
+            <li class="btn_brands"><input type="button" value="Brands" data-panelName="detail_brands"></li>
+          </ul>
+        </nav>
+        <div>
+          <ul>
+            <li class="detail_seating">
+              <ol>
+                <li class="backMenu" data-panelName="detail_seating"><img src="images/panelLeftarrow.png" alt="leftArrow"><span>categories</span></li>
+                <li><a href="listPage01_seating.html">All Seating</a></li>
+                <li><a href="listPage05_seating.html">High Performance Seating</a></li>
+                <li><a href="listPage06_seating.html">Office Chairs</a></li>
+                <li><a href="listPage07_seating.html">Side + Guest Chairs</a></li>
+                <li><a href="listPage08_seating.html">Lounge Chairs</a></li>
+                <li><a href="listPage09_seating.html">Conference Chairs</a></li>
+                <li><a href="listPage10_seating.html">Benches + Ottomans</a></li>
+                <li><a href="listPage11_seating.html">Stools</a></li>
+                <li><a href="listPage12_seating.html">Outdoor Chairs</a></li>
+                <li><a href="listPage13_seating.html">Seating Service Parts</a></li>
+              </ol>
+            </li>
+            <li class="detail_deskTables">
+              <ol>
+                <li class="backMenu" data-panelName="detail_deskTables"><img src="images/panelLeftarrow.png" alt="leftArrow"><span>categories</span></li>
+                <li><a href="listPage01_deskTables.html">All Desks + Tables</a></li>
+                <li><a href="listPage04_deskTables.html">Desks + Tables</a></li>
+                <li><a href="listPage05_deskTables.html">Sit-to-Stand Desks</a></li>
+                <li><a href="listPage06_deskTables.html">Occasional Tables</a></li>
+                <li><a href="listPage07_deskTables.html">Conference + Classroom Tables</a></li>
+                <li><a href="listPage08_deskTables.html">Outdoor Tables</a></li>
+                <li><a href="listPage09_deskTables.html">Desks + Tables Service Parts</a></li>
+              </ol>
+            </li>
+            <li class="detail_storage">
+              <ol>
+                <li class="backMenu" data-panelName="detail_storage"><img src="images/panelLeftarrow.png" alt="leftArrow"><span>categories</span></li>
+                <li><a href="listPage01_storage.html">All Storage</a></li>
+                <li><a href="listPage02_storage.html">pedestals</a></li>
+                <li><a href="listPage03_storage.html">Bookcases + Cabinets + Credenzas</a></li>
+                <li><a href="listPage04_storage.html">Storage Service Parts</a></li>
+              </ol>
+            </li>
+            <li class="detail_accessories">
+              <ol>
+                <li class="backMenu" data-panelName="detail_accessories"><img src="images/panelLeftarrow.png" alt="leftArrow"><span>categories</span></li>
+                <li><a href="listPage01_accessories.html">All Accessories</a></li>
+                <li><a href="listPage03_accessories.html">Lighting</a></li>
+                <li><a href="listPage04_accessories.html">Organization Tools</a></li>
+                <li><a href="listPage05_accessories.html">Computer Support</a></li>
+                <li><a href="listPage06_accessories.html">Power + Cable Management</a></li>
+                <li><a href="listPage07_accessories.html">Whiteboards</a></li>
+                <li><a href="listPage08_accessories.html">Space Division</a></li>
+                <li><a href="listPage09_accessories.html">Bivi Accessories</a></li>
+              </ol>
+            </li>
+            <li class="detail_resources">
+              <ol>
+                <li class="backMenu" data-panelName="detail_resources"><img src="images/panelLeftarrow.png" alt="leftArrow"><span>Resources</span></li>
+                <li><a href="page_adjust.html">How to Adjust Your Chair</a></li>
+                <li><a href="page_quiz01.html">Take Our Chair Quiz</a></li>
+                <li><a href="page_sustainability.html">Sustainability</a></li>
+                <li><a href="page_FAQs.html">FAQs</a></li>
+                <li><a href="page_FAQs05warranty.html">Steelcase Warranty</a></li>
+                <li><a href="page_freeDesignService.html">Free Design Services</a></li>
+                <li><a href="page_madeFor.html">Made-for-Life Materials</a></li>
+                <li><a href="page_orderFreeFabricSwatches.html">Order Free Fabric Swatches</a></li>
+              </ol>
+            </li>
+            <li class="detail_brands">
+              <ol>
+                <li class="backMenu" data-panelName="detail_brands"><img src="images/panelLeftarrow.png" alt="leftArrow"><span>Brands</span></li>
+                <li><a href="listPage_brands01.html">AMQ</a></li>
+                <li><a href="listPage_brands02.html">Bolia</a></li>
+                <li><a href="listPage_brands03.html">Coalesse</a></li>
+                <li><a href="listPage_brands04.html">m.a.d.</a></li>
+                <li><a href="listPage_brands05.html">Mattiazzi</a></li>
+                <li><a href="listPage_brands06.html">West Elm Work</a></li>
+              </ol>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div id="searchOpen" class="panel searchOpen">
+      <input type="button" value="close" class="material-symbols-outlined" data-panelName="searchOpen">
+      <div class="rightwidth">
+        <h2>Search product</h2>
+        <div>
+          <input type="search" id="productsearch" placeholder="Search by name">
+        </div>
+        <input type="submit" value="SEARCH" data-panelName="searchOpen">
+      </div>
+    </div>
+    <div id="cartHave" class="panel cartHave">
+      <input type="button" value="close" class="material-symbols-outlined" data-panelName="cartHave">
+      <div>
+        <h2>Added To Cart</h2>
+        <ul>
+            <li>
+              <img src="images/listSeating002.png" alt="item01">
+              <div>
+                <span>Steelcase</span>
+                <input type="button" value="delete" class="material-symbols-outlined" data-panelName="cartEmpty">
+                <a href="detailSeating002.html">Steelcase Series 1</a>
+              </div>
+              <div>
+                <div>
+                  <input type="button" class="decrease" value="-">
+                  <span class="quantity">1</span>
+                  <input type="button" class="increase" value="+">
+                </div>                
+                <output data-price="493">$493</output>
+              </div>
+            </li>
+            <!-- <li>
+                <div>
+                  <span>Steelcase</span>
+                  <a href="#">alo</a>
+                  <input type="button" value="delete" class="material-symbols-outlined" data-panelName="cartEmpty">
+                </div>
+                <div>
+                  <div>
+                    <input type="button" class="decrease" value="-">
+                    <span class="quantity">1</span>
+                    <input type="button" class="increase" value="+">
+                </div>                
+                <output data-price="3553">3,553</output>
+              </div>
+            </li> -->
+        </ul>
+        <div>
+          <div>
+            <span>TOTAL</span>
+            <output class="totalOutput">1,371</output>
+          </div>
+          <a href="shippingPage.html">Review Cart</a>
+        </div>
+      </div>
+    </div>
+    <div id="cartEmpty" class="panel cartEmpty">
+        <input type="button" value="close" class="material-symbols-outlined" data-panelName="cartEmpty">
+        <div>
+          <h2>Your shopping cart is empty.</h2>
+          <input type="button" id="continue" value="Continue Shopping" data-panelName="cartEmpty">
+        </div>
+    </div>
+    <header>
+      <h1><a href="index.html">
+        <img src="images/headerLogo.png" alt="welcome steelcase"></a></h1>
+      <ul>
+        <li><input type="button" value="search" class="material-symbols-outlined btn_search" data-panelName="searchOpen"></li>
+        <li><input type="button" value="menu" class="material-symbols-outlined btn_menu" data-panelName="menuOpen"></li>
+        <li>
+          <a href="loginPage.html" id="loginLink"><input type="button" value="login" class="material-symbols-outlined login"></a>
+          <div id="myPageOption">
+            <ol>
+              <li><a href="myAccountPage.html" id="myAccount"><input type="button" value="account_circle" class="material-symbols-outlined account">My Account</a></li>
+              <li><a href="loginPage.html" id="logoutLink"><input type="button" value="logout" class="material-symbols-outlined logout">Logout</a></li>
+            </ol>
+          </div>
+        </li>
+        <li><input type="button" value="shopping_cart" class="material-symbols-outlined btn_cart" data-panelName="cartHave"></li>
+        <li id="selectBox">
+          <select id="language">
+            <option value="english">EN</option>
+            <option value="french">FR</option>
+            <option value="german">DE</option>
+            <option value="japan">JP</option>
+            <option value="zh-cn">ZH-CN</option>
+            <option value="zh-tw">ZH-TW</option>
+            <option value="Spanish">ES</option>
+            <option value="Romania">RO</option>
+          </select>
+        </li>
+      </ul>
+    </header>
+    
+    <section class="footerContainer">
+      <div>
+        <div>
+          <div class="buttonAction">
+            <div class="productTitle">
+              <h2>Terms of Use</h2>
+            </div>
+
+            <div class="productDetail">
+              <div>
+                <ul class="active">
+                  <li>
+                    <span>ACCEPTANCE OF THE TERMS OF USE</span>
+                    <p>PLEASE READ THE FOLLOWING TERMS OF USE CAREFULLY BEFORE USING THIS WEBSITE. This website is published and maintained by Steelcase Inc. (“Company”, “we” or “us”). The following terms and conditions of use (these “Terms of Use”) govern your access to and use of store.steelcase.com, including any content, functionality and services offered on or through store.steelcase.com (the “Website”).</p>
+                  </li>
+                  <li>
+                    <p>BY ACCESSING OR USING THE WEBSITE, YOU ACCEPT AND AGREE TO BE BOUND AND ABIDE BY THESE TERMS OF USE, AND YOU AFFIRM THAT YOU ARE EITHER 18 YEARS OF AGE, OR POSSESS LEGAL PARENTAL OR GUARDIAN CONSENT, AND THAT YOU ARE FULLY COMPETENT TO ENTER INTO THESE TERMS OF USE.If you do not want to agree to these Terms of Use, you must not access or use the Website.</p>
+                  </li>
+                  <li>
+                    <span>CHANGES TO THE TERMS OF USE</span>
+                    <p>We may revise and update these Terms of Use from time to time in our sole discretion. All changes are effective immediately upon notice to you when we post them, and apply to all access to and use of the Website thereafter. Your continued use of the Website following the posting of revised Terms of Use means that you accept and agree to the changes. You are expected to check this page frequently so you are aware of any changes.</p>
+                  </li>
+                  <li>
+                    <span>ACCESSING THE WEBSITE AND ACCOUNT SECURITY</span>
+                    <p>We reserve the right to withdraw or amend this Website, and any service or material we provide on the Website, in our sole discretion without notice. This may include removing out of date content and correcting technical inaccuracies or typographical errors. We will not be liable if for any reason all or any part of the Website is unavailable at any time or for any period. From time to time, we may restrict access to some parts of the Website or the entire Website.</p>
+                  </li>
+                  <li>
+                    <p>You are responsible for making all arrangements necessary for you to have access to the Website, and for ensuring that all persons who access the Website through your internet connection are aware of these Terms of Use and comply with them.</p>
+                  </li>
+                  <li>
+                    <p>To access the Website or some of the resources it offers, you may be asked to provide certain registration details or other information. It is a condition of your use of the Website that all the information you provide on the Website is correct, current and complete. You agree that all information you provide to register with this Website or otherwise, including but not limited to through the use of any interactive features on the Website, is governed by our Privacy Policy, and you consent to all actions we take with respect to your information consistent with our Privacy Policy.</p>
+                  </li>
+                  <li>
+                    <p>If you choose, or are provided with, a user name, password or any other piece of information as part of our security procedures, you must treat such information as confidential, and you must not disclose it to any other person or entity. You also acknowledge that your account is personal to you and agree not to provide any other person with access to this Website or portions of it using your user name, password or other security information. You agree to notify us immediately of any unauthorized access to or use of your username or password or any other breach of security. You also agree to ensure that you exit from your account at the end of each session. You should use special caution when accessing your account from a public or shared computer so that others are not able to view or record your password or other personal information.</p>
+                  </li>
+                  <li>
+                    <p>We have the right to disable any user name, password or other identifier, whether chosen by you or provided by us, at any time if, in our opinion, you have violated any provision of these Terms of Use.</p>
+                  </li>
+                  <li>
+                    <span>OWNERSHIP RIGHTS</span>
+                    <p>The Website and its entire contents, features and functionality (including but not limited to all information, software, text, displays, images, video and audio, and the design, selection and arrangement thereof), are owned by the Company, its licensors or other providers of such material and are protected by United States and international copyright, trademark, patent, trade secret and other intellectual property or proprietary rights laws.  View a list of Steelcase patents.</p>
+                  </li>
+                  <li>
+                    <span>USING THE WEBSITE</span>
+                    <p>These Terms of Use permit you to use the Website for your personal, non-commercial use only. You must not reproduce, distribute, modify, create derivative works of, publicly display, publicly perform, republish, download, store or transmit any of the material on our Website, except as follows: (a) you may temporarily store copies of such materials in RAM incidental to your accessing and viewing those materials; (b) you may store files that are automatically cached by your Web browser for display enhancement purposes; and (c) you may print or download one copy of a reasonable number of pages of the Website for your own personal, non-commercial use and not for further reproduction, publication or distribution. You must not modify copies of any materials from the Website, delete or alter any copyright, trademark or other proprietary rights notices from copies of materials from the Website, or access or use for any commercial purpose any part of the Website or any services or materials available through the Website.</p>
+                  </li>
+                  <li>
+                    <p>If you print, copy, modify, download or otherwise use or provide any other person with access to any part of the Website in breach of the Terms of Use, your right to use the Website will cease immediately and you must, at our option, return or destroy any copies of the materials you have made. No right, title or interest in or to the Website or any content on the Website is transferred to you by implication, estoppel, or otherwise, and all rights not expressly granted are reserved by the Company. Any use of the Website not expressly permitted by these Terms of Use is a breach of these Terms of Use and may violate copyright, trademark and other applicable laws.</p>
+                  </li>
+                  <li>
+                    <span>PROHIBITED USES</span>
+                    <p>You may use the Website only for lawful purposes and in accordance with these Terms of Use. It is an express condition of your access to and use of the Website that you agree not to use the Website: (a) in any way that violates any applicable federal, state, local, or international law or regulation; (b) to send, knowingly receive, upload, download, use or re-use any material which does not comply with the Content Standards set out in these Terms of Use; (c) to engage in any conduct that in any way could disable, overburden, damage, disrupt, impair or interfere with the proper working of the Website, or that restricts, inhibits or impacts any other user from using or enjoying the Website; or (d) in any way that violates the privacy rights of other users of the Website.</p>
+                  </li>
+                  <li>
+                    <span>TRADEMARKS</span>
+                    <p>The Company name and all related names, logos, product and service names, designs and slogans are trademarks of the Company or its affiliates or licensors. You must not use such marks without the prior written permission of the Company. All other names, logos, product and service names, designs and slogans on this Website are the trademarks of their respective owners.</p>
+                  </li>
+                  <li>
+                    <span>COPYRIGHT INFRINGEMENT</span>
+                    <p>We take claims of copyright infringement seriously. We will respond to notices of alleged copyright infringement that comply with applicable law. If you believe any content or other materials accessible on this Website infringe your copyright, you may request their removal (or access to them) by submitting written notification to us at copyrights@steelcase.com. Please include the following in your written notice:</p>
+                    <div>
+                      <p>  - Your physical or electronic signature</p>
+                    </div>
+                    <div>
+                      <p>  - Identification of the copyrighted work you believe to have been infringed or, if the claim involves multiple works on the Website, a representative list of such works</p>
+                    </div>
+                    <p>Identification of the material you believe to be infringing in a sufficiently precise manner to allow us to locate that material</p>
+                    <div>
+                      <p>  - Adequate information by which we can contact you (including your name, postal address, telephone number and, if available, e-mail address)</p>
+                    </div>
+                    <div>
+                      <p>  - A statement that you have a good faith belief that use of the copyrighted material is not authorized by the copyright owner, its agent or the law</p>
+                    </div>
+                    <div>
+                      <p>  - A statement that the information in the written notice is accurate; and</p>
+                    </div>
+                    <div>
+                      <p>  - A statement, under penalty of perjury, that you are authorized to act on behalf of the copyright owner.</p>
+                    </div>
+                  </li>
+                  <li>
+                    <span>USER SUBMISSIONS</span>
+                    <p>Other than personally identifiable information, which is addressed under our Privacy Policy, any information, ideas, comments, suggestions or other feedback you submit to us (collectively, “Submissions”) shall become our exclusive property and shall be treated as non-confidential and non-proprietary. We have the right to use, reproduce, modify, perform, display, license, publish, distribute and otherwise disclose to third parties any Submissions at any time, in any medium, without notice or compensation to you. However, we are under no obligation to use such Submissions, and you hereby waive any right to compel such use.</p>
+                  </li>
+                  <li>
+                    <span>ONLINE PURCHASES AND OTHER TERMS AND CONDITIONS</span>
+                    <p>All purchases through our Website or other transactions for the sale of goods or services formed through the Website or as a result of visits made by you are governed by our Terms of Sale [INSERT AS LINK TO TERMS OF SALE], which are hereby incorporated into these Terms of Use.</p>
+                  </li>
+                  <li>
+                    <span>LINKING TO THE WEBSITE</span>
+                    <p>You may link to our homepage, provided you do so in a way that is fair and legal and does not damage our reputation or take advantage of it, but you must not establish a link in such a way as to suggest any form of association, approval or endorsement on our part. Subject to the foregoing, you must not: (a) establish a link from any website that is not owned by you; (b) cause the Website or portions of it to be displayed, or appear to be displayed by, for example, framing, deep linking or in-line linking, on any other site; (c) link to any part of the Website other than the homepage; or (d) otherwise take any action with respect to the materials on this Website that is inconsistent with any other provision of these Terms of Use.</p>
+                  </li>
+                  <li>
+                    <p>You agree to cooperate with us in causing any unauthorized framing or linking immediately to cease. We reserve the right to withdraw linking permission without notice. We may disable all or any links at any time without notice in our discretion.</p>
+                  </li>
+                  <li>
+                    <span>LINKS FROM THE WEBSITE</span>
+                    <p>If the Website contains links to other sites and resources provided by third parties, these links are provided for your convenience only. This includes links contained in advertisements, including banner advertisements and sponsored links. We have no control over the contents of those sites or resources, and accept no responsibility for them or for any loss or damage that may arise from your use of them. If you decide to access any of the third party websites linked to this Website, you do so entirely at your own risk and subject to the terms and conditions of use for such websites.</p>
+                  </li>
+                  <li>
+                    <span>GEOGRAPHIC RESTRICTIONS</span>
+                    <p>We administer the Website from the State of Michigan in the United States of America. We provide this Website for use only by persons located in the United States and Canada. We make no claims that the Website or any of its content is accessible or appropriate outside of the United States and Canada. If you access the Website from outside the United States and Canada, you do so on your own initiative and are responsible for compliance with local laws.</p>
+                  </li>
+                  <li>
+                    <span>WARRANTY DISCLAIMER</span>
+                    <p>TO THE FULLEST EXTENT PERMITTED BY LAW, THE WEBSITE, ITS CONTENT AND ANY SERVICES OBTAINED THROUGH THE WEBSITE ARE PROVIDED “AS IS” AND “AS AVAILABLE” AND WITHOUT WARRANTIES OF ANY KIND. TO THE FULLEST EXTENT PERMISSIBLE UNDER APPLICABLE LAW, WE SPECIFICALLY DISCLAIM ALL WARRANTIES, EXPRESS OR IMPLIED, INCLUDING WITHOUT LIMITATION THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE, AND NONINFRINGEMENT. WE MAKE NO REPRESENTATION OR WARRANTY WHATSOEVER REGARDING THE COMPLETENESS, SECURITY, ACCURACY, RELIABILITY, QUALITY, AVAILABILITY OR OPERATION OF THE WEBSITE OR THE CONTENT OR SERVICES OBTAINED THROUGH THE WEBSITE. WE DO NOT WARRANT THAT THE OPERATION OF THE WEBSITE WILL BE UNINTERRUPTED OR ERROR-FREE, THAT DEFECTS WILL BE CORRECTED, OR THAT THE WEBSITE OR THE SERVER THAT MAKES IT AVAILABLE ARE FREE OF VIRUSES OR OTHER HARMFUL COMPONENTS OR THAT IT WILL FUNCTION OR OPERATE IN CONJUNCTION WITH ANY OTHER PRODUCT OR SOFTWARE AND OTHERWISE MEET YOUR NEEDS OR EXPECTATIONS</p>
+                  </li>
+                  <li>
+                    <span>LIMITATION OF LIABILITY</span>
+                    <p>TO THE FULLEST EXTENT PERMITTED BY LAW, IN NO EVENT WILL THE COMPANY, ITS AFFILIATES OR THEIR LICENSORS, SERVICE PROVIDERS, EMPLOYEES, AGENTS, OFFICERS OR DIRECTORS BE LIABLE FOR DAMAGES OF ANY KIND, UNDER ANY LEGAL THEORY, ARISING OUT OF OR IN CONNECTION WITH YOUR USE, OR INABILITY TO USE, THE WEBSITE, ANY WEBSITES LINKED TO IT, ANY CONTENT ON THE WEBSITE OR SUCH OTHER WEBSITES, OR ANY SERVICES OBTAINED THROUGH THE WEBSITE OR SUCH OTHER WEBSITES, INCLUDING ANY DIRECT, INDIRECT, SPECIAL, INCIDENTAL, CONSEQUENTIAL OR PUNITIVE DAMAGES, INCLUDING BUT NOT LIMITED TO, LOSS OF REVENUE, LOSS OF PROFITS, LOSS OF BUSINESS OR ANTICIPATED SAVINGS, LOSS OF USE, LOSS OF GOODWILL, LOSS OF DATA, AND WHETHER CAUSED BY TORT (INCLUDING NEGLIGENCE), BREACH OF CONTRACT OR OTHERWISE, EVEN IF FORESEEABLE.</p>
+                  </li>
+                  <li>
+                    <span>USER RESPONSIBILITY</span>
+                    <p>To the extent permitted under applicable law, you agree to defend, indemnify and hold harmless the Company, its affiliates, licensors and service providers, and its and their respective officers, directors, employees, agents, successors and assigns from and against any claims, liabilities, damages, judgments, awards, losses, costs, expenses or fees (including reasonable attorneys’ fees) arising out of or relating to your violation of these Terms of Use or your use of the Website other than as expressly authorized in these Terms of Use, or your use of any information obtained from the Website.</p>
+                  </li>
+                  <li>
+                    <span>GOVERNING LAW AND JURISDICTION</span>
+                    <p>All matters relating to the Website and these Terms of Use and any dispute or claim arising therefrom or related thereto (in each case, including non-contractual disputes or claims), shall be governed by and construed in accordance with the internal laws of the State of Michigan without giving effect to any choice or conflict of law provision or rule (whether of the State of Michigan or any other jurisdiction).</p>
+                  </li>
+                  <li>
+                    <p>Any legal suit, action or proceeding arising out of, or related to, these Terms of Use or the Website shall be instituted exclusively in the federal courts of the United States or the courts of the State of Michigan in each case located in Kent County, Michigan; although we retain the right to bring any suit, action or proceeding against you for breach of these Terms of Use in your state or country of residence or any other relevant state or country if different from the State of Michigan and the United States. You waive any and all objections to the exercise of jurisdiction over you by such courts and to venue in such courts.</p>
+                  </li>
+                  <li>
+                    <span>WAIVER AND SEVERABILITY</span>
+                    <p>No waiver by the Company of any term or condition set forth in these Terms of Use shall be deemed a further or continuing waiver of such term or condition or a waiver of any other term or condition, and any failure of the Company to assert a right or provision under these Terms of Use shall not constitute a waiver of such right or provision.</p>
+                  </li>
+                  <li>
+                    <p>If any provision of these Terms of Use is held by a court or other tribunal of competent jurisdiction to be invalid, illegal or unenforceable for any reason, such provision shall be eliminated or limited to the minimum extent such that the remaining provisions of the Terms of Use will continue in full force and effect.</p>
+                  </li>
+                  <li>
+                    <span>ENTIRE AGREEMENT</span>
+                    <p>These Terms of Use, along with the Terms of Sale and our Privacy Policy, constitute the sole and entire agreement between you and the Company with respect to the Website and supersede all prior and contemporaneous understandings, agreements, representations and warranties, both written and oral, with respect to the Website.</p>
+                  </li>
+                  <li>
+                    <span>YOUR COMMENTS AND CONCERNS</span>
+                    <p>This website is operated by Steelcase Inc., a Michigan corporation, with a registered mailing address at 901 44th Street SE, Grand Rapids, Michigan 49508.</p>
+                  </li>
+                  <li>
+                    <p>To ask questions or comment about this Website, contact us using our “Contact Us” form, or via our toll-free number: 800.516.3454, or send an email to customercare@steelcase.com.</p>
+                  </li>
+                  <li>
+                    <p>Under California Civil Code Section 1789.3, California users of the Website receive the following consumer rights notice: The Complaint Assistance Unit of the Division of Consumer Services of the California Department of Consumer Affairs may be contacted in writing at 1625 North Market Boulevard, Suite N 112, Sacramento, CA 95834, or by telephone at 916.445.1254 or 800.952.5210.</p>
+                  </li>
+                  <li>
+                    <p>Copyright © 2007 – 2018 Steelcase Inc.  All rights reserved.</p>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </section>
+
+    <footer>
+      <ul>
+        <li>
+          <h2>Subscribe</h2>
+          <p>Sign up for exclusive offers, product releases and the latest news from Steelcase.</p>
+          <div>
+            <label for="userEmail">Email*</label>
+            <input type="email" id="userEmail" placeholder="Write Your E- mail">
+            <input type="submit" value="Sign Up">
+          </div>
+        </li>
+        <li class="footerContent">
+          <h2>Need Help?<img src="images/footerArrowDown.png" alt="footerContent"></h2>
+          <ol>
+            <li><a href="page_FAQs.html">FAQs</a></li>
+            <li><a href="page_FAQs01Shipping.html">Shipping + Delivery</a></li>
+            <li><a href="page_FAQs02Orders.html">Orders</a></li>
+            <li><a href="page_FAQs03Return.html">Returns</a></li>
+            <li><a href="page_FAQs05warranty.html">Warranty</a></li>
+            <li><a href="page_FAQs06payment.html">Payment + Financing</a></li>
+          </ol>
+        </li>
+        <li class="footerContent">
+          <h2>Contact<img src="images/footerArrowDown.png" alt="footerContent"></h2>
+          <ol>
+            <li><a href="page_contactUs.html">Online Support</a></li>
+            <li><a href="tel:+18005163454">1.800.516.3454</a></li>
+            <li><span>Monday - Friday</span></li>
+            <li><span>9AM - 6PM EST</span></li>
+          </ol>
+        </li>
+        <li class="footerContent">
+          <h2>Steelcase<img src="images/footerArrowDown.png" alt="footerContent"></h2>
+          <ol>
+            <li><a href="page_About.html">About</a></li>
+            <li><a href="page_sustainability.html">Sustainability</a></li>
+            <li><a href="page_privacyPolicy.html">Privacy Policy</a></li>
+            <li><a href="page_TermsOfUse.html">Terms of Use</a></li>
+            <li><a href="page_trademarks.html">Trademarks</a></li>
+            <li><a href="page_accessibilityStatement.html">Accessibility Statement</a></li>
+          </ol>
+        </li>
+        <li>
+          <h2>Follow Us</h2>
+          <ol>
+            <li><a href="https://www.instagram.com/steelcase/">instagram</a></li>
+            <li><a href="https://www.linkedin.com/company/steelcase">linkedin</a></li>
+            <li><a href="https://www.facebook.com/Steelcase">facebook</a></li>
+            <li><a href="https://twitter.com/Steelcase">twitter</a></li>
+            <li><a href="https://www.youtube.com/user/STEELCASETV">youtube</a></li>
+            <li><a href="https://www.pinterest.co.kr/steelcase/">pinterst</a></li>
+          </ol>
+        </li>
+      </ul>
+      <p>© 2024 Steelcase Inc.</p>
+    </footer>
+    
+  </body>
+</html>

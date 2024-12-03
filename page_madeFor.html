@@ -1,0 +1,556 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SteelcaseStore</title>
+    <script src="https://code.jquery.com/jquery-3.7.1.js"></script>
+    <script src="https://code.jquery.com/ui/1.13.2/jquery-ui.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bxslider/4.2.15/jquery.bxslider.min.js"></script>
+    <script src="js/steel.js"></script>
+    <link rel="shortcut icon" href="images/favicon.png" type="image/x-icon">
+    <link rel="stylesheet" href="css/import.css">
+  </head>
+  <body>
+    <div id="menuOpen" class="panel menuOpen">
+      <input type="button" value="close" class="material-symbols-outlined" data-panelName="menuOpen">
+      <h2><a href="index.html"></a>
+        <img src="images/panelLogo.png" alt="steelcase">
+      </h2>
+      <div>
+        <nav>
+          <ul class="mainCatecories">
+            <li class="btn_seating"><input type="button" value="Seating" data-panelName="detail_seating"></li>
+            <li class="btn_deskTables"><input type="button" value="Desks + Tables"  data-panelName="detail_deskTables"></li>
+            <li class="btn_storage"><input type="button" value="Storage"  data-panelName="detail_storage"></li>
+            <li class="btn_accessories"><input type="button" value="Accessories"  data-panelName="detail_accessories"></li>
+            <li><a href="page_Gaming.html">Gaming</a></li>
+            <li class="btn_resources"><input type="button" value="Resources" data-panelName="detail_resources"></li>
+            <li class="btn_brands"><input type="button" value="Brands" data-panelName="detail_brands"></li>
+          </ul>
+        </nav>
+        <div>
+          <ul>
+            <li class="detail_seating">
+              <ol>
+                <li class="backMenu" data-panelName="detail_seating"><img src="images/panelLeftarrow.png" alt="leftArrow"><span>categories</span></li>
+                <li><a href="listPage01_seating.html">All Seating</a></li>
+                <li><a href="listPage05_seating.html">High Performance Seating</a></li>
+                <li><a href="listPage06_seating.html">Office Chairs</a></li>
+                <li><a href="listPage07_seating.html">Side + Guest Chairs</a></li>
+                <li><a href="listPage08_seating.html">Lounge Chairs</a></li>
+                <li><a href="listPage09_seating.html">Conference Chairs</a></li>
+                <li><a href="listPage10_seating.html">Benches + Ottomans</a></li>
+                <li><a href="listPage11_seating.html">Stools</a></li>
+                <li><a href="listPage12_seating.html">Outdoor Chairs</a></li>
+                <li><a href="listPage13_seating.html">Seating Service Parts</a></li>
+              </ol>
+            </li>
+            <li class="detail_deskTables">
+              <ol>
+                <li class="backMenu" data-panelName="detail_deskTables"><img src="images/panelLeftarrow.png" alt="leftArrow"><span>categories</span></li>
+                <li><a href="listPage01_deskTables.html">All Desks + Tables</a></li>
+                <li><a href="listPage04_deskTables.html">Desks + Tables</a></li>
+                <li><a href="listPage05_deskTables.html">Sit-to-Stand Desks</a></li>
+                <li><a href="listPage06_deskTables.html">Occasional Tables</a></li>
+                <li><a href="listPage07_deskTables.html">Conference + Classroom Tables</a></li>
+                <li><a href="listPage08_deskTables.html">Outdoor Tables</a></li>
+                <li><a href="listPage09_deskTables.html">Desks + Tables Service Parts</a></li>
+              </ol>
+            </li>
+            <li class="detail_storage">
+              <ol>
+                <li class="backMenu" data-panelName="detail_storage"><img src="images/panelLeftarrow.png" alt="leftArrow"><span>categories</span></li>
+                <li><a href="listPage01_storage.html">All Storage</a></li>
+                <li><a href="listPage02_storage.html">pedestals</a></li>
+                <li><a href="listPage03_storage.html">Bookcases + Cabinets + Credenzas</a></li>
+                <li><a href="listPage04_storage.html">Storage Service Parts</a></li>
+              </ol>
+            </li>
+            <li class="detail_accessories">
+              <ol>
+                <li class="backMenu" data-panelName="detail_accessories"><img src="images/panelLeftarrow.png" alt="leftArrow"><span>categories</span></li>
+                <li><a href="listPage01_accessories.html">All Accessories</a></li>
+                <li><a href="listPage03_accessories.html">Lighting</a></li>
+                <li><a href="listPage04_accessories.html">Organization Tools</a></li>
+                <li><a href="listPage05_accessories.html">Computer Support</a></li>
+                <li><a href="listPage06_accessories.html">Power + Cable Management</a></li>
+                <li><a href="listPage07_accessories.html">Whiteboards</a></li>
+                <li><a href="listPage08_accessories.html">Space Division</a></li>
+                <li><a href="listPage09_accessories.html">Bivi Accessories</a></li>
+              </ol>
+            </li>
+            <li class="detail_resources">
+              <ol>
+                <li class="backMenu" data-panelName="detail_resources"><img src="images/panelLeftarrow.png" alt="leftArrow"><span>Resources</span></li>
+                <li><a href="page_adjust.html">How to Adjust Your Chair</a></li>
+                <li><a href="page_quiz01.html">Take Our Chair Quiz</a></li>
+                <li><a href="page_sustainability.html">Sustainability</a></li>
+                <li><a href="page_FAQs.html">FAQs</a></li>
+                <li><a href="page_FAQs05warranty.html">Steelcase Warranty</a></li>
+                <li><a href="page_freeDesignService.html">Free Design Services</a></li>
+                <li><a href="page_madeFor.html">Made-for-Life Materials</a></li>
+                <li><a href="page_orderFreeFabricSwatches.html">Order Free Fabric Swatches</a></li>
+              </ol>
+            </li>
+            <li class="detail_brands">
+              <ol>
+                <li class="backMenu" data-panelName="detail_brands"><img src="images/panelLeftarrow.png" alt="leftArrow"><span>Brands</span></li>
+                <li><a href="listPage_brands01.html">AMQ</a></li>
+                <li><a href="listPage_brands02.html">Bolia</a></li>
+                <li><a href="listPage_brands03.html">Coalesse</a></li>
+                <li><a href="listPage_brands04.html">m.a.d.</a></li>
+                <li><a href="listPage_brands05.html">Mattiazzi</a></li>
+                <li><a href="listPage_brands06.html">West Elm Work</a></li>
+              </ol>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div id="searchOpen" class="panel searchOpen">
+      <input type="button" value="close" class="material-symbols-outlined" data-panelName="searchOpen">
+      <div class="rightwidth">
+        <h2>Search product</h2>
+        <div>
+          <input type="search" id="productsearch" placeholder="Search by name">
+        </div>
+        <input type="submit" value="SEARCH" data-panelName="searchOpen">
+      </div>
+    </div>
+    <div id="cartHave" class="panel cartHave">
+      <input type="button" value="close" class="material-symbols-outlined" data-panelName="cartHave">
+      <div>
+        <h2>Added To Cart</h2>
+        <ul>
+            <li>
+              <img src="images/listSeating002.png" alt="item01">
+              <div>
+                <span>Steelcase</span>
+                <input type="button" value="delete" class="material-symbols-outlined" data-panelName="cartEmpty">
+                <a href="detailSeating002.html">Steelcase Series 1</a>
+              </div>
+              <div>
+                <div>
+                  <input type="button" class="decrease" value="-">
+                  <span class="quantity">1</span>
+                  <input type="button" class="increase" value="+">
+                </div>                
+                <output data-price="493">$493</output>
+              </div>
+            </li>
+            <!-- <li>
+                <div>
+                  <span>Steelcase</span>
+                  <a href="#">alo</a>
+                  <input type="button" value="delete" class="material-symbols-outlined" data-panelName="cartEmpty">
+                </div>
+                <div>
+                  <div>
+                    <input type="button" class="decrease" value="-">
+                    <span class="quantity">1</span>
+                    <input type="button" class="increase" value="+">
+                </div>                
+                <output data-price="3553">3,553</output>
+              </div>
+            </li> -->
+        </ul>
+        <div>
+          <div>
+            <span>TOTAL</span>
+            <output class="totalOutput">1,371</output>
+          </div>
+          <a href="shippingPage.html">Review Cart</a>
+        </div>
+      </div>
+    </div>
+    <div id="cartEmpty" class="panel cartEmpty">
+        <input type="button" value="close" class="material-symbols-outlined" data-panelName="cartEmpty">
+        <div>
+          <h2>Your shopping cart is empty.</h2>
+          <input type="button" id="continue" value="Continue Shopping" data-panelName="cartEmpty">
+        </div>
+    </div>
+    <header>
+      <h1><a href="index.html">
+        <img src="images/headerLogo.png" alt="welcome steelcase"></a></h1>
+      <ul>
+        <li><input type="button" value="search" class="material-symbols-outlined btn_search" data-panelName="searchOpen"></li>
+        <li><input type="button" value="menu" class="material-symbols-outlined btn_menu" data-panelName="menuOpen"></li>
+        <li>
+          <a href="loginPage.html" id="loginLink"><input type="button" value="login" class="material-symbols-outlined login"></a>
+          <div id="myPageOption">
+            <ol>
+              <li><a href="myAccountPage.html" id="myAccount"><input type="button" value="account_circle" class="material-symbols-outlined account">My Account</a></li>
+              <li><a href="loginPage.html" id="logoutLink"><input type="button" value="logout" class="material-symbols-outlined logout">Logout</a></li>
+            </ol>
+          </div>
+        </li>
+        <li><input type="button" value="shopping_cart" class="material-symbols-outlined btn_cart" data-panelName="cartHave"></li>
+        <li id="selectBox">
+          <select id="language">
+            <option value="english">EN</option>
+            <option value="french">FR</option>
+            <option value="german">DE</option>
+            <option value="japan">JP</option>
+            <option value="zh-cn">ZH-CN</option>
+            <option value="zh-tw">ZH-TW</option>
+            <option value="Spanish">ES</option>
+            <option value="Romania">RO</option>
+          </select>
+        </li>
+      </ul>
+    </header>
+    
+    <section class="madeForLifeContainer">
+      <div>
+        <div>
+          <div>
+            <div>
+              <h2>Made-for-Life Materials</h2>
+              <p>We are seating experts and Steelcase materials are crafted with decades of research, innovation and unwavering standards. We've curated a beautiful collection of durable residential color and material options to both inspire and complement your lifestyle - think pets, kids and the occasional wine spill (we don't judge).</p>
+              <div><a href="page_orderFreeFabricSwatches.html" class="btn_animation"><span>Order Free Swatches</span></a></div>
+            </div>
+            <img src="images/madeForBack01.png" alt="madeForImg">
+          </div>
+        </div>
+        <div>
+          <div>
+            <p>"Steelcase fabrics play well in any residential space. We have a broad selection from the deeply saturated colors of Cogent: Connect to the softer palettes of Era and Billiard. There's an option for every style and aesthetic."</p>
+            <span>Amanda VanDuyn, senior interior designer</span>
+          </div>
+        </div>
+        <div>
+          <div class="productTitle">
+            <h2>Unleash Your Potential</h2>
+            <div>
+              <ul class="faqMenuSlider">
+                <li class="colorCheck"><button type="button" class="btn_billiard active" data-panelName="madeForBilliard">Billiard</button></li>
+                <li class="colorCheck"><button type="button" class="btn_era" data-panelName="madeForEra">Era</button></li>
+                <li class="colorCheck"><button type="button" class="btn_intermix" data-panelName="madeForIntermix">Intermix</button></li>
+                <li class="colorCheck"><button type="button" class="btn_cogent" data-panelName="madeForCogent">Cogent: Connect</button></li>
+                <li class="colorCheck"><button type="button" class="btn_elmosoft" data-panelName="madeForElmosoft">Elmosoft Leather</button></li>
+              </ul>
+            </div>
+          </div>
+    
+          <div class="productDetail">
+            <div>
+              <div class="madeForBilliard active">
+                <img src="images/Potential01.png" alt="Potential01">
+                <div>
+                  <h3>Soft + Residential</h3>
+                  <p>A fan favorite, Billiard is a woven-polyester fabric featuring a soft, felt-like texture, making it our top-pick for residential design. Billiard’s fabric contains a subtle heathered undertone allowing it to complement and soften most spaces. If you’re looking for a cozy fabric, this is it! Tested to 60,000 double rubs without pilling or changes in fabric, Billiard is built to last for years to come. Billiard is made from 100% polyester with antimony-free yarn, making it safe for you and those in your home.</p>
+                </div>
+              </div>
+              <div class="madeForEra">
+                <img src="images/Potential02.png" alt="Potential01">
+                <div>
+                  <h3>Contemporary + Refined</h3>
+                  <p>Meet Era, a soft fabric with a subtle herringbone texture that creates a refined, sophisticated and contemporary look. The versatility of this fabric makes it a perfect complement to any home workspace. Wear tested to withstand high-traffic situations - kids, pets and daily use are no match for Era. For long-lasting durability, Era has been wear-tested to 100,000 double rubs. Made from 100% polyester with antimony-free yarn, Era's OEKO-TEX® Standard 100 certification ensures every component of the product, from the fabric to the thread, has been rigorously tested against OEKO-TEX®'s Standard list of 350+ toxic chemicals - something we know both, you and mother nature, will appreciate.</p>
+                </div>
+              </div>
+              <div class="madeForIntermix">
+                <img src="images/Potential03.png" alt="Potential01">
+                <div>
+                  <h3>Breathable + Dynamic</h3>
+                  <p>Intermix, our proprietary performance fabric, creates perfect tension on the seat and back frame for the ideal ergonomic support. It never sags or feels stiff and provides the perfect amount of breathability for your long work (or gaming) sessions.  Intermix comes in three distinct weaves, each with its own unique look. Intermix: a translucent fabric with a breathable open weave. Intermix Opaque: our breathable Intermix weave combined with an upholstered look and soft-hand feel. Intermix Shift: a translucent fabrics with a breathable open weave that subtly changes color at different angles and in different lighting.  Intermix and its three distinct weaves are made from 70% polyester and 30% nylon and with antimony-free yarn. Intermix is wear-tested to 60,000 double rubs to ensure long-lasting durability and comfort, coupled with a sleek design for your home.</p>
+                </div>
+              </div>
+              <div class="madeForCogent">
+                <img src="images/Potential04.png" alt="Potential01">
+                <div>
+                  <h3>Renewable + Vibrant</h3>
+                  <p>Meet Cogent: Connect, a knit-like material that is exceedingly durable and comes in a wide range of color options. This textile is well-suited for high-traffic environments and daily use. Made in the U.S.A, this durable fabric is wear-tested to 100,000 double rubs. Cogent: Connect is made from 100% polyester with antimony-free yarn. Cogent: Connect is Cradle-to-Cradle certified making it safe for you and those in your home. Crafted with a minimum of 50% renewable energy, Cogent: Connect is the perfect complement to support your efforts to reduce your impact on the environment. </p>
+                </div>
+              </div>
+              <div class="madeForElmosoft">
+                <img src="images/Potential05.png" alt="Potential01">
+                <div>
+                  <h3>Luxurious + Smooth</h3>
+                  <p>Bring a luxurious feeling to any workspace with our Elmosoft leather. This soft and pliable leather is made with semi-aniline dye that smooths the natural grain of the leather for a uniform appearance. With a curated color range, from soft neutrals to muted tones, it combines outstanding comfort with high durability for an office chair that looks as great as it feels. Elmosoft leather is crafted to not patina with time. Wear-tested for durability, exposure to wet and dry conditions, and light, our leather will maintain its beautiful color and integrity for years to come. Made from 100% leather, Steelcase Elmosoft leather is crafted with sustainable and clean water tanning technology that allows water to be borrowed and returned to its source in its original condition. A by-product of the food industry, Steelcase Elmosoft leather diverts hides from entering the landfill and is finished without use of solvents.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        
+        <div id="silde01">
+          <div class="two">
+            <div class="boxSilder01">
+              <h2>Take Our Chair Quiz</h2>
+              <div>
+                <ul class="detailSlider">
+                  <li>
+                    <img src="images/madeForQuiz01.png" alt="detail01">
+                    <div>
+                      <h3>Choosing Healthier Materials</h3>
+                      <p>We source and select healthier materials, limiting and eliminating harmful chemicals where possible. A majority of our materials and products carry third-party verified environmental certifications for material disclosure and transparency.</p>
+                    </div> 
+                  </li>
+                  <li>
+                    <img src="images/madeForQuiz02.png" alt="detail02">
+                    <div>
+                      <h3>Resource Responsibility</h3>
+                      <p>All ergonomic seating incorporates post-consumer and/or post-industrial recycled plastic, and we have increased recycled content in our packaging since 2020. We manage precious resources such as water and energy wisely, using environmental management systems and renewable energy sourcing in our operations.</p>
+                    </div> 
+                  </li>
+                  <li>
+                    <img src="images/madeForQuiz03.png" alt="detail03">
+                    <div>
+                      <h3>Durability and Longer Use</h3>
+                      <p>Your chair's 12-year warranty guarantees comfort, support and a durable product that is meant to last. “You get what you pay for," but in this case, Mother Nature benefits, too.</p>
+                    </div>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div>
+          <div>
+            <div>
+              <h2>The Highest Standards</h2>
+              <p>All Steelcase materials are thoroughly tested to meet strict commercial quality standards. For us, this means passing our materials through rigorous testing and protocols. For you, it means not having to worry about your materials holding up over time, so sit back and get comfortable - we've got your back.</p>
+            </div>
+            <img src="images/madeForBack02.png" alt="madeForImg">
+          </div>
+        </div>
+        <div class="two">
+          <div class="boxSilder01">
+            <div>
+              <ul class="detailSlider">
+                <li>
+                  <img src="images/madeForDetail01.png" alt="detail01">
+                  <div>
+                    <h3>Era</h3>
+                    <div>
+                      <button type="button"><img src="images/era01Onyx.png" alt="era01"></button>
+                      <button type="button"><img src="images/era02NightOwl.png" alt="era02"></button>
+                      <button type="button"><img src="images/era04Oatmeal.png" alt="era04"></button>
+                      <button type="button"><img src="images/era03Truffle.png" alt="era03"></button>
+                      <button type="button"><img src="images/era05Scarlet.png" alt="era05"></button>
+                      <button type="button"><img src="images/era06Cobalt.png" alt="era06"></button>
+                      <button type="button"><img src="images/era07BlueNickel.png" alt="era07"></button>
+                      <button type="button"><img src="images/era08BlueMint.png" alt="era08"></button>
+                      <button type="button"><img src="images/era09Sprout.png" alt="era09"></button>
+                      <button type="button"><img src="images/era10Persimmon.png" alt="era10"></button>
+                      <button type="button"><img src="images/era11PinkLemonade.png" alt="era11"></button>
+                    </div>
+                  </div>  
+                </li>
+                <li>
+                  <img src="images/madeForDetail02.png" alt="detail02">
+                  <div>
+                    <h3>Cogent: Connect</h3>
+                    <div>
+                      <button type="button"><img src="images/cogent01Licorice.png" alt="cogent01"></button>
+                      <button type="button"><img src="images/cogent02Grapite.png" alt="cogent02"></button>
+                      <button type="button"><img src="images/cogent03Nickel.png" alt="cogent03"></button>
+                      <button type="button"><img src="images/cogent04LipstickMerlot.png" alt="cogent04"></button>
+                      <button type="button"><img src="images/cogent05Peacock.png" alt="cogent05"></button>
+                      <button type="button"><img src="images/cogent06Sailor.png" alt="cogent06"></button>
+                      <button type="button"><img src="images/cogent07Blueprint.png" alt="cogent07"></button>
+                      <button type="button"><img src="images/cogent08Lagoon.png" alt="cogent08"></button>
+                    </div>
+                  </div>  
+                </li>
+                <li>
+                  <img src="images/madeForDetail03.png" alt="detail03">
+                  <div>
+                    <h3>Billiard Multi by Designtex</h3>
+                    <div>
+                      <button type="button"><img src="images/billiard01Ink.png" alt="Billiard01"></button>
+                      <button type="button"><img src="images/billiard02Pewter.png" alt="billiard02"></button>
+                      <button type="button"><img src="images/billiard03Teak.png" alt="Billiard03"></button>
+                      <button type="button"><img src="images/billiard04Cumulus.png" alt="Billiard04"></button>
+                      <button type="button"><img src="images/billiard05Poppy.png" alt="Billiard05"></button>
+                      <button type="button"><img src="images/billiard06Indigo.png" alt="Billiard06"></button>
+                      <button type="button"><img src="images/billiard07StormCloud.png" alt="Billiard07"></button>
+                      <button type="button"><img src="images/billiard08SeaSalt.png" alt="Billiard08"></button>
+                      <button type="button"><img src="images/billiard09Olivine.png" alt="Billiard09"></button>
+                      <button type="button"><img src="images/billiard10RoseQuartz.png" alt="Billiard10"></button>
+                    </div>
+                  </div>  
+                </li>
+                <li>
+                  <img src="images/madeForDetail04.png" alt="detail04">
+                  <div>
+                    <h3>Elmosoft Leather</h3>
+                    <div>
+                      <button type="button"><img src="images/Elmosoft01Ebony.png" alt="elmosoft01"></button>
+                      <button type="button"><img src="images/Elmosoft02DoveGrey.png" alt="elmosoft02"></button>
+                      <button type="button"><img src="images/Elmosoft03Saddle.png" alt="elmosoft03"></button>
+                      <button type="button"><img src="images/Elmosoft04Cameo.png" alt="elmosoft04"></button>
+                      <button type="button"><img src="images/Elmosoft05White.png" alt="elmosoft05"></button>
+                    </div>
+                  </div>  
+                </li>
+                <li>
+                  <img src="images/madeForDetail05.png" alt="detail05">
+                  <div>
+                    <h3>Intermix</h3>
+                    <div>
+                      <button type="button"><img src="images/intermixBlack.png" alt="mix01"></button>
+                      <button type="button"><img src="images/intermixBaltic.png" alt="mix02"></button>
+                      <button type="button"><img src="images/intermixMerlot.png" alt="mix03"></button>
+                      <button type="button"><img src="images/intermixPeacock.png" alt="mix04"></button>
+                    </div>
+                  </div>  
+                </li>
+                <li>
+                  <img src="images/madeForDetail06.png" alt="detail06">
+                  <div>
+                    <h3>Intermix Opaque</h3>
+                    <div>
+                      <button type="button"><img src="images/opaqueBlack.png" alt="opaque01"></button>
+                      <button type="button"><img src="images/opaqueBaltic.png" alt="opaque02"></button>
+                      <button type="button"><img src="images/opaqueMerlot.png" alt="opaque03"></button>
+                      <button type="button"><img src="images/opaquePeacock.png" alt="opaque04"></button>
+                      <button type="button"><img src="images/opaqueSeagull.png" alt="opaque05"></button>
+                      <button type="button"><img src="images/opaqueBronze.png" alt="opaque06"></button>
+                    </div>
+                  </div>  
+                </li>
+                <li>
+                  <img src="images/madeForDetail07.png" alt="detail07">
+                  <div>
+                    <h3>Intermix Shift</h3>
+                    <div>
+                      <button type="button"><img src="images/shiftRedBlue.png" alt="shift01"></button>
+                      <button type="button"><img src="images/shiftBlueGold.png" alt="shift02"></button>
+                    </div>
+                  </div>  
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="buttonAction">
+          <div class="productTitle">
+            <h2>FAQs</h2>
+            <div>
+              <input type="button" value="Fabric Testing" class="btn_fabricTest active" data-panelName="madeForFabricTest">
+              <input type="button" value="Cleaning" class="btn_cleaning" data-panelName="madeForCleaning">
+              <input type="button" value="Warranty" class="btn_warranty" data-panelName="madeForwarranty">
+            </div>
+          </div>
+    
+          <div class="productDetail">
+            <div>
+              <ul class="madeForFabricTest active">
+                <li>
+                  <span>Steelcase materials are contract-grade. What does that mean? </span>
+                  <p>Steelcase fabrics meet commercial-grade standards, which are significantly higher than those required for normal household use. This means your chair can be both aesthetically pleasing and handle constant use without showing signs of wear.</p>
+                </li>
+                <li>
+                  <span>What is a double rub count? Why is it important?</span>
+                  <p>All of our fabrics are tested for two types of crocking: wet (color transfer from wet fabric) and dry (color transfer from dry fabric). All Steelcase fabrics meet or exceed contract-industry standards, meaning you never have to worry about your chair transferring color onto your clothes or other surfaces.</p>
+                </li>
+                <li>
+                  <span>I'd love a bright bold color, but I am worried about the color transferring. Will my chair's color transfer?</span>
+                  <p>All of our fabrics are tested for two types of crocking: wet (color transfer from wet fabric) and dry (color transfer from dry fabric). All Steelcase fabrics meet or exceed contract-industry standards, meaning you never have to worry about your chair transferring color onto your clothes or other surfaces. </p>
+                </li>
+                <li>
+                  <span>I plan to position my chair near a window, will the fabric fade over time?</span>
+                  <p>When exposed to UV light, all colors fade over time, however, Steelcase fabrics are put through rigorous UV testing to ensure their ability to stand up to colorfastness is exceptional. All of our fabrics meet or exceed contract-industry standards for colorfastness to UV light. And for what it's worth, we position many of our own chairs (both in our corporate and home offices) near windows because we are confident in our fabrics' ability to withstand UV light for long periods.</p>
+                </li>
+              </ul>
+              <ul class="madeForCleaning">
+                <li>
+                  <span>Oops, I spilled on my chair. How can I clean my Steelcase fabric?</span>
+                  <div>
+                    <p>All Steelcase fabrics have a "WS" cleaning code, except our Elmosoft leather which has a "W" cleaning code. </p>
+                    <p>For removing water-based marks or stains (such as coffee, milk, soft drinks, fruit juices, washable ink, etc.):</p>
+                    <p>  - First, gently apply a water-based cleaner, that is specifically made for cleaning fabric, to the soiled area using a clean cloth or a sponge.</p>
+                    <p>  - Second, if possible, work the cleaner into a lather to minimize soaking the fabric. Using light brushing motions, brush from the outside of the soiled area towards the center to prevent rings.</p>
+                    <p>  - Finally, allow the fabric to dry completely, then vacuum thoroughly.</p>
+                  </div>
+                  <p>For removing oil-based marks or stains (such as salad dressing, grease, lipstick, ballpoint ink, etc.):</p>
+                  <p>  - First, gently apply a dry-cleaning fluid to the soiled area using a dampened, clean cloth or soft-bristle brush.</p>
+                  <p>  - Next, using quick, light, rubbing or brushing strokes, work from the outside of the soiled area toward the center to prevent rings. Avoid soaking the fabric.</p>
+                  <p>  - Then, gently blot with a clean, absorbent cloth to soak up and remove dampened soil.</p>
+                  <p>  - Finally, allow the fabric to dry completely, then vacuum thoroughly.</p>
+                </li>
+                <li>
+                  <span>Oops, I spilled on my chair. How can I clean my Steelcase leather?</span>
+                  <p>Dusting with a clean, dry cloth is the recommended routine cleaning method for all Steelcase semi-aniline-dyed, full-grain leather.</p>
+                  <p>For removing spots or spills:</p>
+                  <p>  - First, wipe away excess liquid immediately and let air dry.</p>
+                  <p>  - Second, if necessary, work lukewarm water and a mild non-detergent soap into a thin lather with a soft cloth and rinse with clean water.</p>
+                  <p>  - Finally, gently buff the leather to restore luster.</p>
+                  <p>Note: The use of any other product could cause reactions with the solvent-free chemicals in the tanning process.</p>
+                </li>
+              </ul>
+              <ul class="madeForwarranty">
+                <li>
+                  <span>My high-performance seating chair comes with a 12-year Steelcase warranty. Does that include the chair's fabric too?</span>
+                  <p>Yes, our Steelcase 12-year warranty protects your chair's fabric against any defects or workmanship issues. Like many warranties, ours does not cover general wear and tear, but rest assured, Steelcase fabrics are tested to the limits so we're confident they can stand up to daily life. </p>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <footer>
+      <ul>
+        <li>
+          <h2>Subscribe</h2>
+          <p>Sign up for exclusive offers, product releases and the latest news from Steelcase.</p>
+          <div>
+            <label for="userEmail">Email*</label>
+            <input type="email" id="userEmail" placeholder="Write Your E- mail">
+            <input type="submit" value="Sign Up">
+          </div>
+        </li>
+        <li class="footerContent">
+          <h2>Need Help?<img src="images/footerArrowDown.png" alt="footerContent"></h2>
+          <ol>
+            <li><a href="page_FAQs.html">FAQs</a></li>
+            <li><a href="page_FAQs01Shipping.html">Shipping + Delivery</a></li>
+            <li><a href="page_FAQs02Orders.html">Orders</a></li>
+            <li><a href="page_FAQs03Return.html">Returns</a></li>
+            <li><a href="page_FAQs05warranty.html">Warranty</a></li>
+            <li><a href="page_FAQs06payment.html">Payment + Financing</a></li>
+          </ol>
+        </li>
+        <li class="footerContent">
+          <h2>Contact<img src="images/footerArrowDown.png" alt="footerContent"></h2>
+          <ol>
+            <li><a href="page_contactUs.html">Online Support</a></li>
+            <li><a href="tel:+18005163454">1.800.516.3454</a></li>
+            <li><span>Monday - Friday</span></li>
+            <li><span>9AM - 6PM EST</span></li>
+          </ol>
+        </li>
+        <li class="footerContent">
+          <h2>Steelcase<img src="images/footerArrowDown.png" alt="footerContent"></h2>
+          <ol>
+            <li><a href="page_About.html">About</a></li>
+            <li><a href="page_sustainability.html">Sustainability</a></li>
+            <li><a href="page_privacyPolicy.html">Privacy Policy</a></li>
+            <li><a href="page_TermsOfUse.html">Terms of Use</a></li>
+            <li><a href="page_trademarks.html">Trademarks</a></li>
+            <li><a href="page_accessibilityStatement.html">Accessibility Statement</a></li>
+          </ol>
+        </li>
+        <li>
+          <h2>Follow Us</h2>
+          <ol>
+            <li><a href="https://www.instagram.com/steelcase/">instagram</a></li>
+            <li><a href="https://www.linkedin.com/company/steelcase">linkedin</a></li>
+            <li><a href="https://www.facebook.com/Steelcase">facebook</a></li>
+            <li><a href="https://twitter.com/Steelcase">twitter</a></li>
+            <li><a href="https://www.youtube.com/user/STEELCASETV">youtube</a></li>
+            <li><a href="https://www.pinterest.co.kr/steelcase/">pinterst</a></li>
+          </ol>
+        </li>
+      </ul>
+      <p>© 2024 Steelcase Inc.</p>
+    </footer>
+    
+  </body>
+</html>

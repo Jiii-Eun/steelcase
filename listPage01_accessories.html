@@ -1,0 +1,782 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SteelcaseStore</title>
+    <script src="https://code.jquery.com/jquery-3.7.1.js"></script>
+    <script src="https://code.jquery.com/ui/1.13.2/jquery-ui.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bxslider/4.2.15/jquery.bxslider.min.js"></script>
+    <script src="js/steel.js"></script>
+    <link rel="shortcut icon" href="images/favicon.png" type="image/x-icon">
+    <link rel="stylesheet" href="css/import.css">
+  </head>
+  <body>
+    <div id="menuOpen" class="panel menuOpen">
+      <input type="button" value="close" class="material-symbols-outlined" data-panelName="menuOpen">
+      <h2><a href="index.html"></a>
+        <img src="images/panelLogo.png" alt="steelcase">
+      </h2>
+      <div>
+        <nav>
+          <ul class="mainCatecories">
+            <li class="btn_seating"><input type="button" value="Seating" data-panelName="detail_seating"></li>
+            <li class="btn_deskTables"><input type="button" value="Desks + Tables"  data-panelName="detail_deskTables"></li>
+            <li class="btn_storage"><input type="button" value="Storage"  data-panelName="detail_storage"></li>
+            <li class="btn_accessories"><input type="button" value="Accessories"  data-panelName="detail_accessories"></li>
+            <li><a href="page_Gaming.html">Gaming</a></li>
+            <li class="btn_resources"><input type="button" value="Resources" data-panelName="detail_resources"></li>
+            <li class="btn_brands"><input type="button" value="Brands" data-panelName="detail_brands"></li>
+          </ul>
+        </nav>
+        <div>
+          <ul>
+            <li class="detail_seating">
+              <ol>
+                <li class="backMenu" data-panelName="detail_seating"><img src="images/panelLeftarrow.png" alt="leftArrow"><span>categories</span></li>
+                <li><a href="listPage01_seating.html">All Seating</a></li>
+                <li><a href="listPage05_seating.html">High Performance Seating</a></li>
+                <li><a href="listPage06_seating.html">Office Chairs</a></li>
+                <li><a href="listPage07_seating.html">Side + Guest Chairs</a></li>
+                <li><a href="listPage08_seating.html">Lounge Chairs</a></li>
+                <li><a href="listPage09_seating.html">Conference Chairs</a></li>
+                <li><a href="listPage10_seating.html">Benches + Ottomans</a></li>
+                <li><a href="listPage11_seating.html">Stools</a></li>
+                <li><a href="listPage12_seating.html">Outdoor Chairs</a></li>
+                <li><a href="listPage13_seating.html">Seating Service Parts</a></li>
+              </ol>
+            </li>
+            <li class="detail_deskTables">
+              <ol>
+                <li class="backMenu" data-panelName="detail_deskTables"><img src="images/panelLeftarrow.png" alt="leftArrow"><span>categories</span></li>
+                <li><a href="listPage01_deskTables.html">All Desks + Tables</a></li>
+                <li><a href="listPage04_deskTables.html">Desks + Tables</a></li>
+                <li><a href="listPage05_deskTables.html">Sit-to-Stand Desks</a></li>
+                <li><a href="listPage06_deskTables.html">Occasional Tables</a></li>
+                <li><a href="listPage07_deskTables.html">Conference + Classroom Tables</a></li>
+                <li><a href="listPage08_deskTables.html">Outdoor Tables</a></li>
+                <li><a href="listPage09_deskTables.html">Desks + Tables Service Parts</a></li>
+              </ol>
+            </li>
+            <li class="detail_storage">
+              <ol>
+                <li class="backMenu" data-panelName="detail_storage"><img src="images/panelLeftarrow.png" alt="leftArrow"><span>categories</span></li>
+                <li><a href="listPage01_storage.html">All Storage</a></li>
+                <li><a href="listPage02_storage.html">pedestals</a></li>
+                <li><a href="listPage03_storage.html">Bookcases + Cabinets + Credenzas</a></li>
+                <li><a href="listPage04_storage.html">Storage Service Parts</a></li>
+              </ol>
+            </li>
+            <li class="detail_accessories">
+              <ol>
+                <li class="backMenu" data-panelName="detail_accessories"><img src="images/panelLeftarrow.png" alt="leftArrow"><span>categories</span></li>
+                <li><a href="listPage01_accessories.html">All Accessories</a></li>
+                <li><a href="listPage03_accessories.html">Lighting</a></li>
+                <li><a href="listPage04_accessories.html">Organization Tools</a></li>
+                <li><a href="listPage05_accessories.html">Computer Support</a></li>
+                <li><a href="listPage06_accessories.html">Power + Cable Management</a></li>
+                <li><a href="listPage07_accessories.html">Whiteboards</a></li>
+                <li><a href="listPage08_accessories.html">Space Division</a></li>
+                <li><a href="listPage09_accessories.html">Bivi Accessories</a></li>
+              </ol>
+            </li>
+            <li class="detail_resources">
+              <ol>
+                <li class="backMenu" data-panelName="detail_resources"><img src="images/panelLeftarrow.png" alt="leftArrow"><span>Resources</span></li>
+                <li><a href="page_adjust.html">How to Adjust Your Chair</a></li>
+                <li><a href="page_quiz01.html">Take Our Chair Quiz</a></li>
+                <li><a href="page_sustainability.html">Sustainability</a></li>
+                <li><a href="page_FAQs.html">FAQs</a></li>
+                <li><a href="page_FAQs05warranty.html">Steelcase Warranty</a></li>
+                <li><a href="page_freeDesignService.html">Free Design Services</a></li>
+                <li><a href="page_madeFor.html">Made-for-Life Materials</a></li>
+                <li><a href="page_orderFreeFabricSwatches.html">Order Free Fabric Swatches</a></li>
+              </ol>
+            </li>
+            <li class="detail_brands">
+              <ol>
+                <li class="backMenu" data-panelName="detail_brands"><img src="images/panelLeftarrow.png" alt="leftArrow"><span>Brands</span></li>
+                <li><a href="listPage_brands01.html">AMQ</a></li>
+                <li><a href="listPage_brands02.html">Bolia</a></li>
+                <li><a href="listPage_brands03.html">Coalesse</a></li>
+                <li><a href="listPage_brands04.html">m.a.d.</a></li>
+                <li><a href="listPage_brands05.html">Mattiazzi</a></li>
+                <li><a href="listPage_brands06.html">West Elm Work</a></li>
+              </ol>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div id="searchOpen" class="panel searchOpen">
+      <input type="button" value="close" class="material-symbols-outlined" data-panelName="searchOpen">
+      <div class="rightwidth">
+        <h2>Search product</h2>
+        <div>
+          <input type="search" id="productsearch" placeholder="Search by name">
+        </div>
+        <input type="submit" value="SEARCH" data-panelName="searchOpen">
+      </div>
+    </div>
+    <div id="cartHave" class="panel cartHave">
+      <input type="button" value="close" class="material-symbols-outlined" data-panelName="cartHave">
+      <div>
+        <h2>Added To Cart</h2>
+        <ul>
+            <li>
+              <img src="images/listSeating002.png" alt="item01">
+              <div>
+                <span>Steelcase</span>
+                <input type="button" value="delete" class="material-symbols-outlined" data-panelName="cartEmpty">
+                <a href="detailSeating002.html">Steelcase Series 1</a>
+              </div>
+              <div>
+                <div>
+                  <input type="button" class="decrease" value="-">
+                  <span class="quantity">1</span>
+                  <input type="button" class="increase" value="+">
+                </div>                
+                <output data-price="493">$493</output>
+              </div>
+            </li>
+            <!-- <li>
+                <div>
+                  <span>Steelcase</span>
+                  <a href="#">alo</a>
+                  <input type="button" value="delete" class="material-symbols-outlined" data-panelName="cartEmpty">
+                </div>
+                <div>
+                  <div>
+                    <input type="button" class="decrease" value="-">
+                    <span class="quantity">1</span>
+                    <input type="button" class="increase" value="+">
+                </div>                
+                <output data-price="3553">3,553</output>
+              </div>
+            </li> -->
+        </ul>
+        <div>
+          <div>
+            <span>TOTAL</span>
+            <output class="totalOutput">1,371</output>
+          </div>
+          <a href="shippingPage.html">Review Cart</a>
+        </div>
+      </div>
+    </div>
+    <div id="cartEmpty" class="panel cartEmpty">
+        <input type="button" value="close" class="material-symbols-outlined" data-panelName="cartEmpty">
+        <div>
+          <h2>Your shopping cart is empty.</h2>
+          <input type="button" id="continue" value="Continue Shopping" data-panelName="cartEmpty">
+        </div>
+    </div>
+    <div id="checkOption" class="panel accessoriesCheck">
+      <input type="button" value="close" class="material-symbols-outlined" data-panelName="accessoriesCheck">
+      <div>
+        <h2>Accessories filter</h2>
+        <div>
+          <input type="search" id="accessoriesSearch" placeholder="Search by name">
+          <input type="submit" value="SEARCH">
+        </div>
+        <div>
+          <h3>Price</h3>
+          <button type="reset" id="clearSetting">Clear</button>
+          <div id="sliderRange"></div>
+          <input type="text" id="minRange" readonly>
+          <input type="text" id="maxRange" readonly>
+        </div>
+        <div>
+          <h3>Brand</h3>
+          <button type="reset">Clear</button>
+          <ul class="brandCheck">
+            <li>
+              <div>
+                <input type="checkbox" name="brand" value="Steelcase" id="Steelcase">
+                <label for="Steelcase" class="CheckPoint"></label>
+                <label for="Steelcase">Steelcase (<span>26</span>)</label>
+              </div>
+              <div>
+                <input type="checkbox" name="brand" value="AMQ" id="AMQ">
+                <label for="AMQ" class="CheckPoint"></label>
+                <label for="AMQ">AMQ, A Steelcase Company (<span>1</span>)</label>
+              </div>
+              <div>
+                <input type="checkbox" name="brand" value="POLYVISION" id="POLYVISION">
+                <label for="POLYVISION" class="CheckPoint"></label>
+                <label for="POLYVISION">POLYVISION (<span>1</span>)</label>
+              </div>
+            </li>
+            <li>
+              <div>
+                <input type="checkbox" name="brand" value="FLOS" id="FLOS">
+                <label for="FLOS" class="CheckPoint"></label>
+                <label for="FLOS">FLOS (<span>2</span>)</label>
+              </div>
+              <div>
+                <input type="checkbox" name="brand" value="Coalesse" id="Coalesse">
+                <label for="Coalesse" class="CheckPoint"></label>
+                <label for="Coalesse">Coalesse (<span>1</span>)</label>
+              </div>
+              <div>
+                <input type="checkbox" name="brand" value="WESTELMWORK" id="WESTELMWORK">
+                <label for="WESTELMWORK" class="CheckPoint"></label>
+                <label for="WESTELMWORK">WEST ELM WORK (<span>1</span>)</label>
+              </div>
+            </li>
+          </ul>
+        </div>
+        <button type="reset" class="filterAll">Clear All</button>
+        <button type="button" class="btn_login check" data-panelName="accessoriesCheck">Check</button>
+      </div>
+    </div>
+    <header>
+      <h1><a href="index.html">
+        <img src="images/headerLogo.png" alt="welcome steelcase"></a></h1>
+      <ul>
+        <li><input type="button" value="search" class="material-symbols-outlined btn_search" data-panelName="searchOpen"></li>
+        <li><input type="button" value="menu" class="material-symbols-outlined btn_menu" data-panelName="menuOpen"></li>
+        <li>
+          <a href="loginPage.html" id="loginLink"><input type="button" value="login" class="material-symbols-outlined login"></a>
+          <div id="myPageOption">
+            <ol>
+              <li><a href="myAccountPage.html" id="myAccount"><input type="button" value="account_circle" class="material-symbols-outlined account">My Account</a></li>
+              <li><a href="loginPage.html" id="logoutLink"><input type="button" value="logout" class="material-symbols-outlined logout">Logout</a></li>
+            </ol>
+          </div>
+        </li>
+        <li><input type="button" value="shopping_cart" class="material-symbols-outlined btn_cart" data-panelName="cartHave"></li>
+        <li id="selectBox">
+          <select id="language">
+            <option value="english">EN</option>
+            <option value="french">FR</option>
+            <option value="german">DE</option>
+            <option value="japan">JP</option>
+            <option value="zh-cn">ZH-CN</option>
+            <option value="zh-tw">ZH-TW</option>
+            <option value="Spanish">ES</option>
+            <option value="Romania">RO</option>
+          </select>
+        </li>
+      </ul>
+    </header>
+    <section class="listAccessoriesContainer">
+      <div>
+        <div>
+          <h2>All Accessories</h2>
+          <div><span>40</span>Items</div>
+        </div>
+        <div class="accessoriesCategories">
+          <h3>Shop Accessories Categories</h3>
+          <div>
+            <ul>
+              <li class="active"><a href="listPage01_accessories.html">All Accessories</a></li>
+              <li><a href="listPage03_accessories.html">Lighting</a></li>
+              <li><a href="listPage04_accessories.html">Organization Tools</a></li>
+              <li><a href="listPage05_accessories.html">Computer Support</a></li>
+              <li><a href="listPage06_accessories.html">Power + Cable Management</a></li>
+              <li><a href="listPage07_accessories.html">Whiteboards</a></li>
+              <li><a href="listPage08_accessories.html">Space Division</a></li>
+              <li><a href="listPage09_accessories.html">Bivi Accessories</a></li>
+            </ul>
+            <div>
+              <input type="button" class="btn_CheckList" value="filter" data-panelName="accessoriesCheck">
+            </div>
+          </div>
+        </div>
+      </div>
+      <div>
+        <div class="selectBox">
+          <div>
+            <img src="images/selectBoxArrowDown.png" alt="selectBoxArrowDown">
+            <button class="label">Most Relevant</button>
+            <ul class="optionList">
+              <li class="optionItem active">Most Relevant</li>
+              <li class="optionItem">Most Popular</li>
+              <li class="optionItem">Price (High to Low)</li>
+              <li class="optionItem">Price (Low to High)</li>
+            </ul>
+          </div>
+        </div>
+        <ul>
+          <li class="listPageAccessories01 active">
+            <ol>
+              <li class="all powerCableManagement">
+                <div>
+                  <a href="detailAccessories001.html"><span>more<span></a>
+                  <span class="best">BEST</span>
+                  <img src="images/listAccessories001.png" alt="listAccessories001">
+                </div>
+                <dl>
+                  <dt><small>Steelcase</small>Universal Cable Management Kit</dt>
+                  <dd>$60</dd>
+                </dl>
+              </li>
+              <li class="all lighting">
+                <div>
+                  <a href="detailAccessories002.html"><span>more<span></a>
+                  <img src="images/listAccessories002.png" alt="listAccessories002">
+                </div>
+                <dl>
+                  <dt><small>Steelcase</small>Steelcase Eclipse Light</dt>
+                  <dd>$279</dd>
+                </dl>
+              </li>
+              <li class="all computerSupport">
+                <div>
+                  <a href="detailAccessories003.html"><span>more<span></a>
+                  <span class="best">BEST</span>
+                  <img src="images/listAccessories003.png" alt="listAccessories003">
+                </div>
+                <dl>
+                  <dt><small>Steelcase</small>CF Series Intro</dt>
+                  <dd>$209</dd>
+                </dl>
+              </li>
+              <li class="all organizationTools">
+                <div>
+                  <a href="detailAccessories004.html"><span>more<span></a>
+                  <img src="images/listAccessories004.png" alt="listAccessories004">
+                </div>
+                <dl>
+                  <dt><small>Steelcase</small>Turnstone Campfire Footrest</dt>
+                  <dd>$185</dd>
+                </dl>
+              </li>
+              <li class="all computerSupport powerCableManagement">
+                <div>
+                  <a href="detailAccessories005.html"><span>more<span></a>
+                  <img src="images/listAccessories005.png" alt="listAccessories005">
+                </div>
+                <dl>
+                  <dt><small>Steelcase</small>Thread</dt>
+                  <dd>$410</dd>
+                </dl>
+              </li>
+              <li class="all biviAccessories">
+                <div>
+                  <a href="detailAccessories006.html"><span>more<span></a>
+                  <img src="images/listAccessories006.png" alt="listAccessories006">
+                </div>
+                <dl>
+                  <dt><small>Steelcase</small>Turnstone Campfire Paper Table Replacement Tops</dt>
+                  <dd>$114</dd>
+                </dl>
+              </li>
+              <li class="all biviAccessories">
+                <div>
+                  <a href="detailAccessories007.html"><span>more<span></a>
+                  <img src="images/listAccessories007.png" alt="listAccessories007">
+                </div>
+                <dl>
+                  <dt><small>Steelcase</small>Steelcase Powerstrip Plus</dt>
+                  <dd>$273</dd>
+                </dl>
+              </li>
+              <li class="all whiteboards">
+                <div>
+                  <a href="detailAccessories008.html"><span>more<span></a>
+                  <img src="images/listAccessories008.png" alt="listAccessories008">
+                </div>
+                <dl>
+                  <dt><small>Steelcase</small>Verb Whiteboard</dt>
+                  <dd>$181</dd>
+                </dl>
+              </li>
+              <li class="all powerCableManagement">
+                <div>
+                  <a href="detailAccessories009.html"><span>more<span></a>
+                  <img src="images/listAccessories009.png" alt="listAccessories009">
+                </div>
+                <dl>
+                  <dt><small>Coalesse</small>PowerPod</dt>
+                  <dd>$180</dd>
+                </dl>
+              </li>
+              <li class="all organizationTools">
+                <div>
+                  <a href="detailAccessories010.html"><span>more<span></a>
+                  <img src="images/listAccessories010.png" alt="listAccessories010">
+                </div>
+                <dl>
+                  <dt><small>Steelcase</small>SOTO Desk Pad</dt>
+                  <dd>$128</dd>
+                </dl>
+              </li>
+              <li class="all powerCableManagement">
+                <div>
+                  <a href="detailAccessories011.html"><span>more<span></a>
+                  <img src="images/listAccessories011.png" alt="listAccessories011">
+                </div>
+                <dl>
+                  <dt><small>AMQ, A Steelcase Company</small>Boost Power Box</dt>
+                  <dd>$229</dd>
+                </dl>
+              </li>
+              <li class="all organizationTools whiteboards">
+                <div>
+                  <a href="detailAccessories012.html"><span>more<span></a>
+                  <img src="images/listAccessories012.png" alt="listAccessories012">
+                </div>
+                <dl>
+                  <dt><small>POLYVISION</small>Collaborative Toolbar</dt>
+                  <dd>$155</dd>
+                </dl>
+              </li>
+              <li class="all organizationTools">
+                <div>
+                  <a href="detailAccessories013.html"><span>more<span></a>
+                  <img src="images/listAccessories013.png" alt="listAccessories013">
+                </div>
+                <dl>
+                  <dt><small>Steelcase</small>SOTO Personal Box</dt>
+                  <dd>$32</dd>
+                </dl>
+              </li>
+              <li class="all organizationTools computerSupport">
+                <div>
+                  <a href="detailAccessories014.html"><span>more<span></a>
+                  <img src="images/listAccessories014.png" alt="listAccessories014">
+                </div>
+                <dl>
+                  <dt><small>Steelcase</small>SOTO Monitor Bridge</dt>
+                  <dd>$190</dd>
+                </dl>
+              </li>
+              <li class="all whiteboards">
+                <div>
+                  <a href="detailAccessories015.html"><span>more<span></a>
+                  <img src="images/listAccessories015.png" alt="listAccessories015">
+                </div>
+                <dl>
+                  <dt><small>Steelcase</small>Verb Wall Track for Whiteboards</dt>
+                  <dd>$252</dd>
+                </dl>
+              </li>
+              <li class="all whiteboards">
+                <div>
+                  <a href="detailAccessories016.html"><span>more<span></a>
+                  <img src="images/listAccessories016.png" alt="listAccessories016">
+                </div>
+                <dl>
+                  <dt><small>Steelcase</small>Groupwork Mobile Screen</dt>
+                  <dd>$638</dd>
+                </dl>
+              </li>
+              <li class="all lighting">
+                <div>
+                  <a href="detailAccessories017.html"><span>more<span></a>
+                  <img src="images/listAccessories017.png" alt="listAccessories017">
+                </div>
+                <dl>
+                  <dt><small>Steelcase</small>dash USB</dt>
+                  <dd>$520</dd>
+                </dl>
+              </li>
+              <li class="all organizationTools">
+                <div>
+                  <a href="detailAccessories018.html"><span>more<span></a>
+                  <img src="images/listAccessories018.png" alt="listAccessories018">
+                </div>
+                <dl>
+                  <dt><small>Steelcase</small>SOTO Laptop Shelf</dt>
+                  <dd>$140</dd>
+                </dl>
+              </li>
+              <li class="all lighting">
+                <div>
+                  <a href="detailAccessories019.html"><span>more<span></a>
+                  <img src="images/listAccessories019.png" alt="listAccessories019">
+                </div>
+                <dl>
+                  <dt><small>Steelcase</small>dash Mini</dt>
+                  <dd>$397</dd>
+                </dl>
+              </li>
+              <li class="all biviAccessories">
+                <div>
+                  <a href="detailAccessories020.html"><span>more<span></a>
+                  <img src="images/listAccessories020.png" alt="listAccessories020">
+                </div>
+                <dl>
+                  <dt><small>Steelcase</small>Turnstone Bivi Integrated Power</dt>
+                  <dd>$215</dd>
+                </dl>
+              </li>
+              <li class="all biviAccessories">
+                <div>
+                  <a href="detailAccessories021.html"><span>more<span></a>
+                  <img src="images/listAccessories021.png" alt="listAccessories021">
+                </div>
+                <dl>
+                  <dt><small>Steelcase</small>Turnstone Bivi Arch</dt>
+                  <dd>$389</dd>
+                </dl>
+              </li>
+              <li class="all lighting">
+                <div>
+                  <a href="detailAccessories022.html"><span>more<span></a>
+                  <img src="images/listAccessories022.png" alt="listAccessories022">
+                </div>
+                <dl>
+                  <dt><small>Coalesse</small>LED Intro Task Light</dt>
+                  <dd>$175</dd>
+                </dl>
+              </li>
+              <li class="all organizationTools">
+                <div>
+                  <a href="detailAccessories023.html"><span>more<span></a>
+                  <img src="images/listAccessories023.png" alt="listAccessories023">
+                </div>
+                <dl>
+                  <dt><small>Coalesse</small>Steelcase Flex Accessories Baskets</dt>
+                  <dd>$427</dd>
+                </dl>
+              </li>
+              <li class="all lighting">
+                <div>
+                  <a href="detailAccessories024.html"><span>more<span></a>
+                  <img src="images/listAccessories024.png" alt="listAccessories024">
+                </div>
+                <dl>
+                  <dt><small>Steelcase</small>LED Radial Desktop Task Light</dt>
+                  <dd>$309</dd>
+                </dl>
+              </li>
+              <li class="all organizationTools spaceDivision">
+                <div>
+                  <a href="detailAccessories025.html"><span>more<span></a>
+                  <img src="images/listAccessories025.png" alt="listAccessories025">
+                </div>
+                <dl>
+                  <dt><small>Steelcase</small>SOTO Functional Screen</dt>
+                  <dd>$239</dd>
+                </dl>
+              </li>
+              <li class="all biviAccessories">
+                <div>
+                  <a href="detailAccessories026.html"><span>more<span></a>
+                  <img src="images/listAccessories026.png" alt="listAccessories026">
+                </div>
+                <dl>
+                  <dt><small>Steelcase</small>Turnstone Bivi Hanging Side Storage</dt>
+                  <dd>$533</dd>
+                </dl>
+              </li>
+              <li class="all biviAccessories">
+                <div>
+                  <a href="detailAccessories027.html"><span>more<span></a>
+                  <img src="images/listAccessories027.png" alt="listAccessories027">
+                </div>
+                <dl>
+                  <dt><small>Steelcase</small>Steelcase Flex Dock</dt>
+                  <dd>$449</dd>
+                </dl>
+              </li>
+              <li class="all whiteboards">
+                <div>
+                  <a href="detailAccessories028.html"><span>more<span></a>
+                  <img src="images/listAccessories028.png" alt="listAccessories028">
+                </div>
+                <dl>
+                  <dt><small>Steelcase</small>Motif</dt>
+                  <dd>$410</dd>
+                </dl>
+              </li>
+            </ol>
+          </li>
+          <li class="listPageAccessories02">
+            <ol>
+              <li class="all lighting">
+                <div>
+                  <a href="detailAccessories029.html"><span>more<span></a>
+                  <img src="images/listAccessories029.png" alt="listAccessories029">
+                </div>
+                <dl>
+                  <dt><small>Steelcase</small>LED Intro Task Light - Ready to Ship</dt>
+                  <dd>$175</dd>
+                </dl>
+              </li>
+              <li class="all spaceDivision">
+                <div>
+                  <a href="detailAccessories030.html"><span>more<span></a>
+                  <img src="images/listAccessories030.png" alt="listAccessories030">
+                </div>
+                <dl>
+                  <dt><small>Steelcase</small>Divisio Clamp-On Desktop Divider</dt>
+                  <dd>$341</dd>
+                </dl>
+              </li>
+              <li class="all spaceDivision">
+                <div>
+                  <a href="detailAccessories031.html"><span>more<span></a>
+                  <img src="images/listAccessories031.png" alt="listAccessories031">
+                </div>
+                <dl>
+                  <dt><small>Steelcase</small>Turnstone Campfire Screens</dt>
+                  <dd>$872</dd>
+                </dl>
+              </li>
+              <li class="all biviAccessories">
+                <div>
+                  <a href="detailAccessories032.html"><span>more<span></a>
+                  <img src="images/listAccessories032.png" alt="listAccessories032">
+                </div>
+                <dl>
+                  <dt><small>Steelcase</small>Turnstone Bivi Bottom Shelf</dt>
+                  <dd>$187</dd>
+                </dl>
+              </li>
+              <li class="all whiteboards">
+                <div>
+                  <a href="detailAccessories033.html"><span>more<span></a>
+                  <img src="images/listAccessories033.png" alt="listAccessories033">
+                </div>
+                <dl>
+                  <dt><small>Steelcase</small>Verb Whiteboard Easel</dt>
+                  <dd>$1601</dd>
+                </dl>
+              </li>
+              <li class="all biviAccessories">
+                <div>
+                  <a href="detailAccessories034.html"><span>more<span></a>
+                  <img src="images/listAccessories034.png" alt="listAccessories034">
+                </div>
+                <dl>
+                  <dt><small>Steelcase</small>Turnstone Bivi Top Shelf</dt>
+                  <dd>$194</dd>
+                </dl>
+              </li>
+              <li class="all biviAccessories">
+                <div>
+                  <a href="detailAccessories035.html"><span>more<span></a>
+                  <img src="images/listAccessories035.png" alt="listAccessories035">
+                </div>
+                <dl>
+                  <dt><small>Steelcase</small>Turnstone Bivi Holder</dt>
+                  <dd>$272</dd>
+                </dl>
+              </li>
+              <li class="all lighting">
+                <div>
+                  <a href="detailAccessories036.html"><span>more<span></a>
+                  <img src="images/listAccessories036.png" alt="listAccessories036">
+                </div>
+                <dl>
+                  <dt><small>West Elm Work</small>Linear LED Task Lamp by West Elm</dt>
+                  <dd>$226</dd>
+                </dl>
+              </li>
+              <li class="all lighting">
+                <div>
+                  <a href="detailAccessories037.html"><span>more<span></a>
+                  <img src="images/listAccessories037.png" alt="listAccessories037">
+                </div>
+                <dl>
+                  <dt><small>Steelcase</small>LED Linear Desktop Task Light</dt>
+                  <dd>$309</dd>
+                </dl>
+              </li>
+              <li class="all lighting">
+                <div>
+                  <a href="detailAccessories038.html"><span>more<span></a>
+                  <img src="images/listAccessories038.png" alt="listAccessories038">
+                </div>
+                <dl>
+                  <dt><small>FLOS</small>FLOS IC Lights</dt>
+                  <dd>$735</dd>
+                </dl>
+              </li>
+              <li class="all organizationTools">
+                <div>
+                  <a href="detailAccessories039.html"><span>more<span></a>
+                  <img src="images/listAccessories039.png" alt="listAccessories039">
+                </div>
+                <dl>
+                  <dt><small>Steelcase</small>SOTO Deskpad - Ready to Ship</dt>
+                  <dd>$127</dd>
+                </dl>
+              </li>
+              <li class="all lighting">
+                <div>
+                  <a href="detailAccessories040.html"><span>more<span></a>
+                  <img src="images/listAccessories040.png" alt="listAccessories040">
+                </div>
+                <dl>
+                  <dt><small>FLOS</small>FLOS Kelvin Edge</dt>
+                  <dd>$550</dd>
+                </dl>
+              </li>
+            </ol>
+          </li>
+        </ul>
+        <div class="pager">
+          <a class="prev"></a>
+          <ul>
+            <li class="active"><a href="listPage01_accessories.html">1</a></li>
+            <li><a href="listPage02_accessories.html">2</a></li>
+          </ul>
+          <a href="listPage02_accessories.html" class="next active"></a>
+        </div>
+      </div>
+    </section>
+
+    <footer>
+      <ul>
+        <li>
+          <h2>Subscribe</h2>
+          <p>Sign up for exclusive offers, product releases and the latest news from Steelcase.</p>
+          <div>
+            <label for="userEmail">Email*</label>
+            <input type="email" id="userEmail" placeholder="Write Your E- mail">
+            <input type="submit" value="Sign Up">
+          </div>
+        </li>
+        <li class="footerContent">
+          <h2>Need Help?<img src="images/footerArrowDown.png" alt="footerContent"></h2>
+          <ol>
+            <li><a href="page_FAQs.html">FAQs</a></li>
+            <li><a href="page_FAQs01Shipping.html">Shipping + Delivery</a></li>
+            <li><a href="page_FAQs02Orders.html">Orders</a></li>
+            <li><a href="page_FAQs03Return.html">Returns</a></li>
+            <li><a href="page_FAQs05warranty.html">Warranty</a></li>
+            <li><a href="page_FAQs06payment.html">Payment + Financing</a></li>
+          </ol>
+        </li>
+        <li class="footerContent">
+          <h2>Contact<img src="images/footerArrowDown.png" alt="footerContent"></h2>
+          <ol>
+            <li><a href="page_contactUs.html">Online Support</a></li>
+            <li><a href="tel:+18005163454">1.800.516.3454</a></li>
+            <li><span>Monday - Friday</span></li>
+            <li><span>9AM - 6PM EST</span></li>
+          </ol>
+        </li>
+        <li class="footerContent">
+          <h2>Steelcase<img src="images/footerArrowDown.png" alt="footerContent"></h2>
+          <ol>
+            <li><a href="page_About.html">About</a></li>
+            <li><a href="page_sustainability.html">Sustainability</a></li>
+            <li><a href="page_privacyPolicy.html">Privacy Policy</a></li>
+            <li><a href="page_TermsOfUse.html">Terms of Use</a></li>
+            <li><a href="page_trademarks.html">Trademarks</a></li>
+            <li><a href="page_accessibilityStatement.html">Accessibility Statement</a></li>
+          </ol>
+        </li>
+        <li>
+          <h2>Follow Us</h2>
+          <ol>
+            <li><a href="https://www.instagram.com/steelcase/">instagram</a></li>
+            <li><a href="https://www.linkedin.com/company/steelcase">linkedin</a></li>
+            <li><a href="https://www.facebook.com/Steelcase">facebook</a></li>
+            <li><a href="https://twitter.com/Steelcase">twitter</a></li>
+            <li><a href="https://www.youtube.com/user/STEELCASETV">youtube</a></li>
+            <li><a href="https://www.pinterest.co.kr/steelcase/">pinterst</a></li>
+          </ol>
+        </li>
+      </ul>
+      <p>© 2024 Steelcase Inc.</p>
+    </footer>
+    
+  </body>
+</html>

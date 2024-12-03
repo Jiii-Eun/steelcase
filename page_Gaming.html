@@ -1,0 +1,517 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SteelcaseStore</title>
+    <script src="https://code.jquery.com/jquery-3.7.1.js"></script>
+    <script src="https://code.jquery.com/ui/1.13.2/jquery-ui.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bxslider/4.2.15/jquery.bxslider.min.js"></script>
+    <script src="js/steel.js"></script>
+    <link rel="shortcut icon" href="images/favicon.png" type="image/x-icon">
+    <link rel="stylesheet" href="css/import.css">
+  </head>
+  <body>
+    <div id="menuOpen" class="panel menuOpen">
+      <input type="button" value="close" class="material-symbols-outlined" data-panelName="menuOpen">
+      <h2><a href="index.html"></a>
+        <img src="images/panelLogo.png" alt="steelcase">
+      </h2>
+      <div>
+        <nav>
+          <ul class="mainCatecories">
+            <li class="btn_seating"><input type="button" value="Seating" data-panelName="detail_seating"></li>
+            <li class="btn_deskTables"><input type="button" value="Desks + Tables"  data-panelName="detail_deskTables"></li>
+            <li class="btn_storage"><input type="button" value="Storage"  data-panelName="detail_storage"></li>
+            <li class="btn_accessories"><input type="button" value="Accessories"  data-panelName="detail_accessories"></li>
+            <li><a href="page_Gaming.html">Gaming</a></li>
+            <li class="btn_resources"><input type="button" value="Resources" data-panelName="detail_resources"></li>
+            <li class="btn_brands"><input type="button" value="Brands" data-panelName="detail_brands"></li>
+          </ul>
+        </nav>
+        <div>
+          <ul>
+            <li class="detail_seating">
+              <ol>
+                <li class="backMenu" data-panelName="detail_seating"><img src="images/panelLeftarrow.png" alt="leftArrow"><span>categories</span></li>
+                <li><a href="listPage01_seating.html">All Seating</a></li>
+                <li><a href="listPage05_seating.html">High Performance Seating</a></li>
+                <li><a href="listPage06_seating.html">Office Chairs</a></li>
+                <li><a href="listPage07_seating.html">Side + Guest Chairs</a></li>
+                <li><a href="listPage08_seating.html">Lounge Chairs</a></li>
+                <li><a href="listPage09_seating.html">Conference Chairs</a></li>
+                <li><a href="listPage10_seating.html">Benches + Ottomans</a></li>
+                <li><a href="listPage11_seating.html">Stools</a></li>
+                <li><a href="listPage12_seating.html">Outdoor Chairs</a></li>
+                <li><a href="listPage13_seating.html">Seating Service Parts</a></li>
+              </ol>
+            </li>
+            <li class="detail_deskTables">
+              <ol>
+                <li class="backMenu" data-panelName="detail_deskTables"><img src="images/panelLeftarrow.png" alt="leftArrow"><span>categories</span></li>
+                <li><a href="listPage01_deskTables.html">All Desks + Tables</a></li>
+                <li><a href="listPage04_deskTables.html">Desks + Tables</a></li>
+                <li><a href="listPage05_deskTables.html">Sit-to-Stand Desks</a></li>
+                <li><a href="listPage06_deskTables.html">Occasional Tables</a></li>
+                <li><a href="listPage07_deskTables.html">Conference + Classroom Tables</a></li>
+                <li><a href="listPage08_deskTables.html">Outdoor Tables</a></li>
+                <li><a href="listPage09_deskTables.html">Desks + Tables Service Parts</a></li>
+              </ol>
+            </li>
+            <li class="detail_storage">
+              <ol>
+                <li class="backMenu" data-panelName="detail_storage"><img src="images/panelLeftarrow.png" alt="leftArrow"><span>categories</span></li>
+                <li><a href="listPage01_storage.html">All Storage</a></li>
+                <li><a href="listPage02_storage.html">pedestals</a></li>
+                <li><a href="listPage03_storage.html">Bookcases + Cabinets + Credenzas</a></li>
+                <li><a href="listPage04_storage.html">Storage Service Parts</a></li>
+              </ol>
+            </li>
+            <li class="detail_accessories">
+              <ol>
+                <li class="backMenu" data-panelName="detail_accessories"><img src="images/panelLeftarrow.png" alt="leftArrow"><span>categories</span></li>
+                <li><a href="listPage01_accessories.html">All Accessories</a></li>
+                <li><a href="listPage03_accessories.html">Lighting</a></li>
+                <li><a href="listPage04_accessories.html">Organization Tools</a></li>
+                <li><a href="listPage05_accessories.html">Computer Support</a></li>
+                <li><a href="listPage06_accessories.html">Power + Cable Management</a></li>
+                <li><a href="listPage07_accessories.html">Whiteboards</a></li>
+                <li><a href="listPage08_accessories.html">Space Division</a></li>
+                <li><a href="listPage09_accessories.html">Bivi Accessories</a></li>
+              </ol>
+            </li>
+            <li class="detail_resources">
+              <ol>
+                <li class="backMenu" data-panelName="detail_resources"><img src="images/panelLeftarrow.png" alt="leftArrow"><span>Resources</span></li>
+                <li><a href="page_adjust.html">How to Adjust Your Chair</a></li>
+                <li><a href="page_quiz01.html">Take Our Chair Quiz</a></li>
+                <li><a href="page_sustainability.html">Sustainability</a></li>
+                <li><a href="page_FAQs.html">FAQs</a></li>
+                <li><a href="page_FAQs05warranty.html">Steelcase Warranty</a></li>
+                <li><a href="page_freeDesignService.html">Free Design Services</a></li>
+                <li><a href="page_madeFor.html">Made-for-Life Materials</a></li>
+                <li><a href="page_orderFreeFabricSwatches.html">Order Free Fabric Swatches</a></li>
+              </ol>
+            </li>
+            <li class="detail_brands">
+              <ol>
+                <li class="backMenu" data-panelName="detail_brands"><img src="images/panelLeftarrow.png" alt="leftArrow"><span>Brands</span></li>
+                <li><a href="listPage_brands01.html">AMQ</a></li>
+                <li><a href="listPage_brands02.html">Bolia</a></li>
+                <li><a href="listPage_brands03.html">Coalesse</a></li>
+                <li><a href="listPage_brands04.html">m.a.d.</a></li>
+                <li><a href="listPage_brands05.html">Mattiazzi</a></li>
+                <li><a href="listPage_brands06.html">West Elm Work</a></li>
+              </ol>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div id="searchOpen" class="panel searchOpen">
+      <input type="button" value="close" class="material-symbols-outlined" data-panelName="searchOpen">
+      <div class="rightwidth">
+        <h2>Search product</h2>
+        <div>
+          <input type="search" id="productsearch" placeholder="Search by name">
+        </div>
+        <input type="submit" value="SEARCH" data-panelName="searchOpen">
+      </div>
+    </div>
+    <div id="cartHave" class="panel cartHave">
+      <input type="button" value="close" class="material-symbols-outlined" data-panelName="cartHave">
+      <div>
+        <h2>Added To Cart</h2>
+        <ul>
+            <li>
+              <img src="images/listSeating002.png" alt="item01">
+              <div>
+                <span>Steelcase</span>
+                <input type="button" value="delete" class="material-symbols-outlined" data-panelName="cartEmpty">
+                <a href="detailSeating002.html">Steelcase Series 1</a>
+              </div>
+              <div>
+                <div>
+                  <input type="button" class="decrease" value="-">
+                  <span class="quantity">1</span>
+                  <input type="button" class="increase" value="+">
+                </div>                
+                <output data-price="493">$493</output>
+              </div>
+            </li>
+            <!-- <li>
+                <div>
+                  <span>Steelcase</span>
+                  <a href="#">alo</a>
+                  <input type="button" value="delete" class="material-symbols-outlined" data-panelName="cartEmpty">
+                </div>
+                <div>
+                  <div>
+                    <input type="button" class="decrease" value="-">
+                    <span class="quantity">1</span>
+                    <input type="button" class="increase" value="+">
+                </div>                
+                <output data-price="3553">3,553</output>
+              </div>
+            </li> -->
+        </ul>
+        <div>
+          <div>
+            <span>TOTAL</span>
+            <output class="totalOutput">1,371</output>
+          </div>
+          <a href="shippingPage.html">Review Cart</a>
+        </div>
+      </div>
+    </div>
+    <div id="cartEmpty" class="panel cartEmpty">
+        <input type="button" value="close" class="material-symbols-outlined" data-panelName="cartEmpty">
+        <div>
+          <h2>Your shopping cart is empty.</h2>
+          <input type="button" id="continue" value="Continue Shopping" data-panelName="cartEmpty">
+        </div>
+    </div>
+    <header>
+      <h1><a href="index.html">
+        <img src="images/headerLogo.png" alt="welcome steelcase"></a></h1>
+      <ul>
+        <li><input type="button" value="search" class="material-symbols-outlined btn_search" data-panelName="searchOpen"></li>
+        <li><input type="button" value="menu" class="material-symbols-outlined btn_menu" data-panelName="menuOpen"></li>
+        <li>
+          <a href="loginPage.html" id="loginLink"><input type="button" value="login" class="material-symbols-outlined login"></a>
+          <div id="myPageOption">
+            <ol>
+              <li><a href="myAccountPage.html" id="myAccount"><input type="button" value="account_circle" class="material-symbols-outlined account">My Account</a></li>
+              <li><a href="loginPage.html" id="logoutLink"><input type="button" value="logout" class="material-symbols-outlined logout">Logout</a></li>
+            </ol>
+          </div>
+        </li>
+        <li><input type="button" value="shopping_cart" class="material-symbols-outlined btn_cart" data-panelName="cartHave"></li>
+        <li id="selectBox">
+          <select id="language">
+            <option value="english">EN</option>
+            <option value="french">FR</option>
+            <option value="german">DE</option>
+            <option value="japan">JP</option>
+            <option value="zh-cn">ZH-CN</option>
+            <option value="zh-tw">ZH-TW</option>
+            <option value="Spanish">ES</option>
+            <option value="Romania">RO</option>
+          </select>
+        </li>
+      </ul>
+    </header>
+    
+    <section class="gamingContainer">
+      <div>
+        <div>
+          <div>
+            <div>
+              <h2>Goodbye "Gaming" Chair, Hello Ergonomics</h2>
+              <p>Steelcase chairs surpass traditional "gaming" chairs to provide you with both ergonomics and comfort. Long gone are the days of sore legs and strained necks. Upgrade your setup so the only thing you're focused on is your game.</p>
+              <div><a href="listPage01_seating.html" class="btn_animation shop"><span>SHOP NOW</span></a></div>
+            </div>
+            <img src="images/gamingBack01.png" alt="gamingBack01">
+          </div>
+        </div>
+        <div>
+          <div>
+            <p>"Bought this to replace a worn out gaming style chair. This is much more comfortable, and seems to be constructed better than the [gaming] chair. I was having back pain with the worn out gaming chair, which went away after I got this chair....10/10 would buy again..."</p>
+            <span>Shane, Verified Buyer, Gesture</span>
+            <img src="images/gaming5Star.png" alt="5star">
+          </div>
+        </div>
+        <div>
+          <div>
+            <div class="two">
+              <div class="boxSilder02">
+                <div>
+                  <h2>Gaming Setup Inspiration</h2>
+                  <ol class="detailSlider2">
+                    <li><img src="images/gamingDetail01.png" alt="decoimage01"></li>
+                    <li><img src="images/gamingDetail02.png" alt="decoimage02"></li>
+                    <li><img src="images/gamingDetail03.png" alt="decoimage03"></li>
+                    <li><img src="images/gamingDetail04.png" alt="decoimage04"></li>
+                    <li><img src="images/gamingDetail05.png" alt="decoimage05"></li>
+                    <li><img src="images/gamingDetail06.png" alt="decoimage06"></li>
+                  </ol>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="productDetail">
+          <div>
+          </div>
+          <div>
+            <h2>Take Our Chair Quiz</h2>
+            <ol>
+              <li>
+                <img src="images/gamingQuez01.png" alt="related01">
+                <div>
+                  <a href="detailSeating001.html">Gesture</a>
+                  <span>$1371</span>
+                </div>
+              </li>
+              <li>
+                <img src="images/gamingQuez02.png" alt="related02">
+                <div>
+                  <a href="detailSeating002s.html">Steelcase Series1</a>
+                  <span>$493</span>
+                </div>
+              </li>
+              <li>
+                <img src="images/gamingQuez03.png" alt="related03">
+                <div>
+                  <a href="detailSeating003.html">Leap</a>
+                  <span>$1,997</span>
+                </div>
+              </li>
+              <li>
+                <h3>Let Us Help You</h3>
+                <a href="page_quiz01.html" class="btn_animation"><span>Find Your Chair</span></a>
+              </li>
+            </ol>
+          </div>
+        </div>
+        <div class="buttonAction">
+          <div class="productTitle">
+            <h2>Unleash Your Potential</h2>
+            <div>
+              <input type="button" value="Your Best Game" class="btn_fabricTest active" data-panelName="gamingBest">
+              <input type="button" value="Top-Level Seating" class="btn_cleaning" data-panelName="gamingSeating">
+            </div>
+          </div>
+    
+          <div class="productDetail">
+            <div>
+              <ul class="gamingBest active">
+                <li>
+                  <span>How do you game?</span>
+                  <p>Part of selecting the right chair for gaming is identifying the unique ways in which you game. Steelcase performance chairs help support a wide range of gaming device usage, from controller to mouse and keyboard. From the variety streamer to those on a single-game grind, and everyone in between. Check out the profiles below for more details about how each chair uniquely supports you and your gaming setup.</p>
+                </li>
+                <li>
+                  <span>How do you move?</span>
+                  <p>Movement is essential in maintaining comfort during long stretches of computer usage, whether you’re hard at work or pushing yourself in your favorite game. You may take breaks from your desk or move from posture to posture in your chair to keep your body engaged while playing or working. Equally comfortable for work or gaming, Steelcase chairs support different types of movement whether you frequently move or focus with little movement for hours.</p>
+                </li>
+                <li>
+                  <span>How do you sit?</span>
+                  <p>While proper sitting posture plays an important role in alleviating discomfort, you may naturally adjust to less-than-perfect posture when you experience discomfort. You may sit on your foot, sit cross-legged, or shift in your seat to help with muscle fatigue. We understand everyone does not sit in the ideal ergonomic posture all day, even if you’re sitting in an ergonomic chair. Steelcase chairs are designed to both reduce the need to change to non-ergonomic postures and to help accommodate different postures if you sit less conventionally.</p>
+                </li>
+              </ul>
+              <ul class="gamingSeating">
+                <li>
+                  <span>High Performance</span>
+                  <p>There is science behind every inch of our chairs, designed with the promise to help you work and play better. Each of our chairs for work or gaming have a system with high-performing elements that seamlessly work together for effortless movement and immediate comfort that lasts all day. Full adjustability throughout for a precise fit, pressure-free seats, advanced lumbar support and optional features like headrests. Our high-performance seating is designed to perform with excellence, so you can function and feel your best every day.</p>
+                </li>
+                <li>
+                  <span>Guaranteed Quality</span>
+                  <p>With over 100 years of making quality furniture, Steelcase office chairs are continually ranked among the best of the best. Every high-performance chair is guaranteed with a 12-year industry-leading warranty. For 8 years running, Wirecutter has named Gesture the Best Office Chair, in “The 12 Best Office Chairs” lineup (2015-2023). Wired ranked Gesture the Best Upgrade Office Chair in 2022, stating “Steelcase Gesture is comfortable, no matter how you are sitting.” Steelcase chairs are continually called out in the gaming space by professional and everyday players.</p>
+                </li>
+                <li>
+                  <span>Better Planet</span>
+                  <p>We care about the impact we make on the world we share, so for over a century we’ve used our brand as a force for good.</p>
+                  <p>At Steelcase, we design our products and operations around a commitment to help reduce climate change, reinforced by sustainable practices across our company.</p>
+                  <p>We are committed to:</p>
+                  <p>  - Improving product sustainability.</p>
+                  <p>  - Transparency and optimization in design and material selection.</p>
+                  <p>  - Reducing waste and promoting circularity.</p>
+                  <p>  - Lessening greenhouse gases emitted in the creation of our products.​</p>
+                  <p>  - Considering the full life cycle in product design.</p>
+                  <p>  - Sourcing materials responsibly.</p>
+                  <p>  - Minimizing global warming and other life cycle impacts.</p>
+                  <p>  - Ensuring material health.</p>
+                  <p>  - Enabling end-of-use strategies.</p>
+                  <p>There is always more to do, but we believe better is possible as we fulfill our promise to help the world work better.​ For more on our how we are making a difference, please see the Steelcase Sustainability Overview.</p>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div>
+          <div>
+            <h2>Chairs for All-Day Work + Play</h2>
+              <ul>
+                <li>
+                  <img src="images/gamingBakc02.png" alt="gesture">
+                  <div>
+                    <h3>Gesture</h3>
+                    <p>Gesture redefines the relationship between you and your chair. Voted best office chair, its 360-degree arms, contoured back and adjustments are designed for all the ways technology shapes your posture. The chair that works after hours combining versatile, modern style, endless comfort, and support for all the ways you work and play.</p>
+                    <ol>
+                      <li>
+                        <h4>Next-Level Features</h4>
+                        <div>
+                          <mark>Advanced 360 Arms</mark>
+                          <p>Arms effortlessly adjust to support all gaming stances with and without a controller.</p>
+                        </div>c
+                        <div>
+                          <mark>Optional Headrest</mark>
+                          <p>Integrated headrest alleviates neck strain. Moves vertically, tilts forward and rotates 90 degrees.</p>
+                        </div>
+                        <div>
+                          <mark>3D LiveBack® and Core Equalizer</mark>
+                          <p>The chair back moves more like your spine to encourage movement and take pressure off your core.</p>
+                        </div>
+                      </li>
+                      <li>
+                        <h4>Recommended For</h4>
+                        <div>
+                          <mark>The Versatile Player</mark>
+                          <p>Play any game, with any device, on any platform with long-lasting comfort and support.</p>
+                        </div>
+                        <div>
+                          <mark>Precision-Fit User Adjustments</mark>
+                          <p>Manually adjust the chair for your body and activity with ease.</p>
+                        </div>
+                        <div>
+                          <mark>High Controller Use</mark>
+                          <p>Take advantage of the 360 arms to support controller gameplay in addition to mouse & keyboard.</p>
+                        </div>
+                      </li>
+                    </ol>
+                  </div>
+                </li>
+                <li>
+                  <div>
+                    <h3>Leap</h3>
+                    <p>Leap lets you dial in a precise fit in all the places you need it most. It’s a highly intuitive chair that effortlessly adjusts providing customized support for your unique body shape, workstyle and playstyle. You’ll love the way the seat glides back and forth as you recline, keeping you connected while working and gaming.</p>
+                    <ol>
+                      <li>
+                        <h4>Next-Level Features</h4>
+                        <div>
+                          <mark>The Tactical Player</mark>
+                          <p>Play your game, stay focused and in flow while Leap supports your unique playstyle.</p>
+                        </div>
+                        <div>
+                          <mark>Precision-Fit User Adjustments</mark>
+                          <p>Manually adjust the chair with ease to support the ways you play.</p>
+                        </div>
+                        <div>
+                          <mark>High Keyboard & Mouse Use</mark>
+                          <p>Great for keyboard and mouse users who tend to stay in one position and use controllers on occasion.</p>
+                        </div>
+                      </li>
+                      <li>
+                        <h4>Recommended For</h4>
+                        <div>
+                          <mark>Absolute Adjustability</mark>
+                          <p>Dial-in adjustability features throughout create a custom fit for long-term comfort.</p>
+                        </div>
+                        <div>
+                          <mark>Natural Glide Recline</mark>
+                          <p>Seat glides back and forth as you recline to keep you connected to the game.</p>
+                        </div>
+                        <div>
+                          <mark>LiveBack® Support System</mark>
+                          <p>Back support that moves like your spine to encourage movement and flexibility.</p>
+                        </div>
+                      </li>
+                    </ol>
+                  </div>
+                  <img src="images/gamingBakc03.png" alt="leap">
+                </li>
+                <li>
+                  <img src="images/gamingBakc04.png" alt="karman">
+                  <div>
+                    <h3>Karman</h3>
+                    <p>A 21st century design for 21st century work and play. Karman is a truly revolutionary chair, incredibly responsive, intuitive and versatile. Karman is more comfortable than leading mesh office chairs with an innovative design that puts less pressure on your seat and back. Featuring Intermix, a propriety performance textile that evenly distributes your weight and provides advanced air circulation. With the perfect tension, Intermix never sags or feels stiff.</p>
+                    <ol>
+                      <li>
+                        <h4>Next-Level Features</h4>
+                        <div>
+                          <mark>The Agile Player</mark>
+                          <p>Play and move, come and go, live your life and let Karman handle your comfort when its game time.</p>
+                        </div>
+                        <div>
+                          <mark>Automatic Adjustment</mark>
+                          <p>Sit back and let Karman adjust to your body as you move.  Instead of manually adjusting, Karman does the heavy lifting for you by adjusting to fit your unique shape and size.</p>
+                        </div>
+                        <div>
+                          <mark>High Device Versatility</mark>
+                          <p>From mouse and keyboard to controller Karman moves with your body to keep you supported and in the game longer.</p>
+                        </div>
+                      </li>
+                      <li>
+                        <h4>Recommended For</h4>
+                        <div>
+                          <mark>Suspension and Seat Frame</mark>
+                          <p>This incredibly flexible seat and ultra-light frame take the pressure off your back and legs.</p>
+                        </div>
+                        <div>
+                          <mark>4D Adjustable Arms</mark>
+                          <p>Arm support adjusts to your preferred height, width, depth and pivot.</p>
+                        </div>
+                        <div>
+                          <mark>Optional Head and Neck Support</mark>
+                          <p>Designed to provide additional upper body and neck support to enhance comfort during recline.</p>
+                        </div>
+                      </li>
+                    </ol>
+                  </div>
+                </li>
+              </ul>
+          </div>
+        </div>
+      </div>
+
+    </section>
+
+    <footer>
+      <ul>
+        <li>
+          <h2>Subscribe</h2>
+          <p>Sign up for exclusive offers, product releases and the latest news from Steelcase.</p>
+          <div>
+            <label for="userEmail">Email*</label>
+            <input type="email" id="userEmail" placeholder="Write Your E- mail">
+            <input type="submit" value="Sign Up">
+          </div>
+        </li>
+        <li class="footerContent">
+          <h2>Need Help?<img src="images/footerArrowDown.png" alt="footerContent"></h2>
+          <ol>
+            <li><a href="page_FAQs.html">FAQs</a></li>
+            <li><a href="page_FAQs01Shipping.html">Shipping + Delivery</a></li>
+            <li><a href="page_FAQs02Orders.html">Orders</a></li>
+            <li><a href="page_FAQs03Return.html">Returns</a></li>
+            <li><a href="page_FAQs05warranty.html">Warranty</a></li>
+            <li><a href="page_FAQs06payment.html">Payment + Financing</a></li>
+          </ol>
+        </li>
+        <li class="footerContent">
+          <h2>Contact<img src="images/footerArrowDown.png" alt="footerContent"></h2>
+          <ol>
+            <li><a href="page_contactUs.html">Online Support</a></li>
+            <li><a href="tel:+18005163454">1.800.516.3454</a></li>
+            <li><span>Monday - Friday</span></li>
+            <li><span>9AM - 6PM EST</span></li>
+          </ol>
+        </li>
+        <li class="footerContent">
+          <h2>Steelcase<img src="images/footerArrowDown.png" alt="footerContent"></h2>
+          <ol>
+            <li><a href="page_About.html">About</a></li>
+            <li><a href="page_sustainability.html">Sustainability</a></li>
+            <li><a href="page_privacyPolicy.html">Privacy Policy</a></li>
+            <li><a href="page_TermsOfUse.html">Terms of Use</a></li>
+            <li><a href="page_trademarks.html">Trademarks</a></li>
+            <li><a href="page_accessibilityStatement.html">Accessibility Statement</a></li>
+          </ol>
+        </li>
+        <li>
+          <h2>Follow Us</h2>
+          <ol>
+            <li><a href="https://www.instagram.com/steelcase/">instagram</a></li>
+            <li><a href="https://www.linkedin.com/company/steelcase">linkedin</a></li>
+            <li><a href="https://www.facebook.com/Steelcase">facebook</a></li>
+            <li><a href="https://twitter.com/Steelcase">twitter</a></li>
+            <li><a href="https://www.youtube.com/user/STEELCASETV">youtube</a></li>
+            <li><a href="https://www.pinterest.co.kr/steelcase/">pinterst</a></li>
+          </ol>
+        </li>
+      </ul>
+      <p>© 2024 Steelcase Inc.</p>
+    </footer>
+    
+  </body>
+</html>

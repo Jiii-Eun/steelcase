@@ -1,0 +1,661 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SteelcaseStore</title>
+    <script src="https://code.jquery.com/jquery-3.7.1.js"></script>
+    <script src="https://code.jquery.com/ui/1.13.2/jquery-ui.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bxslider/4.2.15/jquery.bxslider.min.js"></script>
+    <script src="js/steel.js"></script>
+    <link rel="shortcut icon" href="images/favicon.png" type="image/x-icon">
+    <link rel="stylesheet" href="css/import.css">
+  </head>
+  <body>
+    <div id="menuOpen" class="panel menuOpen">
+      <input type="button" value="close" class="material-symbols-outlined" data-panelName="menuOpen">
+      <h2><a href="index.html"></a>
+        <img src="images/panelLogo.png" alt="steelcase">
+      </h2>
+      <div>
+        <nav>
+          <ul class="mainCatecories">
+            <li class="btn_seating"><input type="button" value="Seating" data-panelName="detail_seating"></li>
+            <li class="btn_deskTables"><input type="button" value="Desks + Tables"  data-panelName="detail_deskTables"></li>
+            <li class="btn_storage"><input type="button" value="Storage"  data-panelName="detail_storage"></li>
+            <li class="btn_accessories"><input type="button" value="Accessories"  data-panelName="detail_accessories"></li>
+            <li><a href="page_Gaming.html">Gaming</a></li>
+            <li class="btn_resources"><input type="button" value="Resources" data-panelName="detail_resources"></li>
+            <li class="btn_brands"><input type="button" value="Brands" data-panelName="detail_brands"></li>
+          </ul>
+        </nav>
+        <div>
+          <ul>
+            <li class="detail_seating">
+              <ol>
+                <li class="backMenu" data-panelName="detail_seating"><img src="images/panelLeftarrow.png" alt="leftArrow"><span>categories</span></li>
+                <li><a href="listPage01_seating.html">All Seating</a></li>
+                <li><a href="listPage05_seating.html">High Performance Seating</a></li>
+                <li><a href="listPage06_seating.html">Office Chairs</a></li>
+                <li><a href="listPage07_seating.html">Side + Guest Chairs</a></li>
+                <li><a href="listPage08_seating.html">Lounge Chairs</a></li>
+                <li><a href="listPage09_seating.html">Conference Chairs</a></li>
+                <li><a href="listPage10_seating.html">Benches + Ottomans</a></li>
+                <li><a href="listPage11_seating.html">Stools</a></li>
+                <li><a href="listPage12_seating.html">Outdoor Chairs</a></li>
+                <li><a href="listPage13_seating.html">Seating Service Parts</a></li>
+              </ol>
+            </li>
+            <li class="detail_deskTables">
+              <ol>
+                <li class="backMenu" data-panelName="detail_deskTables"><img src="images/panelLeftarrow.png" alt="leftArrow"><span>categories</span></li>
+                <li><a href="listPage01_deskTables.html">All Desks + Tables</a></li>
+                <li><a href="listPage04_deskTables.html">Desks + Tables</a></li>
+                <li><a href="listPage05_deskTables.html">Sit-to-Stand Desks</a></li>
+                <li><a href="listPage06_deskTables.html">Occasional Tables</a></li>
+                <li><a href="listPage07_deskTables.html">Conference + Classroom Tables</a></li>
+                <li><a href="listPage08_deskTables.html">Outdoor Tables</a></li>
+                <li><a href="listPage09_deskTables.html">Desks + Tables Service Parts</a></li>
+              </ol>
+            </li>
+            <li class="detail_storage">
+              <ol>
+                <li class="backMenu" data-panelName="detail_storage"><img src="images/panelLeftarrow.png" alt="leftArrow"><span>categories</span></li>
+                <li><a href="listPage01_storage.html">All Storage</a></li>
+                <li><a href="listPage02_storage.html">pedestals</a></li>
+                <li><a href="listPage03_storage.html">Bookcases + Cabinets + Credenzas</a></li>
+                <li><a href="listPage04_storage.html">Storage Service Parts</a></li>
+              </ol>
+            </li>
+            <li class="detail_accessories">
+              <ol>
+                <li class="backMenu" data-panelName="detail_accessories"><img src="images/panelLeftarrow.png" alt="leftArrow"><span>categories</span></li>
+                <li><a href="listPage01_accessories.html">All Accessories</a></li>
+                <li><a href="listPage03_accessories.html">Lighting</a></li>
+                <li><a href="listPage04_accessories.html">Organization Tools</a></li>
+                <li><a href="listPage05_accessories.html">Computer Support</a></li>
+                <li><a href="listPage06_accessories.html">Power + Cable Management</a></li>
+                <li><a href="listPage07_accessories.html">Whiteboards</a></li>
+                <li><a href="listPage08_accessories.html">Space Division</a></li>
+                <li><a href="listPage09_accessories.html">Bivi Accessories</a></li>
+              </ol>
+            </li>
+            <li class="detail_resources">
+              <ol>
+                <li class="backMenu" data-panelName="detail_resources"><img src="images/panelLeftarrow.png" alt="leftArrow"><span>Resources</span></li>
+                <li><a href="page_adjust.html">How to Adjust Your Chair</a></li>
+                <li><a href="page_quiz01.html">Take Our Chair Quiz</a></li>
+                <li><a href="page_sustainability.html">Sustainability</a></li>
+                <li><a href="page_FAQs.html">FAQs</a></li>
+                <li><a href="page_FAQs05warranty.html">Steelcase Warranty</a></li>
+                <li><a href="page_freeDesignService.html">Free Design Services</a></li>
+                <li><a href="page_madeFor.html">Made-for-Life Materials</a></li>
+                <li><a href="page_orderFreeFabricSwatches.html">Order Free Fabric Swatches</a></li>
+              </ol>
+            </li>
+            <li class="detail_brands">
+              <ol>
+                <li class="backMenu" data-panelName="detail_brands"><img src="images/panelLeftarrow.png" alt="leftArrow"><span>Brands</span></li>
+                <li><a href="listPage_brands01.html">AMQ</a></li>
+                <li><a href="listPage_brands02.html">Bolia</a></li>
+                <li><a href="listPage_brands03.html">Coalesse</a></li>
+                <li><a href="listPage_brands04.html">m.a.d.</a></li>
+                <li><a href="listPage_brands05.html">Mattiazzi</a></li>
+                <li><a href="listPage_brands06.html">West Elm Work</a></li>
+              </ol>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div id="searchOpen" class="panel searchOpen">
+      <input type="button" value="close" class="material-symbols-outlined" data-panelName="searchOpen">
+      <div class="rightwidth">
+        <h2>Search product</h2>
+        <div>
+          <input type="search" id="productsearch" placeholder="Search by name">
+        </div>
+        <input type="submit" value="SEARCH" data-panelName="searchOpen">
+      </div>
+    </div>
+    <div id="cartHave" class="panel cartHave">
+      <input type="button" value="close" class="material-symbols-outlined" data-panelName="cartHave">
+      <div>
+        <h2>Added To Cart</h2>
+        <ul>
+            <li>
+              <img src="images/listSeating002.png" alt="item01">
+              <div>
+                <span>Steelcase</span>
+                <input type="button" value="delete" class="material-symbols-outlined" data-panelName="cartEmpty">
+                <a href="detailSeating002.html">Steelcase Series 1</a>
+              </div>
+              <div>
+                <div>
+                  <input type="button" class="decrease" value="-">
+                  <span class="quantity">1</span>
+                  <input type="button" class="increase" value="+">
+                </div>                
+                <output data-price="493">$493</output>
+              </div>
+            </li>
+            <!-- <li>
+                <div>
+                  <span>Steelcase</span>
+                  <a href="#">alo</a>
+                  <input type="button" value="delete" class="material-symbols-outlined" data-panelName="cartEmpty">
+                </div>
+                <div>
+                  <div>
+                    <input type="button" class="decrease" value="-">
+                    <span class="quantity">1</span>
+                    <input type="button" class="increase" value="+">
+                </div>                
+                <output data-price="3553">3,553</output>
+              </div>
+            </li> -->
+        </ul>
+        <div>
+          <div>
+            <span>TOTAL</span>
+            <output class="totalOutput">1,371</output>
+          </div>
+          <a href="shippingPage.html">Review Cart</a>
+        </div>
+      </div>
+    </div>
+    <div id="cartEmpty" class="panel cartEmpty">
+        <input type="button" value="close" class="material-symbols-outlined" data-panelName="cartEmpty">
+        <div>
+          <h2>Your shopping cart is empty.</h2>
+          <input type="button" id="continue" value="Continue Shopping" data-panelName="cartEmpty">
+        </div>
+    </div>
+    <header>
+      <h1><a href="index.html">
+        <img src="images/headerLogo.png" alt="welcome steelcase"></a></h1>
+      <ul>
+        <li><input type="button" value="search" class="material-symbols-outlined btn_search" data-panelName="searchOpen"></li>
+        <li><input type="button" value="menu" class="material-symbols-outlined btn_menu" data-panelName="menuOpen"></li>
+        <li>
+          <a href="loginPage.html" id="loginLink"><input type="button" value="login" class="material-symbols-outlined login"></a>
+          <div id="myPageOption">
+            <ol>
+              <li><a href="myAccountPage.html" id="myAccount"><input type="button" value="account_circle" class="material-symbols-outlined account">My Account</a></li>
+              <li><a href="loginPage.html" id="logoutLink"><input type="button" value="logout" class="material-symbols-outlined logout">Logout</a></li>
+            </ol>
+          </div>
+        </li>
+        <li><input type="button" value="shopping_cart" class="material-symbols-outlined btn_cart" data-panelName="cartHave"></li>
+        <li id="selectBox">
+          <select id="language">
+            <option value="english">EN</option>
+            <option value="french">FR</option>
+            <option value="german">DE</option>
+            <option value="japan">JP</option>
+            <option value="zh-cn">ZH-CN</option>
+            <option value="zh-tw">ZH-TW</option>
+            <option value="Spanish">ES</option>
+            <option value="Romania">RO</option>
+          </select>
+        </li>
+      </ul>
+    </header>
+    
+    <section class="pageDetailSeating064Container"> 
+      <div>
+        <div id="mainDetailOption">
+          <div class="detailMainImg">
+            <div>
+              <img src="images/detailSeating064cogent01.png" alt="mainImg">
+            </div>
+          </div>
+          <div>
+            <div>
+              <small>HOME / LOUNGE CHAIRS / Turnstone Campfire Half Lounge - Waterfall</small>
+              <div>
+                <span>Steelcase</span>
+              </div>
+              <h2>Turnstone Campfire Half Lounge - Waterfall</h2>
+            </div>
+            <ul class="optionListCheck">
+              <li class="colorCheck">
+                <h3>Seat Upholstery</h3>
+                <div class="selectBox detail">
+                  <div>
+                    <img src="images/footerArrowDown.png" alt="selectBoxArrowDown">
+                    <button class="label">Cogent: Connect</button>
+                    <ul class="optionList">
+                      <li class="optionItem active" data-panelName="colorcogent"><span>Cogent: Connect<output data-price="0"></output></span></li>
+                      <li class="optionItem" data-panelName="colorbuzz"><span>Buzz2<output data-price="0"></output></span></li>
+                    </ul>
+                  </div>
+                </div>
+                <div class="colorOption">
+                  <ul>
+                    <li class="colorcogent active">
+                      <h3>Cogent: Connect</h3>
+                      <ol> 
+                        <li>
+                          <button type="button" class="btn_colorOption active" data-src="Seating064cogent01"><img src="images/cogentCoconut.png" alt="cogent01"></button>
+                          <span>Coconut</span>
+                        </li>
+                        <li>
+                          <button type="button" class="btn_colorOption" data-src="Seating064cogent02"><img src="images/cogentTumeric.png" alt="cogent02"></button>
+                          <span>Tumeric</span>
+                        </li>
+                        <li>
+                          <button type="button" class="btn_colorOption" data-src="Seating064cogent03"><img src="images/cogentTangerine.png" alt="cogent03"></button>
+                          <span>Tangerine</span>
+                        </li>
+                        <li>
+                          <button type="button" class="btn_colorOption" data-src="Seating064cogent04"><img src="images/era05Scarlet.png" alt="cogent04"></button>
+                          <span>Scarlet</span>
+                        </li>
+                        <li>
+                          <button type="button" class="btn_colorOption" data-src="Seating064cogent05"><img src="images/cogentConcord.png" alt="cogent05"></button>
+                          <span>Concord</span>
+                        </li>
+                        <li>
+                          <button type="button" class="btn_colorOption" data-src="Seating064cogent06"><img src="images/cogentBlueJay.png" alt="cogent06"></button>
+                          <span>Blue Jay</span>
+                        </li>
+                        <li>
+                          <button type="button" class="btn_colorOption" data-src="Seating064cogent07"><img src="images/cogentWasabi.png" alt="cogent07"></button>
+                          <span>Wasabi</span>
+                        </li>
+                        <li>
+                          <button type="button" class="btn_colorOption" data-src="Seating064cogent08"><img src="images/cogent03Nickel.png" alt="cogent08"></button>
+                          <span>Nickel</span>
+                        </li>
+                        <li>
+                          <button type="button" class="btn_colorOption" data-src="Seating064cogent09"><img src="images/cogent02Grapite.png" alt="cogent09"></button>
+                          <span>Graphite</span>
+                        </li>
+                        <li>
+                          <button type="button" class="btn_colorOption" data-src="Seating064cogent10"><img src="images/cogent01Licorice.png" alt="cogent10"></button>
+                          <span>Licorice</span>
+                        </li>
+                        <li>
+                          <button type="button" class="btn_colorOption" data-src="Seating064cogent11"><img src="images/cogentMalt.png" alt="cogent11"></button>
+                          <span>Malt</span>
+                        </li>
+                        <li>
+                          <button type="button" class="btn_colorOption active" data-src="Seating064cogent12"><img src="images/cogentRootbeer.png" alt="cogent12"></button>
+                          <span>Rootbeer</span>
+                        </li>
+                        <li>
+                          <button type="button" class="btn_colorOption active" data-src="Seating064cogent13"><img src="images/cogent07Blueprint.png" alt="cogent13"></button>
+                          <span>Blueprint</span>
+                        </li>
+                        <li>
+                          <button type="button" class="btn_colorOption" data-src="Seating064cogent14"><img src="images/cogentLizardJungle.png" alt="cogent14"></button>
+                          <span>Lizard</span>
+                        </li>
+                        <li>
+                          <button type="button" class="btn_colorOption" data-src="Seating064cogent15"><img src="images/cogentQuicksilver.png" alt="cogent15"></button>
+                          <span>Quicksilver</span>
+                        </li>
+                        <li>
+                          <button type="button" class="btn_colorOption" data-src="Seating064cogent16"><img src="images/cogentLipstick.png" alt="cogent16"></button>
+                          <span>Lipstick</span>
+                        </li>
+                        <li>
+                          <button type="button" class="btn_colorOption" data-src="Seating064cogent17"><img src="images/cogentRoyalBlue.png" alt="cogent17"></button>
+                          <span>Royal Blue</span>
+                        </li>
+                      </ol>
+                    </li>
+                    <li class="colorbuzz">
+                      <h3>Buzz2</h3>
+                      <ol>
+                        <li>
+                          <button type="button" class="btn_colorOption" data-src="Seating064buzz01"><img src="images/buzzGrey.png" alt="colorbuzz01"></button>
+                          <span>Grey</span>
+                        </li>
+                        <li>
+                          <button type="button" class="btn_colorOption" data-src="Seating064buzz02"><img src="images/buzzAlpine.png" alt="colorbuzz02"></button>
+                          <span>Alpine</span>
+                        </li>
+                        <li>
+                          <button type="button" class="btn_colorOption" data-src="Seating064buzz03"><img src="images/buzzSable.png" alt="colorbuzz03"></button>
+                          <span>Sable</span>
+                        </li>
+                        <li>
+                          <button type="button" class="btn_colorOption" data-src="Seating064buzz04"><img src="images/cushionCyan.png" alt="colorbuzz04"></button>
+                          <span>Cyan</span>
+                        </li>
+                        <li>
+                          <button type="button" class="btn_colorOption" data-src="Seating064buzz05"><img src="images/cushionCrocus.png" alt="colorbuzz05"></button>
+                          <span>Crocus</span>
+                        </li>
+                        <li>
+                          <button type="button" class="btn_colorOption active" data-src="Seating064buzz06"><img src="images/buzzBlack.png" alt="colorbuzz06"></button>
+                          <span>Black</span>
+                        </li>
+                        <li>
+                          <button type="button" class="btn_colorOption" data-src="Seating064buzz07"><img src="images/buzzMeadow.png" alt="colorbuzz07"></button>
+                          <span>Meadow</span>
+                        </li>
+                        <li>
+                          <button type="button" class="btn_colorOption" data-src="Seating064buzz08"><img src="images/cushionPumpkin.png" alt="colorbuzz08"></button>
+                          <span>Pumpkin</span>
+                        </li>
+                        <li>
+                          <button type="button" class="btn_colorOption" data-src="Seating064buzz09"><img src="images/buzzRouge.png" alt="colorbuzz09"></button>
+                          <span>Rouge</span>
+                        </li>
+                      </ol>
+                    </li>
+                  </ul>
+                </div>
+              </li>
+              <li class="colorCheck">
+                <h3>Back Upholstery</h3>
+                <div class="selectBox detail">
+                  <div>
+                    <img src="images/footerArrowDown.png" alt="selectBoxArrowDown">
+                    <button class="label">Cogent: Connect</button>
+                    <ul class="optionList">
+                      <li class="optionItem" data-panelName="colorBakccogent"><span>Cogent: Connect<output data-price="0"></output></span></li>
+                      <li class="optionItem" data-panelName="colorBakcbuzz"><span>Buzz2<output data-price="0"></output></span></li>
+                    </ul>
+                  </div>
+                </div>
+                <div class="colorOption">
+                  <ul>
+                    <li class="colorBakccogent">
+                      <h3>Cogent: Connect</h3>
+                      <ol> 
+                        <li>
+                          <button type="button" class="btn_colorOption active" data-src="Seating064Backcogent01"><img src="images/cogentCoconut.png" alt="backcogent01"></button>
+                          <span>Coconut</span>
+                        </li>
+                        <li>
+                          <button type="button" class="btn_colorOption active" data-src="Seating064Backcogent02"><img src="images/cogentTumeric.png" alt="backcogent02"></button>
+                          <span>Tumeric</span>
+                        </li>
+                        <li>
+                          <button type="button" class="btn_colorOption" data-src="Seating064Backcogent03"><img src="images/cogentTangerine.png" alt="backcogent03"></button>
+                          <span>Tangerine</span>
+                        </li>
+                        <li>
+                          <button type="button" class="btn_colorOption" data-src="Seating064Backcogent04"><img src="images/era05Scarlet.png" alt="backcogent04"></button>
+                          <span>Scarlet</span>
+                        </li>
+                        <li>
+                          <button type="button" class="btn_colorOption" data-src="Seating064Backcogent05"><img src="images/cogentConcord.png" alt="backcogent05"></button>
+                          <span>Concord</span>
+                        </li>
+                        <li>
+                          <button type="button" class="btn_colorOption" data-src="Seating064Backcogent06"><img src="images/cogentBlueJay.png" alt="backcogent06"></button>
+                          <span>Blue Jay</span>
+                        </li>
+                        <li>
+                          <button type="button" class="btn_colorOption" data-src="Seating064Backcogent07"><img src="images/cogentWasabi.png" alt="backcogent07"></button>
+                          <span>Wasabi</span>
+                        </li>
+                        <li>
+                          <button type="button" class="btn_colorOption" data-src="Seating064Backcogent08"><img src="images/cogent03Nickel.png" alt="backcogent08"></button>
+                          <span>Nickel</span>
+                        </li>
+                        <li>
+                          <button type="button" class="btn_colorOption" data-src="Seating064Backcogent09"><img src="images/cogent02Grapite.png" alt="backcogent09"></button>
+                          <span>Graphite</span>
+                        </li>
+                        <li>
+                          <button type="button" class="btn_colorOption" data-src="Seating064Backcogent10"><img src="images/cogent01Licorice.png" alt="backcogent10"></button>
+                          <span>Licorice</span>
+                        </li>
+                        <li>
+                          <button type="button" class="btn_colorOption" data-src="Seating064Backcogent11"><img src="images/cogentMalt.png" alt="backcogent11"></button>
+                          <span>Malt</span>
+                        </li>
+                        <li>
+                          <button type="button" class="btn_colorOption active" data-src="Seating064Backcogent12"><img src="images/cogentRootbeer.png" alt="backcogent12"></button>
+                          <span>Rootbeer</span>
+                        </li>
+                        <li>
+                          <button type="button" class="btn_colorOption active" data-src="Seating064Backcogent13"><img src="images/cogent07Blueprint.png" alt="backcogent13"></button>
+                          <span>Blueprint</span>
+                        </li>
+                        <li>
+                          <button type="button" class="btn_colorOption" data-src="Seating064Backcogent14"><img src="images/cogentLizardJungle.png" alt="backcogent14"></button>
+                          <span>Lizard</span>
+                        </li>
+                        <li>
+                          <button type="button" class="btn_colorOption" data-src="Seating064Backcogent15"><img src="images/cogentQuicksilver.png" alt="backcogent15"></button>
+                          <span>Quicksilver</span>
+                        </li>
+                        <li>
+                          <button type="button" class="btn_colorOption" data-src="Seating064Backcogent16"><img src="images/cogentLipstick.png" alt="backcogent16"></button>
+                          <span>Lipstick</span>
+                        </li>
+                        <li>
+                          <button type="button" class="btn_colorOption" data-src="Seating064Backcogent17"><img src="images/cogentRoyalBlue.png" alt="backcogent17"></button>
+                          <span>Royal Blue</span>
+                        </li>
+                      </ol>
+                    </li>
+                    <li class="colorBakcbuzz">
+                      <h3>Buzz2</h3>
+                      <ol>
+                        <li>
+                          <button type="button" class="btn_colorOption" data-src="Seating064Backbuzz01"><img src="images/buzzGrey.png" alt="colorBackbuzz01"></button>
+                          <span>Grey</span>
+                        </li>
+                        <li>
+                          <button type="button" class="btn_colorOption" data-src="Seating064Backbuzz02"><img src="images/buzzAlpine.png" alt="colorBackbuzz02"></button>
+                          <span>Alpine</span>
+                        </li>
+                        <li>
+                          <button type="button" class="btn_colorOption" data-src="Seating064Backbuzz03"><img src="images/buzzSable.png" alt="colorBackbuzz03"></button>
+                          <span>Sable</span>
+                        </li>
+                        <li>
+                          <button type="button" class="btn_colorOption" data-src="Seating064Backbuzz04"><img src="images/cushionCyan.png" alt="colorBackbuzz04"></button>
+                          <span>Cyan</span>
+                        </li>
+                        <li>
+                          <button type="button" class="btn_colorOption" data-src="Seating064Backbuzz05"><img src="images/cushionCrocus.png" alt="colorBackbuzz05"></button>
+                          <span>Crocus</span>
+                        </li>
+                        <li>
+                          <button type="button" class="btn_colorOption active" data-src="Seating064Backbuzz06"><img src="images/buzzBlack.png" alt="colorBackbuzz06"></button>
+                          <span>Black</span>
+                        </li>
+                        <li>
+                          <button type="button" class="btn_colorOption" data-src="Seating064Backbuzz07"><img src="images/buzzMeadow.png" alt="colorBackbuzz07"></button>
+                          <span>Meadow</span>
+                        </li>
+                        <li>
+                          <button type="button" class="btn_colorOption" data-src="Seating064Backbuzz08"><img src="images/cushionPumpkin.png" alt="colorBackbuzz08"></button>
+                          <span>Pumpkin</span>
+                        </li>
+                        <li>
+                          <button type="button" class="btn_colorOption" data-src="Seating064Backbuzz09"><img src="images/buzzRouge.png" alt="colorBackbuzz09"></button>
+                          <span>Rouge</span>
+                        </li>
+                      </ol>
+                    </li>
+                  </ul>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="colorOption">
+          <div class="detailPrice">
+            <output data-price="1492">$1,492</output>
+            <div>
+              <input type="button" class="decrease" value="-">
+              <span class="quantity">1</span>
+              <input type="button" class="increase" value="+">
+            </div>
+            <input type="button" class="btn_addCart" value="Add to Cart">
+          </div>
+          <div class="addMessageBox">
+            <span>Success!<br>Added To Cart</span>
+            <input type="button" value="Review Cart" class="btn_cart" data-panelName="cartHave">
+          </div>
+        </div>
+      </div>
+
+      
+      <div class="two">
+        <div class="boxSilder02">
+          <div>
+            <ol class="detailSlider2">
+              <li><img src="images/detailSeating064image01.png" alt="decoimage01"></li>
+              <li><img src="images/detailSeating064image02.png" alt="decoimage02"></li>
+              <li><img src="images/detailSeating064image03.png" alt="decoimage03"></li>
+            </ol>
+          </div>
+        </div>
+      </div>
+
+
+      <div class="productTitle">
+        <div>
+          <h3>Product Details</h3>
+            <input type="button" value="Overview" class="btn_overview active" data-panelName="productoverview">
+            <input type="button" value="Details and Dimensions" class="btn_dimensions" data-panelName="productdimensions">
+          </div>
+        </div>
+
+        <div class="productDetail">
+          <div>
+            <div class="productoverview active">
+              <div>
+                <p>With a smaller profile that’s perfect for areas with restricted space, Turnstone Campfire Half Lounge – Waterfall can add compact seating that doesn’t sacrifice comfort.</p>
+                <p>  - Compact design to add seating to even the most cramped lounge or collaborative spaces</p>
+                <p>  - Lounge height for compatibility with different desks and tables</p>
+                <p>  - Works with the entire Campfire range to create an idealized seating solution</p>
+                <p>  - Need help configuring Campfire? Have a Project? Get in touch with our Assisted Sales Team</p>
+              </div>
+            </div>
+            <table class="productdimensions">
+              <tbody>
+                <tr>
+                  <th>Overall Height</th>
+                  <td>29″</td>
+                </tr>
+                <tr>
+                  <th>Overall Width</th>
+                  <td>33″</td>
+                </tr>
+                <tr>
+                  <th>Overall Depth</th>
+                  <td>32″</td>
+                </tr>
+                <tr>
+                  <th>Shipping Box Dimensions</th>
+                  <td>39.5″ H x 38.5″ W x 36.5″ D</td>
+                </tr>
+                <tr>
+                  <th>Shipping Box Weight</th>
+                  <td>66 lbs.</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+          <div>
+            <div>
+              <h3>Related Products</h3>
+              <a href="listPage05_seating.html">View all High Performance Seating</a>
+            </div>
+            <ol>
+              <li>
+                <img src="images/detailRelated01Gesture.png" alt="related01">
+                <div>
+                  <a href="detailSeating009.html">Gesture - Ready to Ship</a>
+                  <span>$1399 - $1460</span>
+                </div>
+              </li>
+              <li>
+                <img src="images/detailRelated02Leap.png" alt="related02">
+                <div>
+                  <a href="detailSeating003.html">Leap</a>
+                  <span>$1006 - $2621</span>
+                </div>
+              </li>
+              <li>
+                <img src="images/detailRelated03Migration.png" alt="related03">
+                <div>
+                  <a href="detaildeskTables002.html">Migration SE Sit-to-Stand Desk</a>
+                  <span>$999 - $1215</span>
+                </div>
+              </li>
+              <li>
+                <img src="images/detailRelated04LateralFile.png" alt="related04">
+                <div>
+                  <a href="detailStorage018.html">West Elm Work Greenpoint Lateral File</a>
+                  <span>$2620</span>
+                </div>
+              </li>
+            </ol>
+          </div>
+        </div>
+      
+
+    </section>
+
+    <footer>
+      <ul>
+        <li>
+          <h2>Subscribe</h2>
+          <p>Sign up for exclusive offers, product releases and the latest news from Steelcase.</p>
+          <div>
+            <label for="userEmail">Email*</label>
+            <input type="email" id="userEmail" placeholder="Write Your E- mail">
+            <input type="submit" value="Sign Up">
+          </div>
+        </li>
+        <li>
+          <h2>Need Help?</h2>
+          <ol>
+            <li><a href="page_FAQs.html">FAQs</a></li>
+            <li><a href="page_FAQs01Shipping.html">Shipping + Delivery</a></li>
+            <li><a href="page_FAQs02Orders.html">Orders</a></li>
+            <li><a href="page_FAQs03Return.html">Returns</a></li>
+            <li><a href="page_FAQs05warranty.html">Warranty</a></li>
+            <li><a href="page_FAQs06payment.html">Payment + Financing</a></li>
+          </ol>
+        </li>
+        <li>
+          <h2>Contact</h2>
+          <ol>
+            <li><a href="page_contactUs.html">Online Support</a></li>
+            <li><a href="tel:+18006463454">1.800.516.3454</a></li>
+            <li><span>Monday - Friday</span></li>
+            <li><span>9AM - 6PM EST</span></li>
+          </ol>
+        </li>
+        <li>
+          <h2>Steelcase</h2>
+          <ol>
+            <li><a href="page_About.html">About</a></li>
+            <li><a href="page_sustainability.html">Sustainability</a></li>
+            <li><a href="page_privacyPolicy.html">Privacy Policy</a></li>
+            <li><a href="page_TermsOfUse.html">Terms of Use</a></li>
+            <li><a href="page_trademarks.html">Trademarks</a></li>
+            <li><a href="page_accessibilityStatement.html">Accessibility Statement</a></li>
+          </ol>
+        </li>
+        <li>
+          <h2>Follow Us</h2>
+          <ol>
+            <li><a href="https://www.instagram.com/steelcase/">instagram</a></li>
+            <li><a href="https://www.linkedin.com/company/steelcase">linkedin</a></li>
+            <li><a href="https://www.facebook.com/Steelcase">facebook</a></li>
+            <li><a href="https://twitter.com/Steelcase">twitter</a></li>
+            <li><a href="https://www.youtube.com/user/STEELCASETV">youtube</a></li>
+            <li><a href="https://www.pinterest.co.kr/steelcase/">pinterst</a></li>
+          </ol>
+        </li>
+      </ul>
+      <p>© 2024 Steelcase Inc.</p>
+    </footer>
+    
+  </body>
+</html>
