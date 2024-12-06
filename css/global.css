@@ -132,7 +132,7 @@ body>div.active{
         background: radial-gradient(#363434,#161414) , url('../images/panelmenuBack.png');
         background-repeat: no-repeat;
         background-position: left top, right top;
-        background-size: 60%, contain;
+        background-size: 60%, 40%;
     }
     #menuOpen.active>*,
     #menuOpen.active>div *{
